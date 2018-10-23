@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.10.9)  13 OCT 2018 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.6.5)  23 OCT 2018 20:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1727,14 +1727,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 954.
  ) 
 Here is how much of TeX's memory you used:
  24190 strings out of 492995
- 419852 string characters out of 6136402
+ 419852 string characters out of 6136403
  522395 words of memory out of 5000000
  27220 multiletter control sequences out of 15000+600000
  12659 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,10442b,726s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
-imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><d:/texlive
+<c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/s
+imsun.ttc><c:/WINDOWS/fonts/simsun.ttc><c:/WINDOWS/fonts/simsun.ttc><d:/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2017/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb><d:/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2017/texmf-dist/fonts/type
@@ -1742,7 +1742,7 @@ fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2017/texmf-dist/fonts/type
 msfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on javascript.pdf (23 pages, 162677 bytes).
+Output written on javascript.pdf (23 pages, 162687 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  171 compressed objects within 2 object streams
