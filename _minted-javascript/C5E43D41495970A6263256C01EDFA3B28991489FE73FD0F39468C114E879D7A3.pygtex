@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{var} \PYG{n+nx}{myArr} \PYG{o}{=} \PYG{p}{[}\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{num}\PYG{o}{:} \PYG{l+m+mi}{5}\PYG{p}{,}
+	\PYG{n+nx}{str}\PYG{o}{:} \PYG{l+s+s2}{\PYGZdq{}apple\PYGZdq{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{,}\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{num}\PYG{o}{:} \PYG{l+m+mi}{7}\PYG{p}{,}
+	\PYG{n+nx}{str}\PYG{o}{:} \PYG{l+s+s2}{\PYGZdq{}cabbage\PYGZdq{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{,}\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{num}\PYG{o}{:} \PYG{l+m+mi}{1}\PYG{p}{,}
+	\PYG{n+nx}{str}\PYG{o}{:} \PYG{l+s+s2}{\PYGZdq{}ban\PYGZdq{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{]}\PYG{p}{;}
+
+\PYG{c+c1}{//anonymous function}
+\PYG{n+nx}{myArr}\PYG{p}{.}\PYG{n+nx}{sort}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{val1}\PYG{p}{,} \PYG{n+nx}{val2}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{k}{if}\PYG{p}{(}\PYG{n+nx}{val1}\PYG{p}{.}\PYG{n+nx}{str} \PYG{o}{\PYGZlt{}} \PYG{n+nx}{val2}\PYG{p}{.}\PYG{n+nx}{str}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+		\PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}\PYG{k}{else}\PYG{p}{\PYGZob{}}
+		\PYG{k}{return} \PYG{l+m+mi}{1}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}
+
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{myArr}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

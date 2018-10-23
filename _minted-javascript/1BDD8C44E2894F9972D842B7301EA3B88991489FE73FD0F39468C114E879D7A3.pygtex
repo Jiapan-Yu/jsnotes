@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+c1}{// async await GET}
+
+\PYG{n+nx}{async} \PYG{k+kd}{function} \PYG{n+nx}{getData}\PYG{p}{(}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+  \PYG{k}{try} \PYG{p}{\PYGZob{}}
+    \PYG{k+kr}{const} \PYG{n+nx}{response} \PYG{o}{=} \PYG{n+nx}{await} \PYG{n+nx}{fetch}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}http://api\PYGZhy{}to\PYGZhy{}call.com/endpoint\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n+nx}{response}\PYG{p}{.}\PYG{n+nx}{ok}\PYG{p}{)}\PYG{p}{\PYGZob{}} \PYG{c+c1}{// handles response if successful}
+      \PYG{k+kr}{const} \PYG{n+nx}{jsonResponse} \PYG{o}{=} \PYG{n+nx}{await} \PYG{n+nx}{response}\PYG{p}{.}\PYG{n+nx}{json}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+      \PYG{c+c1}{// Code to execute with jsonResponse}
+    \PYG{p}{\PYGZcb{}}
+    \PYG{k}{throw} \PYG{k}{new} \PYG{n+nb}{Error}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Request Failed!\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}} \PYG{k}{catch} \PYG{p}{(}\PYG{n+nx}{error}\PYG{p}{)} \PYG{p}{\PYGZob{}} \PYG{c+c1}{// handles response if unsuccessful}
+    \PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{error}\PYG{p}{)}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{var} \PYG{n+nx}{xhttp} \PYG{o}{=} \PYG{k}{new} \PYG{n+nx}{XMLHttpRequest}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{n+nx}{xhttp}\PYG{p}{.}\PYG{n+nx}{onreadystatechange} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k}{if} \PYG{p}{(}\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{readyState} \PYG{o}{==} \PYG{l+m+mi}{4} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{status} \PYG{o}{==} \PYG{l+m+mi}{200}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+       \PYG{c+c1}{// Typical action to be performed when the document is ready:}
+       \PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}demo\PYGZdq{}}\PYG{p}{)}\PYG{p}{.}\PYG{n+nx}{innerHTML} \PYG{o}{=} \PYG{n+nx}{xhttp}\PYG{p}{.}\PYG{n+nx}{responseText}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+\PYG{n+nx}{xhttp}\PYG{p}{.}\PYG{n+nx}{open}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}GET\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}filename\PYGZdq{}}\PYG{p}{,} \PYG{k+kc}{true}\PYG{p}{)}\PYG{p}{;}
+\PYG{n+nx}{xhttp}\PYG{p}{.}\PYG{n+nx}{send}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

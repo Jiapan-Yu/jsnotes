@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+c1}{// Computed property names (ES2015)}
+\PYG{k+kd}{var} \PYG{n+nx}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nx}{a} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+  \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}foo\PYGZsq{}} \PYG{o}{+} \PYG{o}{++}\PYG{n+nx}{i}\PYG{p}{]}\PYG{o}{:} \PYG{n+nx}{i}\PYG{p}{,}
+  \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}foo\PYGZsq{}} \PYG{o}{+} \PYG{o}{++}\PYG{n+nx}{i}\PYG{p}{]}\PYG{o}{:} \PYG{n+nx}{i}\PYG{p}{,}
+  \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}foo\PYGZsq{}} \PYG{o}{+} \PYG{o}{++}\PYG{n+nx}{i}\PYG{p}{]}\PYG{o}{:} \PYG{n+nx}{i}
+\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{a}\PYG{p}{.}\PYG{n+nx}{foo1}\PYG{p}{)}\PYG{p}{;} \PYG{c+c1}{// 1}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{a}\PYG{p}{.}\PYG{n+nx}{foo2}\PYG{p}{)}\PYG{p}{;} \PYG{c+c1}{// 2}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{a}\PYG{p}{.}\PYG{n+nx}{foo3}\PYG{p}{)}\PYG{p}{;} \PYG{c+c1}{// 3}
+
+\PYG{k+kd}{var} \PYG{n+nx}{param} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}size\PYGZsq{}}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nx}{config} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+  \PYG{p}{[}\PYG{n+nx}{param}\PYG{p}{]}\PYG{o}{:} \PYG{l+m+mi}{12}\PYG{p}{,}
+  \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}mobile\PYGZsq{}} \PYG{o}{+} \PYG{n+nx}{param}\PYG{p}{.}\PYG{n+nx}{charAt}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{p}{.}\PYG{n+nx}{toUpperCase}\PYG{p}{(}\PYG{p}{)} \PYG{o}{+} \PYG{n+nx}{param}\PYG{p}{.}\PYG{n+nx}{slice}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{p}{]}\PYG{o}{:} \PYG{l+m+mi}{4}
+\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{config}\PYG{p}{)}\PYG{p}{;} \PYG{c+c1}{// \PYGZob{}size: 12, mobileSize: 4\PYGZcb{}}
+\end{Verbatim}

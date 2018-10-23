@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{var} \PYG{n+nx}{peopleFactory} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{name}\PYG{p}{,} \PYG{n+nx}{age}\PYG{p}{,} \PYG{n+nx}{state}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+
+	\PYG{k+kd}{var} \PYG{n+nx}{temp} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+	\PYG{c+c1}{//var temp = new Object();}
+
+	\PYG{n+nx}{temp}\PYG{p}{.}\PYG{n+nx}{age} \PYG{o}{=} \PYG{n+nx}{age}\PYG{p}{;}
+	\PYG{n+nx}{temp}\PYG{p}{.}\PYG{n+nx}{name} \PYG{o}{=} \PYG{n+nx}{name}\PYG{p}{;}
+	\PYG{n+nx}{temp}\PYG{p}{.}\PYG{n+nx}{state} \PYG{o}{=} \PYG{n+nx}{state}\PYG{p}{;}
+
+	\PYG{n+nx}{temp}\PYG{p}{.}\PYG{n+nx}{printPerson} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+		\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{name} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}} \PYG{o}{+} \PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{age} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}} \PYG{o}{+} \PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{state}\PYG{p}{)}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+
+	\PYG{k}{return} \PYG{n+nx}{temp}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{var} \PYG{n+nx}{person1} \PYG{o}{=} \PYG{n+nx}{peopleFactory}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}john\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mi}{23}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}CA\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nx}{person2} \PYG{o}{=} \PYG{n+nx}{peopleFactory}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}kim\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mi}{27}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}SC\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{n+nx}{person1}\PYG{p}{.}\PYG{n+nx}{printPerson}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{n+nx}{person2}\PYG{p}{.}\PYG{n+nx}{printPerson}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

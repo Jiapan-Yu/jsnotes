@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kr}{const} \PYG{n+nx}{input} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}[2\PYGZhy{}5]\PYGZdq{}}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nx}{numRangeArr} \PYG{o}{=} \PYG{n+nx}{input}\PYG{p}{.}\PYG{n+nx}{match}\PYG{p}{(}\PYG{l+s+sr}{/\PYGZbs{}d/gm}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nx}{len} \PYG{o}{=} \PYG{n+nx}{numRangeArr}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n+nx}{numRangeArr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nx}{resArr} \PYG{o}{=} \PYG{p}{[}\PYG{p}{]}\PYG{p}{;}
+
+\PYG{k}{for}\PYG{p}{(}\PYG{k+kd}{var} \PYG{n+nx}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n+nx}{i} \PYG{o}{\PYGZlt{}=} \PYG{n+nx}{len}\PYG{p}{;} \PYG{n+nx}{i}\PYG{o}{++}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{k+kd}{var} \PYG{n+nx}{res} \PYG{o}{=} \PYG{n+nb}{Number}\PYG{p}{(}\PYG{n+nx}{numRangeArr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{)}\PYG{o}{+} \PYG{n+nx}{i}\PYG{p}{;}
+	\PYG{n+nx}{resArr}\PYG{p}{[}\PYG{n+nx}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n+nx}{res}\PYG{p}{;}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{resArr}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{var} \PYG{n+nx}{midRes} \PYG{o}{=} \PYG{n+nx}{resArr}\PYG{p}{.}\PYG{n+nx}{toString}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nx}{result} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}\PYGZbs{}cite\PYGZob{}\PYGZdq{}} \PYG{o}{+} \PYG{n+nx}{midRes} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}\PYGZcb{}\PYGZdq{}}\PYG{p}{;}
+\end{Verbatim}

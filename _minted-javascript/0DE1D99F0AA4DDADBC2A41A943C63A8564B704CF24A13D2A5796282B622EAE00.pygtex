@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZlt{}}\PYG{n+nt}{textarea} \PYG{n+na}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}text\PYGZdq{}} \PYG{n+na}{row}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}5000\PYGZdq{}} \PYG{n+na}{cols}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}100\PYGZdq{}} \PYG{n+na}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}inputtext\PYGZdq{}} \PYG{n+na}{style}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}width:1200px; height:300px; background\PYGZhy{}color: rgb(204,232,204); border: 2px solid Tomato; font\PYGZhy{}size: 15px\PYGZdq{}}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{textarea}\PYG{p}{\PYGZgt{}}
+\end{Verbatim}

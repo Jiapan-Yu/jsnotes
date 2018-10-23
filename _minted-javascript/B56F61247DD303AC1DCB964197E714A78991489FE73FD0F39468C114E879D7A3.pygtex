@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{let} \PYG{n+nx}{person} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+  \PYG{n+nx}{name}\PYG{o}{:} \PYG{l+s+s2}{\PYGZdq{}Brad\PYGZdq{}}\PYG{p}{,}
+  \PYG{n+nx}{age}\PYG{o}{:} \PYG{l+m+mi}{35}
+\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+
+\PYG{n+nx}{person} \PYG{o}{=} \PYG{n+nx}{JSON}\PYG{p}{.}\PYG{n+nx}{stringify}\PYG{p}{(}\PYG{n+nx}{person}\PYG{p}{)}\PYG{p}{;}
+\PYG{c+c1}{// person = JSON.parse(person);  // back to an object}
+
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{person}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

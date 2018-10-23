@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{let} \PYG{n+nx}{x} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}i am called from inside a function\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{let} \PYG{n+nx}{y} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{callback}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}do something\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+	\PYG{n+nx}{callback}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{n+nx}{y}\PYG{p}{(}\PYG{n+nx}{x}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

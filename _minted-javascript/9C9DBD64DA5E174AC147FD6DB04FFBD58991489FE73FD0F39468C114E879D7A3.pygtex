@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{var} \PYG{n+nx}{person} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+  \PYG{n+nx}{name}\PYG{o}{:} \PYG{l+s+s2}{\PYGZdq{}Brad\PYGZdq{}}\PYG{p}{,}
+  \PYG{n+nx}{age}\PYG{o}{:} \PYG{l+m+mi}{35}\PYG{p}{,}
+  \PYG{n+nx}{email}\PYG{o}{:} \PYG{k+kd}{function}\PYG{p}{(}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+    \PYG{k}{return} \PYG{l+s+s1}{\PYGZsq{}brad@gmail.com\PYGZsq{}}\PYG{p}{;}
+  \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{person}\PYG{p}{.}\PYG{n+nx}{name}\PYG{p}{)}\PYG{p}{;}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{person}\PYG{p}{.}\PYG{n+nx}{email}\PYG{p}{(}\PYG{p}{)}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+display: none; /* completely gone, never existed */
+visibility: hidden; /* still occupies space */
+opacity: 0; /* still occupies space */
+\end{Verbatim}

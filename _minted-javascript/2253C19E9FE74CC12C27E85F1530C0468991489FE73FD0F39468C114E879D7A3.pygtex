@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+c1}{// fetch GET}
+
+\PYG{n+nx}{fetch}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}http://api\PYGZhy{}to\PYGZhy{}call.com/endpoint\PYGZsq{}}\PYG{p}{)}\PYG{p}{.}\PYG{n+nx}{then}\PYG{p}{(}\PYG{n+nx}{response} \PYG{p}{=\PYGZgt{}} \PYG{p}{\PYGZob{}} \PYG{c+c1}{// sends request}
+  \PYG{k}{if} \PYG{p}{(}\PYG{n+nx}{response}\PYG{p}{.}\PYG{n+nx}{ok}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n+nx}{response}\PYG{p}{.}\PYG{n+nx}{json}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;} \PYG{c+c1}{// converts response object to JSON}
+  \PYG{p}{\PYGZcb{}}
+  \PYG{k}{throw} \PYG{k}{new} \PYG{n+nb}{Error}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Request failed!\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}\PYG{p}{,} \PYG{n+nx}{networkError} \PYG{p}{=\PYGZgt{}} \PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{networkError}\PYG{p}{.}\PYG{n+nx}{message}\PYG{p}{)} \PYG{c+c1}{// handles errors}
+\PYG{p}{)}\PYG{p}{.}\PYG{n+nx}{then}\PYG{p}{(}\PYG{n+nx}{jsonResponse} \PYG{p}{=\PYGZgt{}} \PYG{p}{\PYGZob{}}
+  \PYG{c+c1}{// Code to execute with jsonResponse // handles success}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

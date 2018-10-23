@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{foo}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}bar\PYGZsq{}}\PYG{p}{,}
+	\PYG{n+nx}{abc}\PYG{o}{:} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}xyz\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}123\PYGZsq{}}\PYG{p}{]}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

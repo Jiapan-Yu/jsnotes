@@ -1,0 +1,48 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{var} \PYG{n+nx}{http} \PYG{o}{=} \PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}http\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nx}{querystring} \PYG{o}{=} \PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}querystring\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nx}{postData} \PYG{o}{=} \PYG{n+nx}{querystring}\PYG{p}{.}\PYG{n+nx}{stringify}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+	\PYG{l+s+s1}{\PYGZsq{}msg\PYGZsq{}}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}hello world!\PYGZsq{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nx}{options} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{hostname}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}localhost\PYGZsq{}}\PYG{p}{,}
+	\PYG{n+nx}{port}\PYG{o}{:} \PYG{l+m+mi}{8080}\PYG{p}{,}
+	\PYG{n+nx}{method}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}POST\PYGZsq{}}\PYG{p}{,}
+	\PYG{n+nx}{headers}\PYG{o}{:} \PYG{p}{\PYGZob{}}
+		\PYG{l+s+s1}{\PYGZsq{}Content\PYGZhy{}Type\PYGZsq{}}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}application/x\PYGZhy{}www\PYGZhy{}form\PYGZhy{}urlencoded\PYGZsq{}}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}Content\PYGZhy{}Length\PYGZsq{}}\PYG{o}{:} \PYG{n+nx}{postData}\PYG{p}{.}\PYG{n+nx}{length}
+	\PYG{p}{\PYGZcb{}}\PYG{p}{,}
+	\PYG{n+nx}{agent}\PYG{o}{:} \PYG{k+kc}{false}\PYG{p}{,}
+	\PYG{n+nx}{path}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}/echo\PYGZsq{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nx}{req} \PYG{o}{=} \PYG{n+nx}{http}\PYG{p}{.}\PYG{n+nx}{request}\PYG{p}{(}\PYG{n+nx}{options}\PYG{p}{,} \PYG{k+kd}{function} \PYG{p}{(}\PYG{n+nx}{res}\PYG{p}{)} \PYG{p}{\PYGZob{}}\PYG{c+c1}{// function emitted when a response is received to this request}
+	\PYG{c+c1}{//res is of type \PYGZlt{}http.IncomingMessage\PYGZgt{} and can be used to access response status, headers and data.}
+	\PYG{c+c1}{//\PYGZlt{}http.IncomingMessage\PYGZgt{} implements Readable Stream interface}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}STATUS: \PYGZsq{}} \PYG{o}{+} \PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{statusCode}\PYG{p}{)}\PYG{p}{;}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}HEADERS: \PYGZsq{}} \PYG{o}{+} \PYG{n+nx}{JSON}\PYG{p}{.}\PYG{n+nx}{stringify}\PYG{p}{(}\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{headers}\PYG{p}{)}\PYG{p}{)}\PYG{p}{;}
+	\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{setEncoding}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}utf8\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+
+	\PYG{c+c1}{// get data as chunks (stream or buffer)}
+	\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{on}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}data\PYGZsq{}}\PYG{p}{,} \PYG{k+kd}{function} \PYG{p}{(}\PYG{n+nx}{chunk}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+		\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}BODY: \PYGZsq{}} \PYG{o}{+} \PYG{n+nx}{chunk}\PYG{p}{)}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+	\PYG{c+c1}{// end response}
+	\PYG{n+nx}{res}\PYG{p}{.}\PYG{n+nx}{on}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}end\PYGZsq{}}\PYG{p}{,} \PYG{k+kd}{function} \PYG{p}{(}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+		\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}No more data in response.\PYGZsq{}}\PYG{p}{)}
+	\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{n+nx}{req}\PYG{p}{.}\PYG{n+nx}{on}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}error\PYGZsq{}}\PYG{p}{,} \PYG{k+kd}{function} \PYG{p}{(}\PYG{n+nx}{e}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+	\PYG{c+c1}{// console.log(\PYGZsq{}problem with request: \PYGZsq{} + e.message);}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{error}\PYG{p}{(}\PYG{n+nx}{e}\PYG{p}{.}\PYG{n+nx}{stack}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{c+c1}{// write data to request body}
+\PYG{n+nx}{req}\PYG{p}{.}\PYG{n+nx}{write}\PYG{p}{(}\PYG{n+nx}{postData}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}utf8\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{n+nx}{req}\PYG{p}{.}\PYG{n+nx}{end}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;} \PYG{c+c1}{//With http.request() one must always call req.end() to signify the end of the request}
+\end{Verbatim}

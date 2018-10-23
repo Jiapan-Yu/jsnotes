@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{let} \PYG{n+nx}{promiseToCleanTheRoom} \PYG{o}{=} \PYG{k}{new} \PYG{n+nb}{Promise}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{resolve}\PYG{p}{,} \PYG{n+nx}{reject}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{c+c1}{//cleaning the room}
+	\PYG{k+kd}{let} \PYG{n+nx}{isClean} \PYG{o}{=} \PYG{k+kc}{false}\PYG{p}{;}
+
+	\PYG{k}{if}\PYG{p}{(}\PYG{n+nx}{isClean}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+		\PYG{n+nx}{resolve}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Cleaned up\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}\PYG{k}{else}\PYG{p}{\PYGZob{}}
+		\PYG{n+nx}{reject}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}not clean\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}
+
+\PYG{n+nx}{promiseToCleanTheRoom}\PYG{p}{.}\PYG{n+nx}{then}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{fromeResolve}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}The room is \PYGZdq{}} \PYG{o}{+} \PYG{n+nx}{fromeResolve}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{.}\PYG{k}{catch}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{fromReject}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}The room is \PYGZdq{}} \PYG{o}{+} \PYG{n+nx}{fromReject}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+c1}{//dynamic prototype pattern}
+\PYG{k+kd}{var} \PYG{n+nx}{peopleDynamicProto} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{name}\PYG{p}{,} \PYG{n+nx}{age}\PYG{p}{,} \PYG{n+nx}{state}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+	\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{age} \PYG{o}{=} \PYG{n+nx}{age}\PYG{p}{;}
+	\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{name} \PYG{o}{=} \PYG{n+nx}{name}\PYG{p}{;}
+	\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{state} \PYG{o}{=} \PYG{n+nx}{state}\PYG{p}{;}
+
+	\PYG{c+c1}{// create function only once}
+	\PYG{k}{if}\PYG{p}{(}\PYG{k}{typeof} \PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{printPerson} \PYG{o}{!==} \PYG{l+s+s2}{\PYGZdq{}function\PYGZdq{}}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+		\PYG{n+nx}{peopleDynamicProto}\PYG{p}{.}\PYG{n+nx}{prototype}\PYG{p}{.}\PYG{n+nx}{printPerson} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+			\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{name} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}} \PYG{o}{+} \PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{age} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}, \PYGZdq{}} \PYG{o}{+} \PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{state}\PYG{p}{)}\PYG{p}{;}
+		\PYG{p}{\PYGZcb{}}
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{var} \PYG{n+nx}{person1} \PYG{o}{=} \PYG{k}{new} \PYG{n+nx}{peopleDynamicProto}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}John\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mi}{24}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}CA\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nx}{person2} \PYG{o}{=} \PYG{k}{new} \PYG{n+nx}{peopleDynamicProto}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Yu\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mi}{23}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}ZJ\PYGZdq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}name\PYGZdq{}} \PYG{k}{in} \PYG{n+nx}{person1}\PYG{p}{)}\PYG{p}{;}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{person1}\PYG{p}{.}\PYG{n+nx}{hasOwnProperty}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}name\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{n+nx}{person1}\PYG{p}{.}\PYG{n+nx}{printPerson}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{n+nx}{person2}\PYG{p}{.}\PYG{n+nx}{printPerson}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}

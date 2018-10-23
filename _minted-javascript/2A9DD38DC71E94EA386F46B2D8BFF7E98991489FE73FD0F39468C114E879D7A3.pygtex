@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{var} \PYG{n+nx}{myArray} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Sam\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Mark\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Tim\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Sam\PYGZdq{}}\PYG{p}{]}\PYG{p}{;}
+
+\PYG{c+cm}{/*anonymous function*/}
+\PYG{k+kd}{var} \PYG{n+nx}{result} \PYG{o}{=} \PYG{n+nx}{myArray}\PYG{p}{.}\PYG{n+nx}{filter}\PYG{p}{(}\PYG{k+kd}{function} \PYG{p}{(}\PYG{n+nx}{value}\PYG{p}{,} \PYG{n+nx}{index}\PYG{p}{,} \PYG{n+nx}{array}\PYG{p}{)}\PYG{p}{\PYGZob{}}\PYG{k}{return} \PYG{n+nx}{array}\PYG{p}{.}\PYG{n+nx}{indexOf}\PYG{p}{(}\PYG{n+nx}{value}\PYG{p}{)} \PYG{o}{==} \PYG{n+nx}{index}\PYG{p}{;}\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{write}\PYG{p}{(}\PYG{n+nx}{result}\PYG{p}{)}\PYG{p}{;}
+\end{Verbatim}
