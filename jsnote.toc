@@ -59,8 +59,9 @@
 \contentsline {section}{\numberline {5}wechat mini program}{}{section.5}
 \contentsline {subsection}{\numberline {5.1}框架}{}{subsection.5.1}
 \contentsline {section}{\numberline {6}JavaScript}{}{section.6}
-\contentsline {subsection}{\numberline {6.1}class}{}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Request}{}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.1}object}{}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}class}{}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Request}{}{subsection.6.3}
 \contentsline {section}{\numberline {7}CSS}{}{section.7}
 \contentsline {subsection}{\numberline {7.1}Media Queries}{}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}CSS Display and Positioning}{}{subsection.7.2}
