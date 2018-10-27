@@ -32,7 +32,9 @@
   \PYG{p}{\PYGZcb{}}\PYG{p}{,}
   \PYG{n+nx}{plugins}\PYG{o}{:} \PYG{p}{[}
     \PYG{k}{new} \PYG{n+nx}{HtmlWebpackPlugin}\PYG{p}{(}\PYG{p}{\PYGZob{}}
-      \PYG{n+nx}{template}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}./src/index.html\PYGZsq{}}
+      \PYG{n+nx}{template}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}./src/index.html\PYGZsq{}}\PYG{p}{,}
+      \PYG{n+nx}{filename}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}index.html\PYGZsq{}}\PYG{p}{,}
+      \PYG{n+nx}{inject}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}body\PYGZsq{}}
     \PYG{p}{\PYGZcb{}}\PYG{p}{)}
   \PYG{p}{]}
 \PYG{p}{\PYGZcb{}}
