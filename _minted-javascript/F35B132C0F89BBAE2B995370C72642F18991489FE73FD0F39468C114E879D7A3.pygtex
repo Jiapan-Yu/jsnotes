@@ -1,0 +1,39 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kr}{const} \PYG{n+nx}{path} \PYG{o}{=} \PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}path\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{k+kr}{const} \PYG{n+nx}{HtmlWebpackPlugin} \PYG{o}{=} \PYG{n+nx}{require}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}html\PYGZhy{}webpack\PYGZhy{}plugin\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{c+c1}{// common.js syntax}
+\PYG{n+nx}{module}\PYG{p}{.}\PYG{n+nx}{exports} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+  \PYG{n+nx}{entry}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}./src/index.js\PYGZsq{}}\PYG{p}{,}
+  \PYG{n+nx}{output}\PYG{o}{:} \PYG{p}{\PYGZob{}}
+    \PYG{n+nx}{path}\PYG{o}{:} \PYG{n+nx}{path}\PYG{p}{.}\PYG{n+nx}{join}\PYG{p}{(}\PYG{n+nx}{\PYGZus{}\PYGZus{}dirname}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}/dist\PYGZsq{}}\PYG{p}{)}\PYG{p}{,}
+    \PYG{n+nx}{filename}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}index\PYGZus{}bundle.js\PYGZsq{}}
+  \PYG{p}{\PYGZcb{}}\PYG{p}{,}
+  \PYG{n+nx}{module}\PYG{o}{:} \PYG{p}{\PYGZob{}}
+    \PYG{n+nx}{rules}\PYG{o}{:} \PYG{p}{[}
+      \PYG{p}{\PYGZob{}}
+        \PYG{n+nx}{test}\PYG{o}{:} \PYG{l+s+sr}{/\PYGZbs{}.js\PYGZdl{}/}\PYG{p}{,}
+        \PYG{n+nx}{exclude}\PYG{o}{:} \PYG{l+s+sr}{/node\PYGZus{}modules/}\PYG{p}{,}
+        \PYG{n+nx}{use}\PYG{o}{:} \PYG{p}{\PYGZob{}}
+          \PYG{n+nx}{loader}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}babel\PYGZhy{}loader\PYGZsq{}}
+        \PYG{p}{\PYGZcb{}}\PYG{p}{,} \PYG{n+nx}{Or}
+        \PYG{n+nx}{use}\PYG{o}{:} \PYG{p}{[}
+          \PYG{c+c1}{// apply multiple loaders and options}
+          \PYG{l+s+s2}{\PYGZdq{}htmllint\PYGZhy{}loader\PYGZdq{}}\PYG{p}{,}
+          \PYG{p}{\PYGZob{}}
+            \PYG{n+nx}{loader}\PYG{o}{:} \PYG{l+s+s2}{\PYGZdq{}html\PYGZhy{}loader\PYGZdq{}}\PYG{p}{,}
+            \PYG{n+nx}{options}\PYG{o}{:} \PYG{p}{\PYGZob{}}
+              \PYG{c+cm}{/* ... */}
+            \PYG{p}{\PYGZcb{}}
+          \PYG{p}{\PYGZcb{}}
+        \PYG{p}{]}
+      \PYG{p}{\PYGZcb{}}
+    \PYG{p}{]}
+  \PYG{p}{\PYGZcb{}}\PYG{p}{,}
+  \PYG{n+nx}{plugins}\PYG{o}{:} \PYG{p}{[}
+    \PYG{k}{new} \PYG{n+nx}{HtmlWebpackPlugin}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+      \PYG{n+nx}{template}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}./src/index.html\PYGZsq{}}
+    \PYG{p}{\PYGZcb{}}\PYG{p}{)}
+  \PYG{p}{]}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

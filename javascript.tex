@@ -34,6 +34,47 @@
   \item First,
 \end{itemize}
 
+\item webpack.config.js
+\begin{jscode}
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+// common.js syntax
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.join(__dirname, '/dist'),
+    filename: 'index_bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }, Or
+        use: [
+          // apply multiple loaders and options
+          "htmllint-loader",
+          {
+            loader: "html-loader",
+            options: {
+              /* ... */
+            }
+          }
+        ]
+      }
+    ]
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html'
+    })
+  ]
+}
+\end{jscode}
+
 \item Computed property names
 
 Starting with ECMAScript 2015, the object initializer syntax also supports computed property names. That allows you to put an expression in brackets \verb|[]|, that will be computed and used as the property name.
