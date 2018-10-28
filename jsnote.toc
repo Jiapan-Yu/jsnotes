@@ -17,6 +17,7 @@
 \contentsline {subsubsection}{\numberline {2.4.4}git merge}{}{subsubsection.2.4.4}
 \contentsline {subsubsection}{\numberline {2.4.5}git push}{}{subsubsection.2.4.5}
 \contentsline {subsection}{\numberline {2.5}create-react-app and git}{}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Your branch and 'origin/master' have diverged, how to undiverge branches?}{}{subsection.2.6}
 \contentsline {section}{\numberline {3}VSCode}{}{section.3}
 \contentsline {section}{\numberline {4}React}{}{section.4}
 \contentsline {subsection}{\numberline {4.1}创建React项目 \href {https://react.docschina.org/docs/add-react-to-a-new-app.html}{Add React to a New Application}}{}{subsection.4.1}
@@ -56,23 +57,24 @@
 \contentsline {subsection}{\numberline {4.12}Lifecycle Methods}{}{subsection.4.12}
 \contentsline {subsubsection}{\numberline {4.12.1}Mounting lifecycle methods}{}{subsubsection.4.12.1}
 \contentsline {subsubsection}{\numberline {4.12.2}Updating/unmounting lifecycle methods}{}{subsubsection.4.12.2}
-\contentsline {section}{\numberline {5}wechat mini program}{}{section.5}
-\contentsline {subsection}{\numberline {5.1}框架}{}{subsection.5.1}
-\contentsline {section}{\numberline {6}JavaScript}{}{section.6}
-\contentsline {subsection}{\numberline {6.1}object}{}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}class}{}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Request}{}{subsection.6.3}
-\contentsline {section}{\numberline {7}CSS}{}{section.7}
-\contentsline {subsection}{\numberline {7.1}Media Queries}{}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}CSS Display and Positioning}{}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}The box model}{}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Non-Inherited properties}{}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Learn Responsive Design}{}{subsection.7.5}
-\contentsline {subsubsection}{\numberline {7.5.1}Percentages: Padding \& Margin}{}{subsubsection.7.5.1}
-\contentsline {subsection}{\numberline {7.6}display property}{}{subsection.7.6}
-\contentsline {subsection}{\numberline {7.7}Grid layout}{}{subsection.7.7}
-\contentsline {subsection}{\numberline {7.8}p tag}{}{subsection.7.8}
-\contentsline {section}{\numberline {8}npm}{}{section.8}
-\contentsline {section}{\numberline {9}DOM}{}{section.9}
-\contentsline {section}{\numberline {10}中文笔记}{}{section.10}
-\contentsline {section}{\numberline {11}Abbr}{}{section.11}
+\contentsline {section}{\numberline {5}react}{}{section.5}
+\contentsline {section}{\numberline {6}wechat mini program}{}{section.6}
+\contentsline {subsection}{\numberline {6.1}框架}{}{subsection.6.1}
+\contentsline {section}{\numberline {7}JavaScript}{}{section.7}
+\contentsline {subsection}{\numberline {7.1}object}{}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}class}{}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Request}{}{subsection.7.3}
+\contentsline {section}{\numberline {8}CSS}{}{section.8}
+\contentsline {subsection}{\numberline {8.1}Media Queries}{}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}CSS Display and Positioning}{}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}The box model}{}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Non-Inherited properties}{}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Learn Responsive Design}{}{subsection.8.5}
+\contentsline {subsubsection}{\numberline {8.5.1}Percentages: Padding \& Margin}{}{subsubsection.8.5.1}
+\contentsline {subsection}{\numberline {8.6}display property}{}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.7}Grid layout}{}{subsection.8.7}
+\contentsline {subsection}{\numberline {8.8}p tag}{}{subsection.8.8}
+\contentsline {section}{\numberline {9}npm}{}{section.9}
+\contentsline {section}{\numberline {10}DOM}{}{section.10}
+\contentsline {section}{\numberline {11}中文笔记}{}{section.11}
+\contentsline {section}{\numberline {12}Abbr}{}{section.12}
