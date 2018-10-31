@@ -201,6 +201,13 @@ You can review the differences with a: \verb|git log HEAD..origin/master| before
 
 \section{VSCode}
 \begin{itemize}
+
+\item 
+
+\item 
+
+\item 搜索只能搜内容，无法搜索哪个文件夹
+
 \item type \verb|tab| key twice to autocomplete
 \end{itemize}
 
@@ -942,6 +949,16 @@ Whenever a component instance updates, it automatically calls all five of these 
 \href{https://medium.com/@joseph0crick/react-css-modules-less-webpack-4-a50d902d0a3}{React + CSS Modules + LESS + Webpack 4}
 包含一个完整的less示例
 
+\subsection{Array map method}
+\begin{enumerate}
+\item 
+
+\item Each child in an array or iterator should have a unique "key" prop
+
+\end{enumerate}
+
+
+
 
 \section{wechat mini program}
 \subsection{框架}
@@ -1044,7 +1061,70 @@ static generateName() {
 
 \item The overflow property is set on a parent element to instruct a web browser how to render child elements. For example, if a div's overflow property is set to \verb|scroll|, all children of this div will display overflowing content with a scroll bar.
 
-\item Margin collapse: Unlike horizontal margins, vertical margins do not add. Instead, the larger of the two vertical margins sets the distance between adjacent elements (apply to nested elements as well, maybe there's no nested elements at all)
+\item Margin collapse: Unlike horizontal margins, vertical margins do not add. Instead, the larger of the two vertical margins sets the distance between adjacent elements (apply to nested elements as well, maybe there's no nested elements at all {\color{red} I think there is})
+
+ylx-wx-beta
+\begin{verbatim}
+index.js
+
+import React from 'react'
+import './index.less'
+import SearchHeader from '../../../components/SearchHeader'
+
+export default class TicketSearch extends React.Component {
+
+	search = (e) => {
+		console.log(e.target)
+	}
+	render() {
+		return (
+			<div className="hot-search-wrap">
+				<SearchHeader showCity={false} onChange={this.search} />
+				<div className="content-wrap">
+					<div className="head">热门搜索</div>
+					<div className="locations">
+						<button type="button">武汉花世界·花呆萌乐园</button>
+						<button type="button">东湖游船</button>
+						<button type="button">光谷步行街</button>
+						<button type="button">户部巷</button>
+						<button type="button">武汉胜天生态农庄</button>
+						<button type="button">姚家山风景区</button>
+						<button type="button">武汉东湖风景区</button>
+						<button type="button">武汉东湖磨山景区</button>
+					</div>
+
+					<div className="history">
+						<div className="head">历史搜索</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
+}
+
+
+index.less
+
+@import '../../../utils/color.less';
+
+.hot-search-wrap {
+  .content-wrap {
+    margin-top: 70px;
+    padding: 0 15px;
+    .head {
+      margin: 15px 0;
+    }
+    button {
+      display: inline-block;
+      padding: 6px;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 6px;
+      border: 1px solid blue;
+    }
+  }
+}
+\end{verbatim}
 
 \item The \verb|padding| property is often used to expand the background color and make content look less cramped
 
