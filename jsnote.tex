@@ -979,13 +979,31 @@ Whenever a component instance updates, it automatically calls all five of these 
 \begin{enumerate}
 \item There are only seven fundamental data types in JavaScript, and six of those are the primitive data types: \verb|string, number, boolean, null, undefined|, and \verb|symbol|. With the seventh type, \verb|objects|, we open our code to more complex possibilities
 
-\item 
+\item Objects are \textit{mutable} meaning we can update them after we create them!
+
+\item You can delete a property from an object with the \verb|delete| operator
+\begin{verbatim}
+const spaceship = {
+  'Fuel Type': 'Turbo Fuel',
+  homePlanet: 'Earth',
+  mission: 'Explore the universe' 
+};
+
+delete spaceship['Fuel Type'];
+\end{verbatim}
+
+\item When the data stored on an object is a function we call that a \textit{method}
 
 \item 
 
 \item 
 
 \end{enumerate}
+
+\subsubsection{Looping Through Objects}
+JavaScript has given us alternative solution for iterating through objects with the \verb|for...in| syntax
+
+
 
 
 \subsection{class}
@@ -1274,6 +1292,16 @@ function addElement () {
 
 \end{itemize}
 
+
+\section{命名规范 Name convention}
+\begin{itemize}
+\item 线路首页: Route or RouteHome
+
+\item 
+
+\item 
+
+\end{itemize}
 
 
 
