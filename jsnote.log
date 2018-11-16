@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  13 NOV 2018 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  15 NOV 2018 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1473,8 +1473,8 @@ l.891 \end{verbatim}
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.924 M
-       ounting lifecycle events only execute the first time that a component...
+l.922 W
+       hen a component renders for the first time, \verb|componentDidMount| ...
 [29]
 Overfull \hbox (38.34882pt too wide) in paragraph at lines 926--927
 []\OT1/cmr/m/n/14.4 If your Re-act app uses AJAX to fetch ini-tial data from an
@@ -1491,10 +1491,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.961 \item E
-             ach child in an array or iterator should have a unique "key" prop
-[30]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
+l.957 \subsection
+                 {Array map method} [30]pdfTeX warning (ext4): destination with
+ the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.998 \end{verbatim}
@@ -1502,14 +1501,14 @@ l.998 \end{verbatim}
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1033 
-        [32]pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
+l.1032 \item W
+              hen multiple classes share properties or methods, they become ...
+[32]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1059 \item T
-              he points at which media queries are set are called breakpoint...
-[33]
+l.1058 
+        [33]
 Overfull \hbox (15.42601pt too wide) in paragraph at lines 1065--1065
  []\OT1/cmtt/m/n/14.4 @media only screen and (min-width: 768px) and (max-width:
  1024px) and[] 
@@ -1519,8 +1518,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1090 
-        [34]
+l.1089 \item M
+              argin collapse: Unlike horizontal margins, vertical margins do...
+[34]
 LaTeX Font Info:    Try loading font information for C70+zhfs on input line 115
 2.
  (d:/texlive/2017/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
@@ -1544,15 +1544,13 @@ l.1152 \end{verbatim}
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1156 \item B
-              y default, the dimensions of an HTML box are set to hold the r...
-[36]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
+l.1152 \end{verbatim}
+                      [36]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1188 I
-        t's worth memorizing the entire example above. It represents a very ...
-[37]
+l.1185 \end{verbatim}
+                      [37]
 Overfull \hbox (6.20552pt too wide) in paragraph at lines 1190--1192
 []\OT1/cmr/m/n/14.4 Percentages are of-ten used to size box-model val-ues, like
  width and height, padding,
@@ -1562,8 +1560,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1212 
-        [38]
+l.1211 F
+        or example, when a property like \verb|margin-left| is set using a p...
+[38]
 Overfull \hbox (8.01602pt too wide) in paragraph at lines 1227--1228
 [][][]\OT1/cmtt/m/n/14.4 <figcaption><p>The <em>Cosmos</em> is all there is!</p
 ></figcaption>
@@ -1573,8 +1572,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1250 \end{verbatim}
-                      [39]
+l.1247 \item T
+              o update Node, the most reliable way is to download and instal...
+[39]
 Overfull \hbox (0.60603pt too wide) in paragraph at lines 1284--1284
  []  \OT1/cmtt/m/n/14.4 <div id="div1">The text above has been created dynamica
 lly.</div>[] 
@@ -1590,8 +1590,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1287 
-        [40]
+l.1284 \end{verbatim}
+                      [40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1345.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
@@ -1669,7 +1669,7 @@ lic/amsfonts/cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d
 :/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on jsnote.pdf (42 pages, 546303 bytes).
+Output written on jsnote.pdf (42 pages, 546351 bytes).
 PDF statistics:
  1223 PDF objects out of 1440 (max. 8388607)
  994 compressed objects within 10 object streams
