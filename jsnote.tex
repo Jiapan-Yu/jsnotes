@@ -762,7 +762,7 @@ in React, whenever you define an event handler that uses \verb|this|, you need t
 
 \textit{Any time that you call this.setState(), this.setState() AUTOMATICALLY calls .render() as soon as the state has changed}.
 
-Think of \verb|this.setState()| as actually being two things: \verb|this.setState()|, immediately followed by \verb|.render()|
+Think of \verb|this.setState()| as actually being two things: \verb|this.setState()|, immediately followed by \verb|.render()|. Set breakpoint in \verb|render()| method in order to inspect the changes made by \verb|this.setState()| in chrome
 
 That is why you can't call \verb|this.setState()| from inside of the \verb|.render()| method! \verb|this.setState()| \textit{automatically} calls \verb|.render()|. If \verb|.render()| calls \verb|this.setState()|, then an infinite loop is created
 
