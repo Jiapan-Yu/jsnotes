@@ -1001,7 +1001,16 @@ delete spaceship['Fuel Type'];
 
 \item Certain languages have privacy built-in for objects, but JavaScript does not have this feature. Rather, JavaScript developers follow naming conventions that signal to other developers how to interact with a property
 
-\item 
+\item \verb|typeof()|: in JavaScript, the data type of null is an object. The return value of \verb|typeof()| can be "string" "number" "boolean" "undefined" "object" "function"
+
+\item JavaScript Types are Dynamic:
+\begin{verbatim}
+var x;           // Now x is undefined
+x = 5;           // Now x is a Number
+x = "John";      // Now x is a String
+\end{verbatim}
+
+\item \textit{avoid} using arrow functions when using \verb|this| in a method
 
 \item 
 
