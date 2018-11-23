@@ -20,6 +20,8 @@
 \section{Caveats}
 \begin{enumerate}
 
+\item Maybe you need to set the breakpoint inside the body of an arrow function in order to be hit
+
 \item After configured webpack.config.js file, you may need to recompile to make it work
 
 \item Chrome developer tools: open the \verb|Elements| tab to inspect the compiled html
@@ -962,6 +964,13 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \end{enumerate}
 
+\subsection{react高阶组件 (high order component)}
+\begin{itemize}
+\item 高阶组件就是接受一个组件作为参数并返回一个新组件的函数
+
+\item 高阶组件是一个函数，并不是组件
+
+\end{itemize}
 
 
 
@@ -1012,7 +1021,52 @@ x = "John";      // Now x is a String
 
 \item \textit{avoid} using arrow functions when using \verb|this| in a method
 
-\item 
+\item Property Value Shorthand:\\
+factory function:
+\begin{verbatim}
+const monsterFactory = (name, age) => {
+  return { 
+    name: name,
+    age: age
+  }
+};
+\end{verbatim}
+
+Imagine if we had to include more properties, that process would quickly become tedious! But we can use a destructuring technique, called \textit{property value shorthand}, to save ourselves some keystrokes
+\begin{verbatim}
+const monsterFactory = (name, age) => {
+  return { 
+    name,
+    age 
+  }
+};
+\end{verbatim}
+
+\item Destructured Assignment
+\begin{verbatim}
+const vampire = {
+  name: 'Dracula',
+  residence: 'Transylvania',
+  preferences: {
+    day: 'stay inside',
+    night: 'satisfy appetite'
+  }
+};
+
+const { residence } = vampire; 
+console.log(residence); // Prints 'Transylvania'
+\end{verbatim}
+We can even use destructured assignment to grab nested properties of an object:
+\begin{verbatim}
+const { day } = vampire.preferences; 
+console.log(day); // Prints 'stay inside'
+\end{verbatim}
+
+\item Built-in Object Methods
+
+object instance methods like: \verb|.hasOwnProperty()|, \verb|.valueOf()|
+
+Object class methods such as \verb|Object.assign()|, \verb|Object.entries()|, and\\ \verb|Object.keys()|
 
 \end{enumerate}
 

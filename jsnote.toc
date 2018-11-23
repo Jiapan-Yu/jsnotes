@@ -60,6 +60,7 @@
 \contentsline {section}{\numberline {5}react}{}{section.5}
 \contentsline {subsection}{\numberline {5.1}less}{}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Array map method}{}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}react高阶组件 (high order component)}{}{subsection.5.3}
 \contentsline {section}{\numberline {6}wechat mini program}{}{section.6}
 \contentsline {subsection}{\numberline {6.1}框架}{}{subsection.6.1}
 \contentsline {section}{\numberline {7}JavaScript}{}{section.7}
