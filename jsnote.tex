@@ -20,6 +20,14 @@
 \section{Caveats}
 \begin{enumerate}
 
+\item 
+
+\item 用chrome来调试的时候，可能需要用到\verb|_this|来获取一些变量或对象等的值
+
+\item Postman需要开启全局代理才能请求到数据
+
+\item chrome inspect: margin 红 \quad padding 绿 \quad content 蓝
+
 \item Maybe you need to set the breakpoint inside the body of an arrow function in order to be hit
 
 \item After configured webpack.config.js file, you may need to recompile to make it work
@@ -45,7 +53,6 @@ body, body *{
 
 \item Sometimes you have to close the page and then reload from webstorm to make the change take place
 \end{enumerate}
-
 
 
 \section{Git}
@@ -206,7 +213,7 @@ You can review the differences with a: \verb|git log HEAD..origin/master| before
 
 \item 
 
-\item 
+\item source control: modified 为蓝色 \quad added 为暗橙色
 
 \item 搜索只能搜内容，无法搜索哪个文件夹
 
@@ -970,6 +977,10 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \item 高阶组件是一个函数，并不是组件
 
+\item 尽量使用代理方式的高阶组件
+
+\item 
+
 \end{itemize}
 
 
@@ -1110,6 +1121,11 @@ static generateName() {
 \item \verb|await| is a keyword that is used to tell a program to continue moving through the message queue while a promise resolves
 \item \verb|await| can only be used within functions declared with \verb|async|
 \end{enumerate}
+
+\subsection{Errors}
+Errors will prevent a program from executing unless it is handled
+
+
 
 \section{CSS}
 

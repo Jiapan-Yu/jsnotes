@@ -68,6 +68,7 @@
 \contentsline {subsubsection}{\numberline {7.1.1}Looping Through Objects}{}{subsubsection.7.1.1}
 \contentsline {subsection}{\numberline {7.2}class}{}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Request}{}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Errors}{}{subsection.7.4}
 \contentsline {section}{\numberline {8}CSS}{}{section.8}
 \contentsline {subsection}{\numberline {8.1}Media Queries}{}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}CSS Display and Positioning}{}{subsection.8.2}
