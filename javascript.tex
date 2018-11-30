@@ -34,6 +34,29 @@
   \item First,
 \end{itemize}
 
+\item 
+
+\item often used DOM properties and methods
+\begin{jscode}
+document.body.innerHTML = 'This is the text of the body element';
+
+document.body.firstChild.parentNode.innerHTML = 'I am the parent and my inner HTML has been replaced!';
+
+document.querySelector('h1').innerHTML = 'Most popular TV show searches in 2016'; // returns the first selected element
+
+document.querySelector('#fourth').innerHTML = 'Fourth element';
+
+document.body.style.backgroundColor = '#201F2E';
+
+let liRef = document.createElement('li');
+liRef.id = 'oaxaca';
+liRef.innerHTML = "Oaxaca, Mexico";
+
+document.getElementById('more-destinations').appendChild(liRef);
+
+parent.removeChild(child);
+\end{jscode}
+
 \item webpack.config.js
 \begin{jscode}
 const path = require('path');
