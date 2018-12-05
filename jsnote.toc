@@ -64,11 +64,12 @@
 \contentsline {section}{\numberline {6}wechat mini program}{}{section.6}
 \contentsline {subsection}{\numberline {6.1}框架}{}{subsection.6.1}
 \contentsline {section}{\numberline {7}JavaScript}{}{section.7}
-\contentsline {subsection}{\numberline {7.1}object}{}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Looping Through Objects}{}{subsubsection.7.1.1}
-\contentsline {subsection}{\numberline {7.2}class}{}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Request}{}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Errors}{}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.1}\href {https://www.cnblogs.com/wangyunhui/p/7511615.html}{js扩展运算符(spread)是三个点(...)}}{}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}object}{}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Looping Through Objects}{}{subsubsection.7.2.1}
+\contentsline {subsection}{\numberline {7.3}class}{}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Request}{}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Errors}{}{subsection.7.5}
 \contentsline {section}{\numberline {8}CSS}{}{section.8}
 \contentsline {subsection}{\numberline {8.1}Media Queries}{}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}CSS Display and Positioning}{}{subsection.8.2}
