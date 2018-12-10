@@ -71,15 +71,16 @@
 \contentsline {subsection}{\numberline {7.4}Request}{}{subsection.7.4}
 \contentsline {subsection}{\numberline {7.5}Errors}{}{subsection.7.5}
 \contentsline {section}{\numberline {8}CSS}{}{section.8}
-\contentsline {subsection}{\numberline {8.1}Media Queries}{}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}CSS Display and Positioning}{}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}The box model}{}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Non-Inherited properties}{}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Learn Responsive Design}{}{subsection.8.5}
-\contentsline {subsubsection}{\numberline {8.5.1}Percentages: Padding \& Margin}{}{subsubsection.8.5.1}
-\contentsline {subsection}{\numberline {8.6}display property}{}{subsection.8.6}
-\contentsline {subsection}{\numberline {8.7}Grid layout}{}{subsection.8.7}
-\contentsline {subsection}{\numberline {8.8}p tag}{}{subsection.8.8}
+\contentsline {subsection}{\numberline {8.1}Caveats}{}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Media Queries}{}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}CSS Display and Positioning}{}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}The box model}{}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Non-Inherited properties}{}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Learn Responsive Design}{}{subsection.8.6}
+\contentsline {subsubsection}{\numberline {8.6.1}Percentages: Padding \& Margin}{}{subsubsection.8.6.1}
+\contentsline {subsection}{\numberline {8.7}display property}{}{subsection.8.7}
+\contentsline {subsection}{\numberline {8.8}Grid layout}{}{subsection.8.8}
+\contentsline {subsection}{\numberline {8.9}p tag}{}{subsection.8.9}
 \contentsline {section}{\numberline {9}Node}{}{section.9}
 \contentsline {section}{\numberline {10}npm}{}{section.10}
 \contentsline {section}{\numberline {11}DOM}{}{section.11}

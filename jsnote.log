@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  4 DEC 2018 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  8 DEC 2018 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1235,7 +1235,7 @@ stination with the same identifier (name{page.}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.85 ...ection}{\numberline {11}DOM}{}{section.11}
+l.86 ...ection}{\numberline {11}DOM}{}{section.11}
                                                    [3])
 \tf@toc=\write4
 \openout4 = `jsnote.toc'.
@@ -1515,10 +1515,9 @@ l.1105 \end{verbatim}
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1139 \item R
-              ather than set breakpoints based on specific devices (too many...
-[35]
-Overfull \hbox (15.42601pt too wide) in paragraph at lines 1147--1147
+l.1140 
+        [35]
+Overfull \hbox (15.42601pt too wide) in paragraph at lines 1156--1156
  []\OT1/cmtt/m/n/14.4 @media only screen and (min-width: 768px) and (max-width:
  1024px) and[] 
  []
@@ -1527,39 +1526,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1168 
+l.1170 
         [36]
-LaTeX Font Info:    Try loading font information for C70+zhfs on input line 123
-4.
+LaTeX Font Info:    Try loading font information for C70+zhfs on input line 124
+3.
  (d:/texlive/2017/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
 File: c70zhfs.fd 2009/09/23 4.8.2
-)
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 123
-4.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 1234.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1243 \end{verbatim}
+                      [37]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 124
+3.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 1243.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 1234.
+(Font)              for symbol `textperiodcentered' on input line 1243.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1234 \end{verbatim}
-                      [37]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1234 \end{verbatim}
+l.1243 \end{verbatim}
                       [38]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1267 \end{verbatim}
+l.1276 \end{verbatim}
                       [39]
-Overfull \hbox (6.20552pt too wide) in paragraph at lines 1272--1274
+Overfull \hbox (6.20552pt too wide) in paragraph at lines 1281--1283
 []\OT1/cmr/m/n/14.4 Percentages are of-ten used to size box-model val-ues, like
  width and height, padding,
  []
@@ -1568,9 +1567,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1287 \end{enumerate}
-                       [40]
-Overfull \hbox (8.01602pt too wide) in paragraph at lines 1309--1310
+l.1294 \end{verbatim}
+                      [40]
+Overfull \hbox (8.01602pt too wide) in paragraph at lines 1318--1319
 [][][]\OT1/cmtt/m/n/14.4 <figcaption><p>The <em>Cosmos</em> is all there is!</p
 ></figcaption>
  []
@@ -1579,15 +1578,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1325 \item U
-              seful command \verb|npm show create-react-app version|\\ [41]
-Overfull \hbox (0.60603pt too wide) in paragraph at lines 1367--1367
+l.1332 \item I
+              f you're using npm 5, you'll probably also see a package-lock....
+[41]
+Overfull \hbox (0.60603pt too wide) in paragraph at lines 1376--1376
  []  \OT1/cmtt/m/n/14.4 <div id="div1">The text above has been created dynamica
 lly.</div>[] 
  []
 
-
-Overfull \hbox (22.836pt too wide) in paragraph at lines 1367--1367
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1376 \end{verbatim}
+                      [42]
+Overfull \hbox (22.836pt too wide) in paragraph at lines 1376--1376
  []  \OT1/cmtt/m/n/14.4 var newContent = document.createTextNode("Hi there and 
 greetings!");[] 
  []
@@ -1596,38 +1601,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1367 \end{verbatim}
-                      [42]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1405 
+l.1414 
         [43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1429.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1438.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1429 \end{document}
+l.1438 \end{document}
                       [44]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1429.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1438.
  (./jsnote.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1429.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1429.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1438.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1438.
 
 Package rerunfilecheck Info: File `jsnote.out' has not changed.
-(rerunfilecheck)             Checksum: F1367A2DFF337237F9B1C1328FAD6B34;13806.
+(rerunfilecheck)             Checksum: 53B25F5AB21288F1415E1B9047AD4AD4;13899.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1429.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1438.
  ) 
 Here is how much of TeX's memory you used:
- 20971 strings out of 492995
- 352686 string characters out of 6136402
+ 20975 strings out of 492995
+ 352732 string characters out of 6136402
  479440 words of memory out of 5000000
- 23883 multiletter control sequences out of 15000+600000
+ 23884 multiletter control sequences out of 15000+600000
  40472 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,53p,10433b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1680,10 +1680,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2017/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb>
-Output written on jsnote.pdf (44 pages, 591101 bytes).
+Output written on jsnote.pdf (44 pages, 591457 bytes).
 PDF statistics:
- 1310 PDF objects out of 1440 (max. 8388607)
- 1064 compressed objects within 11 object streams
- 191 named destinations out of 1000 (max. 500000)
- 981 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 1072 compressed objects within 11 object streams
+ 194 named destinations out of 1000 (max. 500000)
+ 989 words of extra memory for PDF output out of 10000 (max. 10000000)
 

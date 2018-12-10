@@ -20,7 +20,7 @@
 \section{Caveats}
 \begin{enumerate}
 
-\item 
+\item minimize window by shortcut: \verb|alt+space+n|
 
 \item 用chrome来调试的时候，可能需要用到\verb|_this|来获取一些变量或对象等的值
 
@@ -842,7 +842,7 @@ const styles = {
 \end{verbatim}
 This has zero effect on style property values, only on style property names.
 
-In React, if you write a style value as a number, then the unit \verb|"px"| is assumed. The exception is \verb|lineHeight| attribute, because it accepts number and length at the same time
+In React, if you write a style value as a number {\color{red}(meaning no quotation marks)}, then the unit \verb|"px"| is assumed. The exception is \verb|lineHeight| attribute, because it accepts number and length at the same time
 
 If you want to use units other than "px," you can use a string: \verb|{ fontSize: "2em" }|
 
@@ -1132,6 +1132,15 @@ Errors will prevent a program from executing unless it is handled
 
 \section{CSS}
 
+\subsection{Caveats}
+\begin{enumerate}
+\item The unit px, if the value is 0 then you can omit the px unit, if it's not 0 then you have to add px
+
+\item 
+
+\end{enumerate}
+
+
 \subsection{Media Queries}
 \begin{itemize}
 \item 
@@ -1311,7 +1320,7 @@ Vertical padding and margin are also calculated based on the width of the parent
 
 
 \section{Node}
-Enter repl (read evaluate print loop): type node in command line
+Enter repl (read evaluate print loop): type node in command line, exit command \verb|process.exit()|
 
 
 
