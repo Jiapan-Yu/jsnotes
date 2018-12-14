@@ -1,6 +1,7 @@
 \documentclass[a4paper, 12pt]{article}
 
 \usepackage[UTF8]{ctex}
+\usepackage{graphicx}
 \usepackage{lipsum}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[margin=.5in]{geometry}
@@ -19,6 +20,8 @@
 
 \section{Caveats}
 \begin{enumerate}
+
+\item You can set a breakpoint in VSCode, then add a \verb|Watch| in chrome, because chrome has auto-complete feature
 
 \item minimize window by shortcut: \verb|alt+space+n|
 
@@ -959,6 +962,11 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \end{enumerate}
 
+\subsection{react styles}
+在项目中引用某个组件时，如果想对其添加style，则需要将那个组件包裹在div内，接着在div上加style属性，不能直接在那个组件上加style属性 (但是可以找到对应的className在less文件里面加样式)\\
+\includegraphics{./pics/styleOnComponent.png}
+
+
 \subsection{less}
 \href{https://medium.com/@joseph0crick/react-css-modules-less-webpack-4-a50d902d0a3}{React + CSS Modules + LESS + Webpack 4}
 包含一个完整的less示例
@@ -1332,6 +1340,7 @@ Enter repl (read evaluate print loop): type node in command line, exit command \
 \item If you're using npm 5, you'll probably also see a package-lock.json file in your directory
 
 \item Useful command \verb|npm show create-react-app version|\\
+Get list of locally installed packages: \verb|npm list|, you can find the version of a specific package by passing its name as an argument. For example, \verb|npm list grunt|\\
 Get list of globally installed packages: \verb|npm list -g --depth 0|
 
 \item nvm: node version manager, to manage multiple node versions on one operating system
