@@ -1,93 +1,94 @@
-\contentsline {section}{\numberline {1}Things to be done before commit}{}{section.1}
-\contentsline {section}{\numberline {2}Caveats}{}{section.2}
-\contentsline {section}{\numberline {3}Git}{}{section.3}
-\contentsline {subsection}{\numberline {3.1}Basic Git Workflow}{}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}How to Backtrack in Git}{}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}head commit}{}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}git checkout}{}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}git reset I}{}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}git reset II}{}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Git Branching}{}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}git merge}{}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}delete branch}{}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}Conclusion}{}{subsubsection.3.3.3}
-\contentsline {subsection}{\numberline {3.4}Git Teamwork}{}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}git clone}{}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}git remote -v}{}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}git fetch}{}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}git merge}{}{subsubsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.5}git push}{}{subsubsection.3.4.5}
-\contentsline {subsection}{\numberline {3.5}create-react-app and git}{}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Your branch and 'origin/master' have diverged, how to undiverge branches?}{}{subsection.3.6}
-\contentsline {section}{\numberline {4}VSCode}{}{section.4}
-\contentsline {section}{\numberline {5}React}{}{section.5}
-\contentsline {subsection}{\numberline {5.1}创建React项目 \href {https://react.docschina.org/docs/add-react-to-a-new-app.html}{Add React to a New Application}}{}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}JSX}{}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}JSX caveats}{}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}JSX conditionals}{}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}.map in JSX}{}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}Keys in JSX}{}{subsubsection.5.2.4}
-\contentsline {subsection}{\numberline {5.3}The component}{}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Components and advanced JSX}{}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Put Logic in a Render Function}{}{subsubsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.2}Use this in a Component}{}{subsubsection.5.4.2}
-\contentsline {subsubsection}{\numberline {5.4.3}Use an Event Listener in a Component}{}{subsubsection.5.4.3}
-\contentsline {subsection}{\numberline {5.5}Components render other components}{}{subsection.5.5}
-\contentsline {subsubsection}{\numberline {5.5.1}A Component in a Render Function}{}{subsubsection.5.5.1}
-\contentsline {subsection}{\numberline {5.6}this.props}{}{subsection.5.6}
-\contentsline {subsubsection}{\numberline {5.6.1}Access a Component's props}{}{subsubsection.5.6.1}
-\contentsline {subsubsection}{\numberline {5.6.2}Pass `props` to a Component}{}{subsubsection.5.6.2}
-\contentsline {subsubsection}{\numberline {5.6.3}Render a Component's props}{}{subsubsection.5.6.3}
-\contentsline {subsubsection}{\numberline {5.6.4}Pass props From Component To Component}{}{subsubsection.5.6.4}
-\contentsline {subsubsection}{\numberline {5.6.5}Receive an Event Handler as a prop}{}{subsubsection.5.6.5}
-\contentsline {subsubsection}{\numberline {5.6.6}this.props.children}{}{subsubsection.5.6.6}
-\contentsline {subsubsection}{\numberline {5.6.7}defaultProps}{}{subsubsection.5.6.7}
-\contentsline {subsection}{\numberline {5.7}this.state}{}{subsection.5.7}
-\contentsline {subsubsection}{\numberline {5.7.1}Setting Initial State}{}{subsubsection.5.7.1}
-\contentsline {subsubsection}{\numberline {5.7.2}Update state with this.setState}{}{subsubsection.5.7.2}
-\contentsline {subsubsection}{\numberline {5.7.3}Call this.setState from Another Function}{}{subsubsection.5.7.3}
-\contentsline {subsection}{\numberline {5.8}Child Components Update Their Parents' state}{}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Child Components Update Their Siblings' props}{}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}A controlled component example}{}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Advanced React Techniques}{}{subsection.5.11}
-\contentsline {subsubsection}{\numberline {5.11.1}React styles}{}{subsubsection.5.11.1}
-\contentsline {subsubsection}{\numberline {5.11.2}Another React pattern}{}{subsubsection.5.11.2}
-\contentsline {subsubsection}{\numberline {5.11.3}propTypes}{}{subsubsection.5.11.3}
-\contentsline {subsubsection}{\numberline {5.11.4}PropTypes in Stateless Functional Components}{}{subsubsection.5.11.4}
-\contentsline {subsubsection}{\numberline {5.11.5}React forms}{}{subsubsection.5.11.5}
-\contentsline {subsection}{\numberline {5.12}Lifecycle Methods}{}{subsection.5.12}
-\contentsline {subsubsection}{\numberline {5.12.1}Mounting lifecycle methods}{}{subsubsection.5.12.1}
-\contentsline {subsubsection}{\numberline {5.12.2}Updating/unmounting lifecycle methods}{}{subsubsection.5.12.2}
-\contentsline {section}{\numberline {6}react}{}{section.6}
-\contentsline {subsection}{\numberline {6.1}react this {\color {red}以下都为没在constructor里面进行this邦定}}{}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}react styles}{}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}less}{}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Array map method}{}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}react高阶组件 (high order component)}{}{subsection.6.5}
-\contentsline {section}{\numberline {7}wechat mini program}{}{section.7}
-\contentsline {subsection}{\numberline {7.1}框架}{}{subsection.7.1}
-\contentsline {section}{\numberline {8}JavaScript}{}{section.8}
-\contentsline {subsection}{\numberline {8.1}\href {https://www.cnblogs.com/wangyunhui/p/7511615.html}{js扩展运算符(spread)是三个点(...)}}{}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}object}{}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}Looping Through Objects}{}{subsubsection.8.2.1}
-\contentsline {subsection}{\numberline {8.3}class}{}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Request}{}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Errors}{}{subsection.8.5}
-\contentsline {section}{\numberline {9}CSS}{}{section.9}
-\contentsline {subsection}{\numberline {9.1}Caveats}{}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Media Queries}{}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}CSS Display and Positioning}{}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}The box model}{}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Non-Inherited properties}{}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Learn Responsive Design}{}{subsection.9.6}
-\contentsline {subsubsection}{\numberline {9.6.1}Percentages: Padding \& Margin}{}{subsubsection.9.6.1}
-\contentsline {subsection}{\numberline {9.7}display property}{}{subsection.9.7}
-\contentsline {subsection}{\numberline {9.8}Grid layout}{}{subsection.9.8}
-\contentsline {subsection}{\numberline {9.9}p tag}{}{subsection.9.9}
-\contentsline {section}{\numberline {10}Node}{}{section.10}
-\contentsline {section}{\numberline {11}npm}{}{section.11}
-\contentsline {section}{\numberline {12}DOM}{}{section.12}
-\contentsline {section}{\numberline {13}cmd}{}{section.13}
-\contentsline {section}{\numberline {14}中文笔记}{}{section.14}
-\contentsline {section}{\numberline {15}命名规范 Name convention}{}{section.15}
-\contentsline {section}{\numberline {16}Abbr}{}{section.16}
+\contentsline {section}{\numberline {1}Project feature request}{}{section.1}
+\contentsline {section}{\numberline {2}Things to be done before commit}{}{section.2}
+\contentsline {section}{\numberline {3}Caveats}{}{section.3}
+\contentsline {section}{\numberline {4}Git}{}{section.4}
+\contentsline {subsection}{\numberline {4.1}Basic Git Workflow}{}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}How to Backtrack in Git}{}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}head commit}{}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}git checkout}{}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}git reset I}{}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}git reset II}{}{subsubsection.4.2.4}
+\contentsline {subsection}{\numberline {4.3}Git Branching}{}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}git merge}{}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}delete branch}{}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Conclusion}{}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Git Teamwork}{}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}git clone}{}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}git remote -v}{}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}git fetch}{}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}git merge}{}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5}git push}{}{subsubsection.4.4.5}
+\contentsline {subsection}{\numberline {4.5}create-react-app and git}{}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Your branch and 'origin/master' have diverged, how to undiverge branches?}{}{subsection.4.6}
+\contentsline {section}{\numberline {5}VSCode}{}{section.5}
+\contentsline {section}{\numberline {6}React}{}{section.6}
+\contentsline {subsection}{\numberline {6.1}创建React项目 \href {https://react.docschina.org/docs/add-react-to-a-new-app.html}{Add React to a New Application}}{}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}JSX}{}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}JSX caveats}{}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}JSX conditionals}{}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}.map in JSX}{}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Keys in JSX}{}{subsubsection.6.2.4}
+\contentsline {subsection}{\numberline {6.3}The component}{}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Components and advanced JSX}{}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Put Logic in a Render Function}{}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Use this in a Component}{}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.3}Use an Event Listener in a Component}{}{subsubsection.6.4.3}
+\contentsline {subsection}{\numberline {6.5}Components render other components}{}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}A Component in a Render Function}{}{subsubsection.6.5.1}
+\contentsline {subsection}{\numberline {6.6}this.props}{}{subsection.6.6}
+\contentsline {subsubsection}{\numberline {6.6.1}Access a Component's props}{}{subsubsection.6.6.1}
+\contentsline {subsubsection}{\numberline {6.6.2}Pass `props` to a Component}{}{subsubsection.6.6.2}
+\contentsline {subsubsection}{\numberline {6.6.3}Render a Component's props}{}{subsubsection.6.6.3}
+\contentsline {subsubsection}{\numberline {6.6.4}Pass props From Component To Component}{}{subsubsection.6.6.4}
+\contentsline {subsubsection}{\numberline {6.6.5}Receive an Event Handler as a prop}{}{subsubsection.6.6.5}
+\contentsline {subsubsection}{\numberline {6.6.6}this.props.children}{}{subsubsection.6.6.6}
+\contentsline {subsubsection}{\numberline {6.6.7}defaultProps}{}{subsubsection.6.6.7}
+\contentsline {subsection}{\numberline {6.7}this.state}{}{subsection.6.7}
+\contentsline {subsubsection}{\numberline {6.7.1}Setting Initial State}{}{subsubsection.6.7.1}
+\contentsline {subsubsection}{\numberline {6.7.2}Update state with this.setState}{}{subsubsection.6.7.2}
+\contentsline {subsubsection}{\numberline {6.7.3}Call this.setState from Another Function}{}{subsubsection.6.7.3}
+\contentsline {subsection}{\numberline {6.8}Child Components Update Their Parents' state}{}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Child Components Update Their Siblings' props}{}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}A controlled component example}{}{subsection.6.10}
+\contentsline {subsection}{\numberline {6.11}Advanced React Techniques}{}{subsection.6.11}
+\contentsline {subsubsection}{\numberline {6.11.1}React styles}{}{subsubsection.6.11.1}
+\contentsline {subsubsection}{\numberline {6.11.2}Another React pattern}{}{subsubsection.6.11.2}
+\contentsline {subsubsection}{\numberline {6.11.3}propTypes}{}{subsubsection.6.11.3}
+\contentsline {subsubsection}{\numberline {6.11.4}PropTypes in Stateless Functional Components}{}{subsubsection.6.11.4}
+\contentsline {subsubsection}{\numberline {6.11.5}React forms}{}{subsubsection.6.11.5}
+\contentsline {subsection}{\numberline {6.12}Lifecycle Methods}{}{subsection.6.12}
+\contentsline {subsubsection}{\numberline {6.12.1}Mounting lifecycle methods}{}{subsubsection.6.12.1}
+\contentsline {subsubsection}{\numberline {6.12.2}Updating/unmounting lifecycle methods}{}{subsubsection.6.12.2}
+\contentsline {section}{\numberline {7}react}{}{section.7}
+\contentsline {subsection}{\numberline {7.1}react this {\color {red}以下都为没在constructor里面进行this邦定}}{}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}react styles}{}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}less}{}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Array map method}{}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}react高阶组件 (high order component)}{}{subsection.7.5}
+\contentsline {section}{\numberline {8}wechat mini program}{}{section.8}
+\contentsline {subsection}{\numberline {8.1}框架}{}{subsection.8.1}
+\contentsline {section}{\numberline {9}JavaScript}{}{section.9}
+\contentsline {subsection}{\numberline {9.1}\href {https://www.cnblogs.com/wangyunhui/p/7511615.html}{js扩展运算符(spread)是三个点(...)}}{}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}object}{}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Looping Through Objects}{}{subsubsection.9.2.1}
+\contentsline {subsection}{\numberline {9.3}class}{}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Request}{}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Errors}{}{subsection.9.5}
+\contentsline {section}{\numberline {10}CSS}{}{section.10}
+\contentsline {subsection}{\numberline {10.1}Caveats}{}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Media Queries}{}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}CSS Display and Positioning}{}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}The box model}{}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Non-Inherited properties}{}{subsection.10.5}
+\contentsline {subsection}{\numberline {10.6}Learn Responsive Design}{}{subsection.10.6}
+\contentsline {subsubsection}{\numberline {10.6.1}Percentages: Padding \& Margin}{}{subsubsection.10.6.1}
+\contentsline {subsection}{\numberline {10.7}display property}{}{subsection.10.7}
+\contentsline {subsection}{\numberline {10.8}Grid layout}{}{subsection.10.8}
+\contentsline {subsection}{\numberline {10.9}p tag}{}{subsection.10.9}
+\contentsline {section}{\numberline {11}Node}{}{section.11}
+\contentsline {section}{\numberline {12}npm}{}{section.12}
+\contentsline {section}{\numberline {13}DOM}{}{section.13}
+\contentsline {section}{\numberline {14}cmd}{}{section.14}
+\contentsline {section}{\numberline {15}中文笔记}{}{section.15}
+\contentsline {section}{\numberline {16}命名规范 Name convention}{}{section.16}
+\contentsline {section}{\numberline {17}Abbr}{}{section.17}
