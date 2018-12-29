@@ -20,6 +20,9 @@
 
 \section{Things to be done before commit}
 \begin{enumerate}
+
+\item Indent using tabs, and set tab size to 2
+
 \item Delete \verb|console.log()|
 
 \item Format document by pressing \verb|shift+alt+f| in VSCode
@@ -33,7 +36,7 @@
 
 \item 使用iconfont的时候，不知道怎么引用到项目中，可以点击“下载至本地”里面包含一个使用demo
 
-\item You can set a breakpoint in VSCode, then add a \verb|Watch| in chrome, because chrome has auto-complete feature
+\item You can set a breakpoint in VSCode, then add a \verb|Watch| in chrome, because chrome has auto-complete feature. The debug config file \verb|launch.json|'s url needs to be set according to the running port
 
 \item minimize window by shortcut: \verb|alt+space+n|
 
@@ -977,7 +980,7 @@ Whenever a component instance updates, it automatically calls all five of these 
 \subsection{react this {\color{red}以下都为没在constructor里面进行this邦定}}
 可以用普通函数的地方都可以用箭头函数。另外箭头函数在某些情况下 (分是否只传event还是有其它参数和是在class methods处还是在事件触发处) 可以替代bind
 
-在React里面，传参要看传的是event{\color{red}还是}其它参数。当为其它参数的时候，有以下几种写法 (可以参考ylx-pc门票列表)，箭头函数当用于事件触发的地方时能替代bind，当class methods使用的时候就{\color{red}不}可以替代bind
+在React里面，传参要看传的只是event{\color{red}还是含有} (event貌似是一定有的) 其它参数 (包括其它参数为空的情形)。当为其它参数的时候，有以下几种写法 (可以参考ylx-pc门票列表)，箭头函数当用于事件触发的地方时能替代bind，当class methods使用的时候就{\color{red}不}可以替代bind
 \begin{enumerate}
 \item \begin{verbatim}
 handleOnClick(item) {
@@ -998,7 +1001,7 @@ handleOnClick = (item) => {
 
 <div className="history" onClick={this.handleOnClick.bind(this, item)}></div>
 下面一行代码不行
-<div className="history" onClick={this.handleOnClick(item)}>
+<div className="history" onClick={this.handleOnClick(item)}></div>
 \end{verbatim}
 
 \item \begin{verbatim}
@@ -1020,7 +1023,7 @@ handleOnClick = (item) => () => {
 \end{verbatim}
 \end{enumerate}
 
-当只为event的时候，箭头函数当class methods使用的时候可以替代bind (见1) 但是当用于事件触发的地方时就不能替代bind (见2) (可以参考javascript.pdf Child Components Update Their Parents' state in React)
+当只为event的时候，箭头函数当class methods使用的时候可以替代bind (见1)。 但是当用于事件触发的地方时就不能替代bind (见2) (可以参考javascript.pdf Child Components Update Their Parents' state in React)。可以用普通函数的地方都可以用箭头函数 (见3)
 \begin{enumerate}
 \item \begin{verbatim}
 handleChange = (e) => {
@@ -1056,7 +1059,7 @@ handleChange = (e) => {
 \end{enumerate}
 
 \includegraphics[width=6.5in]{./pics/childUpdateParentsState.png}\\
-The body of handleChange won't be executed, don't know why
+The body of handleChange won't be executed, don't know why. 当传的是其它参数的时候 (图片中的情形), 在事件触发的地方调用class method需要加()，否则对应的class method的body不会被执行
 
 
 \subsection{react styles}
