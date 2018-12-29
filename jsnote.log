@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  28 DEC 2018 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  29 DEC 2018 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,9 +1288,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \item c
-            hrome inspect: margin 红 \quad padding 绿 \quad content 蓝
-[4]
+l.45 \item P
+            ostman需要开启全局代理才能请求到数据 [4]
 Overfull \hbox (22.836pt too wide) in paragraph at lines 60--61
 [][][]\OT1/cmtt/m/n/14.4 <meta name="viewport" content="width= device-width, in
 itial-scale= 1"> 
@@ -1325,9 +1324,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.112 \subsubsection
-                    {git reset II} [6]pdfTeX warning (ext4): destination with t
-he same identifier (name{page.}) has been already used, duplicate ignored
+l.109 
+       [6]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.139 
@@ -1835,7 +1834,7 @@ type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on jsnote.pdf (48 pages, 693426 bytes).
+Output written on jsnote.pdf (48 pages, 693514 bytes).
 PDF statistics:
  1419 PDF objects out of 1440 (max. 8388607)
  1150 compressed objects within 12 object streams
