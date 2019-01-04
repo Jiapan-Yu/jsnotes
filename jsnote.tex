@@ -20,7 +20,7 @@
 
 \section{Project feature request}
 \begin{enumerate}
-\item 门票列表搜索框，当需要对历史搜索里面的数据进行修改时，点击输入框后文字消失
+\item 微信门票列表搜索框，当需要对历史搜索里面的数据进行修改时，点击输入框后文字消失
 \end{enumerate}
 
 \section{Things to be done before commit}
@@ -985,7 +985,7 @@ Whenever a component instance updates, it automatically calls all five of these 
 \subsection{react this {\color{red}以下都为没在constructor里面进行this邦定}}
 可以用普通函数的地方都可以用箭头函数。另外箭头函数在某些情况下 (分是否只传event还是有其它参数和是在class methods处还是在事件触发处) 可以替代bind
 
-在React里面，传参要看传的只是event{\color{red}还是含有} (event貌似是一定有的) 其它参数 (包括其它参数为空的情形)。当为其它参数的时候，有以下几种写法 (可以参考ylx-pc门票列表)，箭头函数当用于事件触发的地方时能替代bind，当class methods使用的时候就{\color{red}不}可以替代bind
+在React里面，传参要看传的只是event{\color{red}还是含有} (event貌似是一定有的) 其它参数 (包括其它参数为空的情形)。当含有其它参数的时候，有以下几种写法 (可以参考ylx-pc门票列表)，箭头函数当用于事件触发的地方时能替代bind，当class methods使用的时候就{\color{red}不}可以替代bind
 \begin{enumerate}
 \item \begin{verbatim}
 handleOnClick(item) {

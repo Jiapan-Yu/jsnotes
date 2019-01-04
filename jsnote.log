@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  29 DEC 2018 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.2)  4 JAN 2019 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1775,68 +1775,68 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1552.
  ) 
 Here is how much of TeX's memory you used:
- 21627 strings out of 492995
- 364970 string characters out of 6136402
+ 21631 strings out of 492995
+ 365020 string characters out of 6136403
  485025 words of memory out of 5000000
- 24461 multiletter control sequences out of 15000+600000
+ 24465 multiletter control sequences out of 15000+600000
  43982 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,53p,10435b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/s
-imsun.ttc><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windo
-ws/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.tt
-f><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts
-/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/wi
-ndows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang
-.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fo
-nts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:
-/windows/fonts/simfang.ttf><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simhe
-i.ttf><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/windows/fon
-ts/simhei.ttf><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simhei.ttf><c:/win
-dows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf
-><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/s
-imfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/wind
-ows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.t
-tf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/font
-s/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/w
-indows/fonts/simfang.ttf><c:/windows/fonts/simfang.ttf><c:/windows/fonts/simfan
-g.ttf><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simhei.ttf><c:/windows/fon
-ts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/win
-dows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf
-><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simsun.ttc><c:/windows/fonts/si
-msun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/
-fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/
-windows/fonts/simsun.ttc><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.
-ttf><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simsun.ttc><c:/windows/fonts
-/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windo
-ws/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><
-c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/sims
-un.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fo
-nts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/wi
-ndows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.tt
-c><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/s
-imsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows
-/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:
-/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun
-.ttc><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/windows/font
-s/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/wind
-ows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simsun.ttc>
-<c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/sim
-sun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/f
-onts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/w
-indows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.t
-tc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/
-simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/window
-s/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c
-:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsu
-n.ttc><c:/windows/fonts/simhei.ttf><c:/windows/fonts/simhei.ttf><d:/texlive/201
+<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
+imsun.ttc><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windo
+ws/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.tt
+f><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts
+/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Wi
+ndows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang
+.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fo
+nts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:
+/Windows/fonts/simfang.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhe
+i.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fon
+ts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Win
+dows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf
+><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/s
+imfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Wind
+ows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.t
+tf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/font
+s/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/W
+indows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfan
+g.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fon
+ts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Win
+dows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf
+><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/si
+msun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/
+fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
+Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.
+ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
+/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windo
+ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><
+c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sims
+un.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fo
+nts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wi
+ndows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.tt
+c><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
+imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows
+/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:
+/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun
+.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/font
+s/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Wind
+ows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc>
+<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sim
+sun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/f
+onts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/W
+indows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.t
+tc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/
+simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Window
+s/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c
+:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsu
+n.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><d:/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on jsnote.pdf (48 pages, 696386 bytes).
+Output written on jsnote.pdf (48 pages, 696882 bytes).
 PDF statistics:
  1426 PDF objects out of 1440 (max. 8388607)
  1157 compressed objects within 12 object streams

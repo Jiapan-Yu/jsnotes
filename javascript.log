@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.11.9)  22 DEC 2018 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.2)  3 JAN 2019 14:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1743,14 +1743,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1023.
  ) 
 Here is how much of TeX's memory you used:
  24394 strings out of 492995
- 422821 string characters out of 6136402
+ 422821 string characters out of 6136403
  626178 words of memory out of 5000000
  27410 multiletter control sequences out of 15000+600000
  12659 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,10442b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/s
-imsun.ttc><c:/windows/fonts/simsun.ttc><c:/windows/fonts/simsun.ttc><d:/texlive
+<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
+imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><d:/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2017/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb><d:/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2017/texmf-dist/fonts/type
