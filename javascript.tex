@@ -38,6 +38,34 @@
 \end{itemize}
 
 \item 
+\begin{jscode}
+init(pageNum = 1) {
+	window.scrollTo(0, 0)
+	const { sortPrice } = this.state
+	this.setState({
+		loading: true
+	}, () => {
+		queryTicketList({
+			pageNum: pageNum,
+			reorder: sortPrice || '',
+			searchInput: '上海',
+			cityName: '上海'
+		}).then(data => {
+			const { pageCount, viewInfoList } = data
+			this.setState({
+				loading: false,
+				dataSource: viewInfoList,
+				total: pageCount,
+				current: pageNum
+			})
+		})
+	})
+}
+
+paiXu = (sortPrice) => {
+	this.setState({ sortPrice }, () => this.init())  //this.init()需要在this.setState()的回调函数里面执行
+}
+\end{jscode}
 
 \item often used DOM properties and methods
 \begin{jscode}
