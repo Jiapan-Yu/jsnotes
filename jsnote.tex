@@ -37,6 +37,8 @@
 \section{Caveats}
 \begin{enumerate}
 
+\item When debugging in VSCode, if you want a variable live updating then add it to \verb|watch|, there's no live updating in the \verb|debug console|
+
 \item 数据在loading完成之前是undefined，所以不能对其进行诸如\\ \verb|address.constructor === Object|的操作 (不能读取其constructor property)
 
 \item fontSize比lineHeight应该小1

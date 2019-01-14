@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  11 JAN 2019 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  14 JAN 2019 17:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1521,12 +1521,12 @@ LaTeX Info: Active EOL character found while output routine is active
 
 
 (./_minted-javascript/14E2224A60EB1E494F4D5E7B1CCCEA0F8991489FE73FD0F39468C114E
-879D7A3.pygtex)
+879D7A3.pygtex [3])
 \openout3 = `javascript.pyg'.
 
 
 (./_minted-javascript/ECA8FFEFE4F83C98FBC4CF93AADDF2B88991489FE73FD0F39468C114E
-879D7A3.pygtex [3])
+879D7A3.pygtex)
 \openout3 = `javascript.pyg'.
 
 
@@ -1656,12 +1656,12 @@ Overfull \hbox (12.45018pt too wide) in paragraph at lines 506--507
 
 
 (./_minted-javascript/4C13AAB718028C15435D0417A8C0077B8991489FE73FD0F39468C114E
-879D7A3.pygtex)
+879D7A3.pygtex [16])
 \openout3 = `javascript.pyg'.
 
 
 (./_minted-javascript/2A9DD38DC71E94EA386F46B2D8BFF7E98991489FE73FD0F39468C114E
-879D7A3.pygtex [16])
+879D7A3.pygtex)
 \openout3 = `javascript.pyg'.
 
 
@@ -1721,12 +1721,12 @@ Overfull \hbox (12.45018pt too wide) in paragraph at lines 506--507
 
 
 (./_minted-javascript/4B3888385C93B98D92F984822BBF00608991489FE73FD0F39468C114E
-879D7A3.pygtex)
+879D7A3.pygtex [23])
 \openout3 = `javascript.pyg'.
 
 
 (./_minted-javascript/FCFB4111A0BDEB981CBAB3F677246CB38991489FE73FD0F39468C114E
-879D7A3.pygtex [23])
+879D7A3.pygtex)
 \openout3 = `javascript.pyg'.
 
 
@@ -1752,8 +1752,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1054.
  ) 
 Here is how much of TeX's memory you used:
  24523 strings out of 492995
- 424970 string characters out of 6136403
- 623085 words of memory out of 5000000
+ 424969 string characters out of 6136403
+ 623171 words of memory out of 5000000
  27497 multiletter control sequences out of 15000+600000
  17249 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1774,7 +1774,7 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017
 st/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2017/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on javascript.pdf (25 pages, 219138 bytes).
+Output written on javascript.pdf (25 pages, 219302 bytes).
 PDF statistics:
  311 PDF objects out of 1000 (max. 8388607)
  233 compressed objects within 3 object streams
