@@ -86,7 +86,7 @@
 \contentsline {subsection}{\numberline {10.8}Grid layout}{}{subsection.10.8}
 \contentsline {subsection}{\numberline {10.9}p tag}{}{subsection.10.9}
 \contentsline {section}{\numberline {11}Node}{}{section.11}
-\contentsline {section}{\numberline {12}npm}{}{section.12}
+\contentsline {section}{\numberline {12}npm (or yarn)}{}{section.12}
 \contentsline {section}{\numberline {13}DOM}{}{section.13}
 \contentsline {section}{\numberline {14}cmd}{}{section.14}
 \contentsline {section}{\numberline {15}中文笔记}{}{section.15}

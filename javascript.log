@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  14 JAN 2019 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  16 JAN 2019 10:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1774,7 +1774,7 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017
 st/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2017/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on javascript.pdf (25 pages, 219302 bytes).
+Output written on javascript.pdf (25 pages, 219309 bytes).
 PDF statistics:
  311 PDF objects out of 1000 (max. 8388607)
  233 compressed objects within 3 object streams
