@@ -69,6 +69,9 @@ paiXu = (sortPrice) => {
 
 \item often used DOM properties and methods (scrollHeight, offsetHeight, clientHeight, scrollTop, offsetTop)
 \begin{jscode}
+// 获取纵向滚动条的滚动距离
+const y = document.body.scrollTop || document.documentElement.scrollTop
+
 document.body.innerHTML = 'This is the text of the body element';
 
 document.body.firstChild.parentNode.innerHTML = 'I am the parent and my inner HTML has been replaced!';
