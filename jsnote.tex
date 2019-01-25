@@ -1306,8 +1306,21 @@ prom
   });
 \end{verbatim}
 
+Correct! \verb|.catch(onReject)| is syntactic sugar for \verb|.then(undefined, onReject)|.
+
 \item Chaining multiple promises see javascript.pdf for a demo
 
+\item Avoiding Common Mistakes
+\begin{itemize}
+\item Mistake 1: Nesting promises instead of chaining them.
+\item Mistake 2: Forgetting to \verb|return| a promise.
+\end{itemize}
+
+\item Using Promise.all()
+
+To maximize efficiency we should use concurrency, multiple asynchronous operations happening together. With promises, we can do this with the function \verb|Promise.all()|
+
+\item A Promise's constructor has a single parameter, called the "executor function". The executor function has two parameters -- resolve and reject.
 
 \end{enumerate}
 
