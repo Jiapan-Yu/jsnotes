@@ -21,7 +21,7 @@
 \section{Project feature request and problems}
 \begin{enumerate}
 
-\item 与后台进行数据交互时，注意判断是字符串还是数字，比如 \verb|needEmail === "1"|
+\item 与后台进行数据交互时，注意判断是字符串还是数字，比如 \verb|needEmail === "1"|。``0" 也为 true
 
 \item 使用localStorage的时候，打开一个标签然后另外再打开一个标签，则第一个标签里面的内容会变成第二个标签的内容
 
@@ -41,6 +41,8 @@
 
 \section{Caveats}
 \begin{enumerate}
+
+\item \verb|dangerouslySetInnerHTML| 里面的样式是用原生css写
 
 \item 注意将less文件导入到js文件中
 
@@ -1255,6 +1257,59 @@ static generateName() {
 
 \subsection{Errors}
 Errors will prevent a program from executing unless it is handled
+
+
+\subsection{Promise}
+\begin{enumerate}
+
+\item Promises are objects that represent the eventual outcome of an asynchronous operation
+
+\item A Promise object can be in one of three states:
+\begin{itemize}
+\item Pending
+\item Fulfilled
+\item Rejected
+\end{itemize}
+
+\item We refer to a promise as settled if it is no longer pending -- it is either fulfilled or rejected
+
+\item \begin{verbatim}
+const prom = new Promise((resolve, reject) => {
+  resolve('Yay!');
+});
+
+const handleSuccess = (resolvedValue) => {
+  console.log(resolvedValue);
+};
+
+prom.then(handleSuccess); // Prints: 'Yay!'
+\end{verbatim}
+
+\item Using \verb|catch()| with Promises
+\begin{verbatim}
+prom
+  .then((resolvedValue) => {
+    console.log(resolvedValue);
+  })
+  .then(null, (rejectionReason) => {
+    console.log(rejectionReason);
+  });
+\end{verbatim}
+Since JavaScript doesn't mind whitespace, we follow a common convention of putting each part of this chain on a new line to make it easier to read. To create even more readable code, we can use a different promise function: \verb|.catch()|.
+\begin{verbatim}
+prom
+  .then((resolvedValue) => {
+    console.log(resolvedValue);
+  })
+  .catch((rejectionReason) => {
+    console.log(rejectionReason);
+  });
+\end{verbatim}
+
+\item Chaining multiple promises see javascript.pdf for a demo
+
+
+\end{enumerate}
 
 
 
