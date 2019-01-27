@@ -42,6 +42,8 @@
 \section{Caveats}
 \begin{enumerate}
 
+\item 如果当前页面有从localStorage里面取数据，那么就不能直接在url上面写参数 (比如goodsTicketId)，因为请求的数据会跟从localStorage里面取的数据不一样导致混淆
+
 \item \verb|dangerouslySetInnerHTML| 里面的样式是用原生css写
 
 \item 注意将less文件导入到js文件中
