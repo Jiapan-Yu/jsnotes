@@ -42,6 +42,20 @@
 \section{Caveats}
 \begin{enumerate}
 
+\item codecademy 里面少一个标点符号或者拼写错误都会导致编译不通过
+
+\item 找错的时候，首先应该用chrome developer tool确定位置
+
+\item 
+\begin{verbatim}
+let tourists = 'John,'
+tourists.split(',').map(item => ({name: item }))
+\end{verbatim}
+will return an array containing two objects
+\begin{verbatim}
+[{name: 'John'}, {name: ''}]
+\end{verbatim}
+
 \item 如果当前页面有从localStorage里面取数据，那么就不能直接在url上面写参数 (比如goodsTicketId)，因为请求的数据会跟从localStorage里面取的数据不一样导致混淆
 
 \item \verb|dangerouslySetInnerHTML| 里面的样式是用原生css写
@@ -1260,7 +1274,6 @@ static generateName() {
 \subsection{Errors}
 Errors will prevent a program from executing unless it is handled
 
-
 \subsection{Promise}
 \begin{enumerate}
 
@@ -1325,6 +1338,48 @@ To maximize efficiency we should use concurrency, multiple asynchronous operatio
 \item A Promise's constructor has a single parameter, called the "executor function". The executor function has two parameters -- resolve and reject.
 
 \end{enumerate}
+
+\subsection{Async await}
+\subsubsection{The async Keyword}
+The \verb|async| keyword is used to write functions that handle asynchronous actions. We wrap our asynchronous logic inside a function prepended with the \verb|async| keyword. Then, we invoke that function
+\begin{verbatim}
+async function myFunc() {
+  // Function body here
+};
+
+myFunc();
+\end{verbatim}
+we can also create \verb|async| function expressions
+\begin{verbatim}
+const myFunc = async () => {
+  // Function body here
+};
+
+myFunc();
+\end{verbatim}
+\verb|async| functions always return a promise. This means we can use traditional promise syntax, like \verb|.then()| and \verb|.catch| with our \verb|async| functions. An \verb|async| function will return in one of three ways
+\begin{itemize}
+\item If there's nothing returned from the function, it will return a promise with a resolved value of \verb|undefined|
+\item If there's a non-promise value returned from the function, it will return a promise resolved to that value
+\begin{verbatim}
+async function fivePromise() { 
+  return 5;
+}
+
+fivePromise()
+.then(resolvedValue => {
+    console.log(resolvedValue);
+  })  // Prints 5
+\end{verbatim}
+
+\item If a promise is returned from the function, it will simply return that promise
+\end{itemize}
+
+\subsubsection{The await Operator}
+\verb|async| functions are almost always used with the additional keyword \verb|await| inside the function body.
+
+The \verb|await| keyword can only be used inside an \verb|async| function. \verb|await| is an operator: it returns the resolved value of a promise. Since promises resolve in an indeterminate amount of time, \verb|await| halts, or pauses, the execution of our \verb|async| function until a given promise is resolved.
+
 
 
 

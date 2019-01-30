@@ -75,6 +75,9 @@
 \contentsline {subsection}{\numberline {9.4}Request}{}{subsection.9.4}
 \contentsline {subsection}{\numberline {9.5}Errors}{}{subsection.9.5}
 \contentsline {subsection}{\numberline {9.6}Promise}{}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}Async await}{}{subsection.9.7}
+\contentsline {subsubsection}{\numberline {9.7.1}The async Keyword}{}{subsubsection.9.7.1}
+\contentsline {subsubsection}{\numberline {9.7.2}The await Operator}{}{subsubsection.9.7.2}
 \contentsline {section}{\numberline {10}CSS}{}{section.10}
 \contentsline {subsection}{\numberline {10.1}Caveats}{}{subsection.10.1}
 \contentsline {subsection}{\numberline {10.2}Media Queries}{}{subsection.10.2}
