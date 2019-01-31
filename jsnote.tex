@@ -21,6 +21,24 @@
 \section{Project feature request and problems}
 \begin{enumerate}
 
+\item 怎样知道priceArr的数据结构 (\verb|E:\eastSun\ylx-pc-beta\src\components|\linebreak \verb|\LowPriceCalendar\index.js|)
+\begin{verbatim}
+priceArr
+Array(0) [, …]
+[[StableObjectId]]: 6
+2019-02-02: Object {price: 57, surplusStock: 99}
+2019-02-09: Object {price: 57, surplusStock: 99}
+2019-02-16: Object {price: 57, surplusStock: 99}
+2019-02-23: Object {price: 57, surplusStock: 99}
+2019-03-02: Object {price: 57, surplusStock: 99}
+2019-03-09: Object {price: 57, surplusStock: 99}
+2019-03-16: Object {price: 57, surplusStock: 99}
+2019-03-23: Object {price: 57, surplusStock: 99}
+2019-03-30: Object {price: 57, surplusStock: 99}
+length: 0
+__proto__: Array(0) [, …]
+\end{verbatim}
+
 \item 与后台进行数据交互时，注意判断是字符串还是数字，比如 \verb|needEmail === "1"|。``0" 也为 true
 
 \item 使用localStorage的时候，打开一个标签然后另外再打开一个标签，则第一个标签里面的内容会变成第二个标签的内容
