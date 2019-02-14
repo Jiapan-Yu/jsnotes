@@ -78,7 +78,7 @@ will return an array containing two objects
 [{name: 'John'}, {name: ''}]
 \end{verbatim}
 
-\item 如果当前页面有从localStorage里面取数据，那么就不能直接在url上面写参数 (比如goodsTicketId)，因为请求的数据会跟从localStorage里面取的数据不一样导致混淆
+\item 如果当前页面有从localStorage里面取数据，那么就不能直接在url上面写参数 (比如知道某个goodsTicketId，然后直接加到url后面)，因为请求的数据会跟从localStorage里面取的数据不一样导致混淆
 
 \item \verb|dangerouslySetInnerHTML| 里面的样式是用原生css写
 
@@ -92,7 +92,7 @@ will return an array containing two objects
 
 \item fontSize比lineHeight应该小1
 
-\item When a breakpoint is not hitted in VSCode, you may need to stop by pressing \verb|shift+F5| and then restart by pressing \verb|F5|, and also if there's a new browser tab open then the breakpoint won't be hitted
+\item When a breakpoint is not hitted in VSCode, you may need to stop by pressing \verb|shift+F5| and then restart by pressing \verb|F5|, and also if there's a new browser tab open then the breakpoint won't be hitted. You can try copy the path url into a new tab and see
 
 \item 使用iconfont的时候，不知道怎么引用到项目中，可以点击“下载至本地”里面包含一个使用demo
 
@@ -1400,7 +1400,16 @@ fivePromise()
 \subsubsection{The await Operator}
 \verb|async| functions are almost always used with the additional keyword \verb|await| inside the function body.
 
-The \verb|await| keyword can only be used inside an \verb|async| function. \verb|await| is an operator: it returns the resolved value of a promise. Since promises resolve in an indeterminate amount of time, \verb|await| halts, or pauses, the execution of our \verb|async| function until a given promise is resolved.
+The \verb|await| keyword can only be used inside an \verb|async| function. \verb|await| is an operator: it returns the \textbf{resolved value} of a promise. Since promises resolve in an indeterminate amount of time, \verb|await| halts, or pauses, the execution of our \verb|async| function until a given promise is resolved.
+\begin{verbatim}
+async function asyncPromAll() {
+  const resultArray = await Promise.all([asyncTask1(), asyncTask2(), 
+asyncTask3(), asyncTask4()]);
+  for (let i = 0; i<resultArray.length; i++){
+    console.log(resultArray[i]); 
+  }
+}
+\end{verbatim}
 
 
 
