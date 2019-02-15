@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  13 FEB 2019 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  15 FEB 2019 09:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1762,7 +1762,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1164.
 Here is how much of TeX's memory you used:
  24587 strings out of 492995
  426400 string characters out of 6136403
- 622830 words of memory out of 5000000
+ 624026 words of memory out of 5000000
  27533 multiletter control sequences out of 15000+600000
  19679 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1786,7 +1786,7 @@ nts/cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d
 :/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on javascript.pdf (28 pages, 247626 bytes).
+Output written on javascript.pdf (28 pages, 247774 bytes).
 PDF statistics:
  367 PDF objects out of 1000 (max. 8388607)
  270 compressed objects within 3 object streams
