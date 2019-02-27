@@ -1152,6 +1152,39 @@ The body of handleChange won't be executed, don't know why. 当传的是其它�
 \end{itemize}
 
 
+\section{Vue.js}
+\begin{enumerate}
+\item We call constantly-changing data values like this \textbf{dynamic data}
+
+\item Vue allows us to store data that can be calculated using values from the \verb|data| object at a separate property called \verb|computed|. dynamic data based on other dynamic data is best stored as a \verb|computed| property
+
+\item \verb|v-bind:disabled| $\Rightarrow$ \verb|:disabled| \quad \verb|v-on:click| $\Rightarrow$ \verb|@click|
+
+\item The value of \verb|watch| is an object containing all of the properties to watch. The keys of this object are the names of the properties to watch for changes and the values are functions to run whenever the corresponding properties change. These functions take two parameters: the new value of that property and the previous value of that property
+
+
+
+\end{enumerate}
+
+\subsection{Instance Methods}
+there is an options object property called methods
+\begin{verbatim}
+const app = new Vue({
+  el: "#app",
+  data: {
+    hoursStudied: 300
+  },
+  methods: {
+    resetProgress: function () {
+      this.hoursStudied = 0;
+    }
+  }
+});
+
+<button v-on:click="resetProgress">Reset Progress</button>
+\end{verbatim}
+
+
 
 \section{wechat mini program}
 \subsection{框架}
@@ -1610,7 +1643,7 @@ Enter repl (read evaluate print loop): type node in command line, exit command \
 
 
 
-\section{npm (or yarn)}
+\section{npm (or yarn add)}
 \begin{enumerate}
 
 \item 

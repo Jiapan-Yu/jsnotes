@@ -37,6 +37,73 @@
   \item First,
 \end{itemize}
 
+\item vue computed property setters (We did this by making the value of languageLevel an object with two keys, get and set, each with a value of a function). In order to add a setter to a computed property , you must make the value of the computed property an object with get and set properties (like \verb|<select v-model="languageLevel">| case)
+\begin{jscode}
+const app = new Vue({
+  el: '#app',
+  data: {
+    hoursStudied: 274
+  },
+  computed: {
+    languageLevel: {
+      get: function() {
+        if (this.hoursStudied < 100) {
+          return 'Beginner';
+        } else if (this.hoursStudied < 1000) {
+          return 'Intermediate';
+        } else {
+          return 'Expert';
+        }
+      },
+      set: function(newLanguageLevel) {
+        if (newLanguageLevel === 'Beginner') {
+          this.hoursStudied = 0;
+        } else if (newLanguageLevel === 'Intermediate') {
+          this.hoursStudied = 100;
+        } else if (newLanguageLevel === 'Expert') {
+          this.hoursStudied = 1000;
+        }
+      }
+    }
+  }
+});
+
+<div id=“app”>
+  <p>You have studied for {{ hoursStudied }} hours. You have {{ languageLevel }}-level mastery.</p>
+  <span>Change Level:</span>
+  <select v-model="languageLevel">
+    <option>Beginner</option>
+    <option>Intermediate</option>
+    <option>Expert</option>
+  </select>
+</div>
+\end{jscode}
+
+\item vue computed properties
+\begin{jscode}
+const app = new Vue({
+  el: '#app',
+  data: {
+    hoursStudied: 274
+  },
+  computed: {
+    languageLevel: function() {
+      if (this.hoursStudied < 100) {
+        return 'Beginner';
+      } else if (this.hoursStudied < 1000) {
+        return 'Intermediate';
+      } else {
+        return 'Expert';
+      }
+    }
+  }
+});
+
+<div id="app">
+  <p>You have studied for {{ hoursStudied }} hours. You have {{ languageLevel }}-level mastery.</p>
+</div>
+\end{jscode}
+
 \item Chaining multiple promises
 \begin{jscode}
 app.js
