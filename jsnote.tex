@@ -1184,6 +1184,30 @@ const app = new Vue({
 <button v-on:click="resetProgress">Reset Progress</button>
 \end{verbatim}
 
+\subsection{Text, Textarea, and Select Bindings}
+\begin{verbatim}
+<input type="text" v-model="username" />
+
+const app = new Vue({ 
+  el: '#app',
+  data: { username: 'Michael' } 
+});
+\end{verbatim}
+Now, when this example site is loaded, the \verb|<input>| will already be pre-filled with \verb|'Michael'|, the starting value of \verb|username|. Then, whenever the \verb|<input>| is modified by the user, the \verb|username| \verb|data| value will automatically change to the value typed in by the user.
+
+\verb|v-model| works on all HTML form field elements. So, simple form fields such as \verb|<textarea>| elements and \verb|<select>| elements can be bound to \verb|data| and \verb|computed| properties in the exact same way: adding \verb|v-model="propertyName"| to the opening tag of the elements..
+
+\subsection{Vue Forms}
+\begin{itemize}
+\item Form fields can be bound to Vue data using the \verb|v-model| directive — how \verb|v-model| is used depends on the type of field it is being added to
+
+\item Form event handlers can be added using \verb|v-on:submit| and \verb|v-on:reset|
+
+\item Modifiers can be used to add functionality to directives — most importantly preventing page reload on form submission using \verb|v-on:submit.prevent| and cleaning up form field values using \verb|.number| and \verb|.trim|
+
+\item Form validation can be implemented by setting the value of the \verb|disabled| attribute on a \verb|<button>| to the value of a computed property using \verb|v-bind|
+\end{itemize}
+
 
 
 \section{wechat mini program}
