@@ -1208,6 +1208,27 @@ Now, when this example site is loaded, the \verb|<input>| will already be pre-fi
 \item Form validation can be implemented by setting the value of the \verb|disabled| attribute on a \verb|<button>| to the value of a computed property using \verb|v-bind|
 \end{itemize}
 
+\subsection{Classes}
+\begin{verbatim}
+<span v-bind:class="{ unread: hasNotifications }">Notifications</span>
+
+.unread {
+  background-color: blue;
+}
+
+const app = new Vue({
+  data: { notifications: [ ... ] },
+  computed: {
+    hasNotifications: function() {
+      return notifications.length > 0;
+    }
+  }
+}
+\end{verbatim}
+In this example, we are using the \verb|v-bind:class| directive to dynamically add a class called \verb|unread| to a ``Notifications" \verb|<span>| element if the \verb|computed| property \verb|hasNotifications| returns \verb|true|.
+
+\verb|v-bind:class| takes an object as its value — the keys of this object are class names and the values are Vue app properties that return a truthy or falsy value. If the value is truthy, the class will be added to the element — otherwise it will not be added.
+
 
 
 \section{wechat mini program}

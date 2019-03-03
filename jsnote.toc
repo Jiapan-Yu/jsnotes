@@ -69,6 +69,7 @@
 \contentsline {subsection}{\numberline {8.1}Instance Methods}{}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Text, Textarea, and Select Bindings}{}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}Vue Forms}{}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Classes}{}{subsection.8.4}
 \contentsline {section}{\numberline {9}wechat mini program}{}{section.9}
 \contentsline {subsection}{\numberline {9.1}框架}{}{subsection.9.1}
 \contentsline {section}{\numberline {10}JavaScript}{}{section.10}
