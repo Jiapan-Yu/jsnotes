@@ -1164,9 +1164,23 @@ The body of handleChange won't be executed, don't know why. 当传的是其它�
 
 \item The value of \verb|watch| is an object containing all of the properties to watch. The keys of this object are the names of the properties to watch for changes and the values are functions to run whenever the corresponding properties change. These functions take two parameters: the new value of that property and the previous value of that property
 
-
-
 \end{enumerate}
+
+\subsection{Templates}
+\begin{enumerate}
+\item A place to store the data we will be displaying
+\item A syntax for displaying that information
+\end{enumerate}
+
+\begin{verbatim}
+<div id="app">
+  <h2>Hello, {{ username }}</h2>
+</div>
+\end{verbatim}
+
+In this example, \verb|{{ username }}| will be filled in with the value of \verb|username| from the Vue app's \verb|.data| object when the page is rendered to the user. If the value of \verb|username| changes, the value displayed to the user will be changed as well
+
+Whenever you want to display information from the Vue app's \verb|data|, you wrap the name of the \verb|.data| property in two sets of mustaches (curly brackets) and the expression will be replaced with the Vue data information for the end user to see.
 
 \subsection{Instance Methods}
 there is an options object property called methods

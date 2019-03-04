@@ -66,12 +66,13 @@
 \contentsline {subsection}{\numberline {7.4}Array map method}{}{subsection.7.4}
 \contentsline {subsection}{\numberline {7.5}react高阶组件 (high order component)}{}{subsection.7.5}
 \contentsline {section}{\numberline {8}Vue.js}{}{section.8}
-\contentsline {subsection}{\numberline {8.1}Instance Methods}{}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Text, Textarea, and Select Bindings}{}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Vue Forms}{}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Classes}{}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Class Arrays}{}{subsection.8.5}
-\contentsline {subsection}{\numberline {8.6}Review}{}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.1}Templates}{}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Instance Methods}{}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Text, Textarea, and Select Bindings}{}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Vue Forms}{}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Classes}{}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Class Arrays}{}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.7}Review}{}{subsection.8.7}
 \contentsline {section}{\numberline {9}wechat mini program}{}{section.9}
 \contentsline {subsection}{\numberline {9.1}框架}{}{subsection.9.1}
 \contentsline {section}{\numberline {10}JavaScript}{}{section.10}
