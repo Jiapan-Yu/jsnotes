@@ -1231,6 +1231,35 @@ In this example, we are using the \verb|v-bind:class| directive to dynamically a
 
 \verb|v-bind:class| takes an object as its value — the keys of this object are class names and the values are Vue app properties that return a truthy or falsy value. If the value is truthy, the class will be added to the element — otherwise it will not be added.
 
+\subsection{Class Arrays}
+\begin{verbatim}
+<span v-bind:class="[{ unread: hasNotifications }, menuItemClass]">Notifications</span>
+
+const app = new Vue({
+  data: { 
+    notifications: [ ... ],
+    menuItemClass: 'menu-item'
+  },
+  computed: {
+    hasNotifications: function() {
+      return notifications.length > 0;
+    }
+  }
+}
+
+.menu-item {
+  font-size: 12px;
+}
+
+.unread {
+  background-color: blue;
+}
+\end{verbatim}
+The object at the beginning of the array will still conditionally add the \verb|unread| class based on whether there are unread notifications. However, we now always add the class stored at \verb|menuItemClass|, \verb|menu-item|, to our "Notifications" element.
+
+\subsection{Review}
+We learned how to dynamically add inline styles using \verb|v-bind:style| with a style object or an array of style objects. We then learned how to dynamically add classes using \verb|v-bind:class| with a class object or an array of class objects and class name strings.
+
 
 
 \section{wechat mini program}
