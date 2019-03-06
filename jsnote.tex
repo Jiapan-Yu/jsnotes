@@ -286,6 +286,20 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 \subsection{Your branch and 'origin/master' have diverged, how to undiverge branches?}
 You can review the differences with a: \verb|git log HEAD..origin/master| before pulling it (fetch + merge), see \href{https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches}{merge or rebase}
 
+\subsection{git rebase}
+\verb|git rebase -i[ HEAD~3]| to reorder previous local commits. Then inside vim:
+\begin{enumerate}
+\item press uppercase V to select whole line
+\item move the cursor to the end of what you want to cut
+\item press d to cut (or y to copy)
+\item move to where you would like to paste
+\item press P to paste before the cursor, or p to paste after
+\end{enumerate}
+
+exit vim with \verb|:wq| or quit vim without saving \verb|:cq|
+
+{\color{red}保留一份完整的 commit sha (git log)} 先在 local reset 然后 checkout，then \verb|push --force| 让 remote 恢复到想要的状态。接着 local reset 到最新然后添加新文件(改动)，接着使用 \verb|git rebase -i| 调到想要的位置后 push 那一个 commit 到 remote 用 \verb|git push <remotename> <commit SHA>:<remotebranchname>|
+
 
 
 \section{VSCode}
