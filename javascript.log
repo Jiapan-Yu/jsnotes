@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  27 FEB 2019 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  27 MAR 2019 15:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1641,16 +1641,17 @@ File: c70rm.fd 2017/04/01 v2.4.9 Chinese font definition (CTEX)
 
 (./_minted-javascript/04B567AEDF8F06C4E25D66B4E3CAE97364B704CF24A13D2A5796282B6
 22EAE00.pygtex)
-Overfull \hbox (12.45018pt too wide) in paragraph at lines 683--684
+Overfull \hbox (16.25801pt too wide) in paragraph at lines 683--684
 []\OT1/cmr/m/n/14 self-closing tags in HTML5: [][]\OT1/cmtt/m/n/14 <br> <embed>
- <hr> <iframe> <img> <input> <link> []<meta> 
+ <hr> <iframe> <img> <input> <link> []<meta>[]\OT1/cmr/m/n/14 ,
  []
 
+[16]
 \openout3 = `javascript.pyg'.
 
 
 (./_minted-javascript/CD476BE3172BCEEDB8A507845151B9B464B704CF24A13D2A5796282B6
-22EAE00.pygtex [16]) [17]
+22EAE00.pygtex) [17]
 \openout3 = `javascript.pyg'.
 
 
@@ -1802,7 +1803,7 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy6.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb>
-Output written on javascript.pdf (30 pages, 255168 bytes).
+Output written on javascript.pdf (30 pages, 255232 bytes).
 PDF statistics:
  384 PDF objects out of 1000 (max. 8388607)
  283 compressed objects within 3 object streams
