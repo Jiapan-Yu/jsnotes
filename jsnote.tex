@@ -1646,9 +1646,55 @@ fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
 \begin{enumerate}
 \item The unit px, if the value is 0 then you can omit the px unit, if it's not 0 then you have to add px
 
-\item 
+\end{enumerate}
+
+
+\subsection{CSS Typography}
+\begin{enumerate}
+
+\item Serif fonts are widely used for body text (eg. articles) because they are considered easier to read than sans-serif fonts in print.
+
+\item You can look up the font you are using to see which \verb|font-weight| values are available
+
+\item The technical term for adjusting the spacing between letters is called ``kerning''. Kerning can be adjusted with the \verb|letter-spacing| property in CSS
+
+\item \verb|line-height|: Generally, the unitless ratio value is the preferred method, since it is responsive and based exclusively on the current font size. In other words, if we change the font size, a unitless \verb|line-height| would automatically readjust, whereas the pixel value would remain static
 
 \end{enumerate}
+
+\subsubsection{Fallback Fonts}
+To use fallback fonts, the following syntax is required:
+\begin{verbatim}
+h1 {
+  font-family: "Garamond", "Times", sans-serif;
+}
+\end{verbatim}
+The CSS rule above says:
+\begin{enumerate}
+\item Use the Garamond font for all \verb|<h1>| elements on the web page
+
+\item If Garamond is not available, use the Times font
+
+\item If Garamond and Times are not available, use any serif font pre-installed on the user's computer
+
+\end{enumerate}
+
+\subsubsection{Linking fonts or font-face}
+\begin{itemize}
+\item Linking fonts: inside head tag in html file
+\begin{verbatim}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Playfair+Display" type="text/css" rel="stylesheet">
+</head>
+\end{verbatim}
+
+\item Above link fonts can be imported using the \verb|@font-face| property, just copy the url into the browser and then copy the rules that are directly labeled as \verb|/* latin */|
+
+\item It is important to stress the need to copy the \verb|@font-face| rules to the top of the stylesheet for the font to load correctly in the project
+
+\item Using \verb|@font-face| rule to use local font files. See pic \verb|@font-face| for examples of both local files and importing linked fonts into css files
+\end{itemize}
+
 
 
 \subsection{Media Queries}

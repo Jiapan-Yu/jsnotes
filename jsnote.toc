@@ -91,15 +91,18 @@
 \contentsline {subsection}{\numberline {10.8}axios - npm}{}{subsection.10.8}
 \contentsline {section}{\numberline {11}CSS}{}{section.11}
 \contentsline {subsection}{\numberline {11.1}Caveats}{}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Media Queries}{}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}CSS Display and Positioning}{}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}The box model}{}{subsection.11.4}
-\contentsline {subsection}{\numberline {11.5}Non-Inherited properties}{}{subsection.11.5}
-\contentsline {subsection}{\numberline {11.6}Learn Responsive Design}{}{subsection.11.6}
-\contentsline {subsubsection}{\numberline {11.6.1}Percentages: Padding \& Margin}{}{subsubsection.11.6.1}
-\contentsline {subsection}{\numberline {11.7}display property}{}{subsection.11.7}
-\contentsline {subsection}{\numberline {11.8}Grid layout}{}{subsection.11.8}
-\contentsline {subsection}{\numberline {11.9}p tag}{}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.2}CSS Typography}{}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Fallback Fonts}{}{subsubsection.11.2.1}
+\contentsline {subsubsection}{\numberline {11.2.2}Linking fonts or font-face}{}{subsubsection.11.2.2}
+\contentsline {subsection}{\numberline {11.3}Media Queries}{}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}CSS Display and Positioning}{}{subsection.11.4}
+\contentsline {subsection}{\numberline {11.5}The box model}{}{subsection.11.5}
+\contentsline {subsection}{\numberline {11.6}Non-Inherited properties}{}{subsection.11.6}
+\contentsline {subsection}{\numberline {11.7}Learn Responsive Design}{}{subsection.11.7}
+\contentsline {subsubsection}{\numberline {11.7.1}Percentages: Padding \& Margin}{}{subsubsection.11.7.1}
+\contentsline {subsection}{\numberline {11.8}display property}{}{subsection.11.8}
+\contentsline {subsection}{\numberline {11.9}Grid layout}{}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.10}p tag}{}{subsection.11.10}
 \contentsline {section}{\numberline {12}Node}{}{section.12}
 \contentsline {section}{\numberline {13}npm (or yarn add)}{}{section.13}
 \contentsline {section}{\numberline {14}DOM}{}{section.14}
