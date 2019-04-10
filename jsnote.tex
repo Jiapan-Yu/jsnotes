@@ -295,8 +295,18 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 
 \end{enumerate}
 
-\subsection{Your branch and 'origin/master' have diverged, how to undiverge branches?}
+\subsection{FAQ}
+\begin{itemize}
+\item Your branch and 'origin/master' have diverged, how to undiverge branches?\\
 You can review the differences with a: \verb|git log HEAD..origin/master| before pulling it (fetch + merge), see \href{https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches}{merge or rebase}
+
+\item How do I list all remote branches in Git 1.7+?\\
+\verb|git branch -r|
+
+\item How can I see which git branches are tracking which remote / upstream branch?\\
+\verb|git branch -vv   # doubly verbose!|
+
+\end{itemize}
 
 \subsection{git rebase}
 \verb|git rebase -i[ HEAD~3]| to reorder previous local commits (改动的那个commit之后的commit sha都会改变). Then inside vim:
