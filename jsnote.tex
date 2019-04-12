@@ -1920,9 +1920,9 @@ Vertical padding and margin are also calculated based on the width of the parent
   grid-template-rows: 10% 20% 600px;
 }
 \end{verbatim}
-This grid has two columns and three rows. \verb|grid-template-rows| defines the number of rows and sets each row’s height. In this example, the first row is 50 pixels tall (10\% of 500), the second row is 100 pixels tall (20\% of 500), and the third row is 600 pixels tall
+This grid has two columns and three rows. \verb|grid-template-rows| defines the number of rows and sets each row's height. In this example, the first row is 50 pixels tall (10\% of 500), the second row is 100 pixels tall (20\% of 500), and the third row is 600 pixels tall
 
-When using percentages in these two properties, remember that rows are defined as a percentage of the grid’s height, and columns are defined as a percentage of its width.
+When using percentages in these two properties, remember that rows are defined as a percentage of the grid's height, and columns are defined as a percentage of its width.
 
 \item The property \verb|grid-template| can replace the previous two CSS properties\\
 \verb|grid-template: 200px 300px / 20% 10% 70%;|\\
@@ -1966,10 +1966,84 @@ The CSS properties \verb|grid-row-gap| and \verb|grid-column-gap| will put blank
 
 It is important to note that \verb|grid-gap| does not add space at the beginning or end of the grid. In the example code, our grid will have three columns with two ten-pixel gaps between them
 
-Let’s quickly calculate how wide these columns are. Remember that using \verb|fr| considers all of the available space. The grid is 320 pixels wide and 20 of those pixels are taken up by the two grid gaps. Therefore each column takes a piece of the 300 available pixels. Each column gets 1\verb|fr|, so the columns are evenly divided into thirds (or 100 pixels each)
+Let's quickly calculate how wide these columns are. Remember that using \verb|fr| considers all of the available space. The grid is 320 pixels wide and 20 of those pixels are taken up by the two grid gaps. Therefore each column takes a piece of the 300 available pixels. Each column gets 1\verb|fr|, so the columns are evenly divided into thirds (or 100 pixels each)
 
 Finally, there is a CSS property \verb|grid-gap| that can set the row and column gap at the same time. \verb|grid-gap: 20px 10px;| will set the distance between rows to 20 pixels and the distance between columns to 10 pixels. Unlike other CSS grid properties, this shorthand does not take a \verb|/| between values! If only one value is given, it will set the column gap and the row gap to that value
 
+But what if we don't want there to be a gap between all of our rows? We can avoid the \verb|grid-row-gap| rule by using negative margins. In \verb|header|, \verb|.banner|, and \verb|.about|, set \verb|margin-bottom| to \verb|-20px|. For the footer, set \verb|margin-top| to \verb|-20px|.
+
+\subsubsection{Multiple Row and Column Items}
+We are no longer applying CSS to the outer grid container; we're adding CSS to the elements sitting inside the grid!
+\begin{verbatim}
+.item {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+\end{verbatim}
+In this example, the HTML element of class item will take up two rows in the grid, rows 1 and 2. The values that \verb|grid-row-start| and \verb|grid-row-end| accept are \textit{grid lines}.
+
+Row grid lines and column grid lines start at 1 and end at a value that is 1 greater than the number of rows or columns the grid has. For example, if a grid has 5 rows, the grid row lines range from 1 to 6. If a grid has 8 columns, the grid row lines range from 1 to 9.
+
+The value for \verb|grid-row-start| should be the row at which you want the grid item to begin. The value for \verb|grid-row-end| should be one greater than the row at which you want the grid item to end. An element that covers rows 2, 3, and 4 should have these declarations: \verb|grid-row-start: 2| and \verb|grid-row-end: 5|.
+
+We can use the property \verb|grid-row| as shorthand for \verb|grid-row-start| and \verb|grid-row-end|. The following two code blocks will produce the same output:
+\begin{verbatim}
+.item {
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+\end{verbatim}
+
+\begin{verbatim}
+.item {
+  grid-row: 4 / 6;
+}
+\end{verbatim}
+This code should look similar to the way \verb|grid-template| is shorthand for \verb|grid-template-rows| and \verb|grid-template-columns|. In this case, the starting row goes before the ``\verb|/|'' and the ending row goes after it. Again, the ending row is exclusive; this grid item will occupy rows four and five.
+
+When an item spans multiple rows or columns using these properties, it will also include the \verb|grid-gap| if any exists. For example, if an item spans two rows of height 100 pixels and there is a ten-pixel grid-gap, then the item will have a total height of 210 pixels.
+
+The previous three properties also exist for columns.
+\begin{verbatim}
+.item {
+  grid-column: 4 / span 2;
+}
+\end{verbatim}
+produces the same result as the following code blocks:
+\begin{verbatim}
+.item {
+  grid-column: 4 / 6;
+}
+\end{verbatim}
+
+\begin{verbatim}
+.item {
+  grid-column-start: 4;
+  grid-column-end: span 2;
+}
+\end{verbatim}
+
+\begin{verbatim}
+.item {
+  grid-column-start: span 2;
+  grid-column-end: 6;
+}
+\end{verbatim}
+
+\subsubsection{Grid Area}
+We've already been able to use grid-row and grid-column as shorthand for properties like grid-row-start and grid-row-end. We can refactor even more using the property grid-area. This property will set the starting and ending positions for both the rows and columns of an item
+\begin{verbatim}
+.item {
+  grid-area: 2 / 3 / 4 / span 5;
+}
+\end{verbatim}
+grid-area takes four values separated by slashes. The order is important! This is how grid-area will interpret those values
+\begin{enumerate}
+\item \verb|grid-row-start|
+\item \verb|grid-column-start|
+\item \verb|grid-row-end|
+\item \verb|grid-column-end|
+\end{enumerate}
 
 
 
