@@ -37,6 +37,52 @@
   \item First,
 \end{itemize}
 
+\item Advanced CSS Grid
+\begin{htmlcode}
+<div class="container">
+  <header>Welcome!</header>
+  <nav>Links!</nav>
+  <section class="info">Info!</section>
+  <section class="services">Services!</section>
+  <footer>Contact us!</footer>
+</div>
+\end{htmlcode}
+
+\begin{htmlcode}
+.container {
+  display: grid;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-template-areas: "head head"
+                       "nav nav" 
+                       "info services"
+                       "footer footer";
+  grid-template-rows: 300px 120px 800px 120px;
+  grid-template-columns: 1fr 3fr; 
+}
+
+header {
+  grid-area: head;
+} 
+
+nav {
+  grid-area: nav;
+} 
+
+.info {
+  grid-area: info;
+} 
+
+.services {
+  grid-area: services;
+}
+
+footer {
+  grid-area: footer;
+}
+\end{htmlcode}
+
 \item vue computed property setters (We did this by making the value of languageLevel an object with two keys, get and set, each with a value of a function). In order to add a setter to a computed property , you must make the value of the computed property an object with get and set properties (like \verb|<select v-model="languageLevel">| case)
 \begin{jscode}
 const app = new Vue({

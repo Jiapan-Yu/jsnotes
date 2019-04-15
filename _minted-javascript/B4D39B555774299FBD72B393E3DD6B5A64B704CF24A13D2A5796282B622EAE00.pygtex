@@ -1,0 +1,34 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+.container \PYGZob{}
+  display: grid;
+  max\PYGZhy{}width: 900px;
+  position: relative;
+  margin: auto;
+  grid\PYGZhy{}template\PYGZhy{}areas: \PYGZdq{}head head\PYGZdq{}
+                       \PYGZdq{}nav nav\PYGZdq{}
+                       \PYGZdq{}info services\PYGZdq{}
+                       \PYGZdq{}footer footer\PYGZdq{};
+  grid\PYGZhy{}template\PYGZhy{}rows: 300px 120px 800px 120px;
+  grid\PYGZhy{}template\PYGZhy{}columns: 1fr 3fr;
+\PYGZcb{}
+
+header \PYGZob{}
+  grid\PYGZhy{}area: head;
+\PYGZcb{}
+
+nav \PYGZob{}
+  grid\PYGZhy{}area: nav;
+\PYGZcb{}
+
+.info \PYGZob{}
+  grid\PYGZhy{}area: info;
+\PYGZcb{}
+
+.services \PYGZob{}
+  grid\PYGZhy{}area: services;
+\PYGZcb{}
+
+footer \PYGZob{}
+  grid\PYGZhy{}area: footer;
+\PYGZcb{}
+\end{Verbatim}
