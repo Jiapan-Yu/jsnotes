@@ -60,6 +60,10 @@ __proto__: Array(0) [, …]
 \section{Caveats}
 \begin{enumerate}
 
+\item 前端form里面的数据类型为字符串，但是后台spring会自动进行对应类型的转换
+
+\item 改完数据库后，重新启动后台或者前台登出登录一下
+
 \item \verb|<link href="main.css" type="text/css" rel="stylesheet" />|\\
 \verb|<meta charset="UTF-8">|
 
@@ -2051,8 +2055,9 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 
 \subsubsection{Overlapping Elements}
 
+\verb|align-items|为什么不在item里面声明，而要在grid containers里面声明。\verb|align-content| 在grid containers里面声明还好理解。\verb|align-self|是在grid items里面声明。(justify-...同此)
 
-
+\verb|align-items|是对所有grid items。而\verb|align-self|是对单个grid item，优先级大于\verb|align-items|
 
 
 \subsection{p tag}
