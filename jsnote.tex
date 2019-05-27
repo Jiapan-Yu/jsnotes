@@ -101,7 +101,7 @@ will return an array containing two objects
 
 \item 数据在loading完成之前是undefined，所以不能对其进行诸如\\ \verb|address.constructor === Object|的操作 (不能读取其constructor property)
 
-\item fontSize比lineHeight应该小1
+\item lineHeight应该比fontSize大1
 
 \item When a breakpoint is not hitted in VSCode, you may need to stop by pressing \verb|shift+F5| and then restart by pressing \verb|F5|, and also if there's a new browser tab open then the breakpoint won't be hitted. You can try copy the path url into a new tab and see
 
@@ -484,7 +484,7 @@ const theExample = (
 
 \item JSX elements are treated as JavaScript expressions. They can go anywhere that JavaScript expressions can go.
 
-That means that a JSX element can be saved in a variable, passed to a function, stored in an object or array...you name it
+That means that a JSX element can be saved in a variable, passed to a function, stored in an object or array... you name it
 
 \item JSX is a syntax extension for JavaScript. It was written to be used with React. JSX code looks a lot like HTML
 \end{enumerate}
@@ -1196,7 +1196,7 @@ The body of handleChange won't be executed, don't know why. 当传的是其它�
 
 
 \subsection{react styles}
-在项目中引用某个组件时，如果想对其添加style，则需要将那个组件包裹在div内，接着在div上加style属性，不能直接在那个组件上加style属性 (但是可以找到对应的className在less文件里面加样式)\\
+在项目中引用antd某个组件时，如果想对其添加style，则需要将那个组件包裹在div内，接着在div上加style属性，不能直接在那个组件上加style属性 (但是可以找到对应的className在less文件里面加样式)\\
 \includegraphics{./pics/styleOnComponent.png}
 
 
@@ -1361,6 +1361,36 @@ We learned how to dynamically add inline styles using \verb|v-bind:style| with a
 小程序~服务号~订阅号~企业号
 
 \section{JavaScript}
+
+\subsection{Differences between expressions, declarations and statements}
+An expression produces a value and can be written wherever a value is expected. Each of the following lines contains an expression:
+\begin{verbatim}
+myvar
+3 + x
+myfunc("a", "b")
+\end{verbatim}
+
+Wherever JavaScript expects a statement, you can also write an expression. Such a statement is called an \textit{expression statement}.
+
+A statement is a piece of code that tells the computer to do something. Here are the most common types of statements:
+\begin{verbatim}
+var i;                        // variable declaration
+i = 5;                        // value assignment
+i = i + 1;                    // value assignment
+i++;                          // same as above
+var x = 9;                    // declaration & assignment
+var fun = function() {...};   // var decl., assignmt, and func. defin.
+alert("hi");                  // function call
+\end{verbatim}
+All of these statements \textbf{can} end with a \verb|;| but none of them \textbf{must}. The semicolon is only obligatory when you have two or more statements \textbf{on the same line}:
+\begin{verbatim}
+var i = 0; i++        // <-- semicolon obligatory
+                      //     (but optional before newline)
+var i = 0             // <-- semicolon optional
+    i++               // <-- semicolon optional
+\end{verbatim}
+You \textbf{shouldn't} put a semicolon after a closing curly bracket \verb|}|. The only exceptions are \textbf{assignment statements}, such as \verb|var obj = {};|, see above.
+
 
 \subsection{\href{https://www.cnblogs.com/wangyunhui/p/7511615.html}{js扩展运算符(spread)是三个点(...)}}
 作用：将一个数组转为用逗号分隔的参数序列
@@ -1689,6 +1719,9 @@ fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
 
 \subsection{Caveats}
 \begin{enumerate}
+
+\item {\color{red}\verb|box-sizing: border-box;|} 则width=border width + padding width + content width. chrome inspect的width、height总是这些值之和
+
 \item The unit px, if the value is 0 then you can omit the px unit, if it's not 0 then you have to add px
 
 \end{enumerate}
