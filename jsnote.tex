@@ -1110,6 +1110,26 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \end{enumerate}
 
+\subsection{Caveats}
+\begin{enumerate}
+\item dva: services, models, pages, utils, components, config (包括router.config.js)
+
+\item 如果数据不展示或者展示不正确，需要从数据源处找错误
+
+\item 刷新不展示 $\rightarrow$ 需要看路由、看父页面
+
+\item 如果请求失败则redirect到登录页面 $\rightarrow$ 在一个总组件(eg. BasicLayout.js 每个请求都会走的组件)，如果后台response的success为false，则router.push('/login') {\color{red}此方法不正确，应该到请求拦截的地方处理}
+
+\item 登出清缓存 $\rightarrow$ logout方法里 \verb|localStorage.clear()|
+
+\item 关闭当前标签或浏览器时清缓存 $\rightarrow$ 在MDN上查beforeunload监听事件，然后在回调方法里面清\verb|localStorage| 
+
+\item 对js的方法(特别是数组、字符串的方法)不熟，对antd标签的属性不熟
+
+\item treeSelect属性数据对应的时候，一些需要注意的地方
+
+\end{enumerate}
+
 \subsection{react this {\color{red}以下都为没在constructor里面进行this邦定}}
 可以用普通函数的地方都可以用箭头函数。另外箭头函数在某些情况下 (分是否只传event还是有其它参数和是在class methods处还是在事件触发处) 可以替代bind
 
@@ -2215,7 +2235,8 @@ callback & 回调 & revert & 回滚 & collapse & 折叠 \\
 \multicolumn{3}{l}{object destructure 对象解构}  & \multicolumn{3}{l}{array destructure 数组解构} \\ 
 \multicolumn{3}{l}{logical operands: true false}  & \multicolumn{3}{l}{SoC: Separation of Concerns} \\\multicolumn{6}{l}{POSIX: portable operating system interface for unix } \\
 \multicolumn{4}{l}{umd: universal module definition} \\
-\multicolumn{4}{l}{XSS attack: cross-site scripting attack} \\
+\multicolumn{4}{l}{XSS attack: cross-site scripting attack} & literal & 字面量 \\
+ &  &  &  &  & \\
 \end{tabular}
 
 
