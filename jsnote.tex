@@ -49,6 +49,8 @@ __proto__: Array(0) [, …]
 \section{Things to be done before commit}
 \begin{enumerate}
 
+\item 如果发现了重要知识点，可以单独提取出来commit并在msg后面加上* (可单独stage那个点，可能需要备份相应的文件)，*前面可空一格以防跟前面的文字连在一起难以辨认
+
 \item Indent using tabs, and set tab size to 2
 
 \item Delete \verb|console.log()|
@@ -331,7 +333,7 @@ exit vim with \verb|:wq| or quit vim without saving \verb|:cq|
 \section{VSCode}
 \begin{itemize}
 
-\item 
+\item debug的时候，开的是一个chrome页面，当需要关闭当前页面重新打开测试的时候该怎么办？
 
 \item source control: modified 为蓝色 \quad added 为暗橙色
 
@@ -1381,6 +1383,16 @@ We learned how to dynamically add inline styles using \verb|v-bind:style| with a
 小程序~服务号~订阅号~企业号
 
 \section{JavaScript}
+
+\subsection{Notes}
+\begin{enumerate}
+\item session survives over page reloads and restores
+
+\item 当后台服务重启后，可在请求统一响应拦截的地方根据TypeError来跳到登录页
+
+\item 注意观察chrome console里面有没有报错
+
+\end{enumerate}
 
 \subsection{Differences between expressions, declarations and statements}
 An expression produces a value and can be written wherever a value is expected. Each of the following lines contains an expression:
