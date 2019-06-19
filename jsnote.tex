@@ -302,17 +302,23 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 \end{enumerate}
 
 \subsection{FAQ}
-\begin{itemize}
+\begin{enumerate}
 \item Your branch and 'origin/master' have diverged, how to undiverge branches?\\
 You can review the differences with a: \verb|git log HEAD..origin/master| before pulling it (fetch + merge), see \href{https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches}{merge or rebase}
 
-\item How do I list all remote branches in Git 1.7+?\\
-\verb|git branch -r|
+\item How do I list all remote branches in Git 1.7+?
+\begin{itemize}
+\item \verb|git branch -r| list local copies of remote branches
+
+\item \verb|git ls-remote| list remote branches.\\ \verb|git remote show origin| shows all the branches on the remote, including those that are not tracked locally and even those that have not yet been fetched, it also tries to show the status of the branches relative to your local repo
+
+\item \verb|git remote prune origin| remove info about removed remote branches
+\end{itemize}
 
 \item How can I see which git branches are tracking which remote / upstream branch?\\
 \verb|git branch -vv   # doubly verbose!|
 
-\end{itemize}
+\end{enumerate}
 
 \subsection{git rebase}
 \verb|git rebase -i[ HEAD~3]| to reorder previous local commits (改动的那个commit之后的commit sha都会改变). Then inside vim:
