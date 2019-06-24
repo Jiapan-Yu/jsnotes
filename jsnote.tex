@@ -1138,6 +1138,25 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \end{enumerate}
 
+\subsection{this.setState}
+\href{https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-access-state-in-setstate.md}{Prevent using this.state within a this.setState (react/no-access-state-in-setstate)}
+
+This can be avoided with using callbacks which takes the previous state as first argument:
+\begin{verbatim}
+state = {
+  value: 1,
+};
+
+increment = () => {
+  this.setState(prevState => ({
+    value: prevState.value + 1,
+  }));
+}
+
+this.increment();
+this.increment();
+\end{verbatim}
+
 \subsection{react this {\color{red}以下都为没在constructor里面进行this邦定}}
 可以用普通函数的地方都可以用箭头函数。另外箭头函数在某些情况下 (分是否只传event还是有其它参数和是在class methods处还是在事件触发处) 可以替代bind
 
