@@ -1770,6 +1770,31 @@ fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
 
 \end{itemize}
 
+\subsection{beforeunload, unload, load}
+\begin{table}[h]
+\begin{tabular}{|lccc|}
+\hline
+ & beforeunload & unload & load \\
+\hline
+刷新 & 1 & 2 & 3 \\
+\hline
+关闭 & 1 & 2 &  \\
+\hline
+首次打开 &  &  & 1 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item 同一浏览器不允许两个及以上账号登录
+
+\item 关闭最后一个标签或者浏览器的时候就默认logout
+
+\item 登录一个账号后，复制某个页面url然后新打开一个标签粘贴进去直接进入到相应的界面
+
+\item 不管开多少个浏览器，只要有一个账号登录则其他浏览器提示不能登录或者前一个登录无效 (同一电脑上面的不同浏览器或者不同电脑上面的浏览器)
+\end{enumerate}
+
 
 
 \section{CSS}

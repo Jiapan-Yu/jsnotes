@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.4.9)  19 JUN 2019 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.4.9)  24 JUN 2019 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,7 +1278,7 @@ stination with the same identifier (name{page.}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.118 ...berline {11.11}p tag}{}{subsection.11.11}
+l.118 ...apping Elements}{}{subsubsection.11.10.2}
                                                    [4])
 \tf@toc=\write4
 \openout4 = `jsnote.toc'.
@@ -1703,7 +1703,7 @@ Overfull \hbox (15.42601pt too wide) in paragraph at lines 1237--1237
 e}></select>[] 
  []
 
-<./childUpdateParentsState.png, id=1033, 665.48625pt x 391.4625pt>
+<./childUpdateParentsState.png, id=1038, 665.48625pt x 391.4625pt>
 File: ./childUpdateParentsState.png Graphic file (type png)
 
 <use ./childUpdateParentsState.png>
@@ -1715,7 +1715,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1243 
-        [39] <./pics/styleOnComponent.png, id=1051, 536.60475pt x 122.859pt>
+        [39] <./pics/styleOnComponent.png, id=1056, 536.60475pt x 122.859pt>
 File: ./pics/styleOnComponent.png Graphic file (type png)
 
 <use ./pics/styleOnComponent.png>
@@ -1817,31 +1817,42 @@ tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1748 \begin{verbatim}
-                        [54]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.}) has been already used, duplicate ignored
+                        [54]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1775.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1775.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1775.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1797 
-        [55]
-Overfull \hbox (371.10545pt too wide) in paragraph at lines 1824--1824
+l.1806 
+        [55]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1845 \begin{verbatim}
+                        [56]
+Overfull \hbox (371.10545pt too wide) in paragraph at lines 1849--1849
  []  \OT1/cmtt/m/n/14.4 <link href="https://fonts.googleapis.com/css?family=Dro
 id+Serif|Playfair+Display" type="text/css" rel="stylesheet">[] 
+ []
+
+
+Overfull \hbox (15.42601pt too wide) in paragraph at lines 1872--1872
+ []\OT1/cmtt/m/n/14.4 @media only screen and (min-width: 768px) and (max-width:
+ 1024px) and[] 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1839 \item R
-              ather than set breakpoints based on specific devices (too many...
-[56]
-Overfull \hbox (15.42601pt too wide) in paragraph at lines 1847--1847
- []\OT1/cmtt/m/n/14.4 @media only screen and (min-width: 768px) and (max-width:
- 1024px) and[] 
- []
-
-
-Overfull \hbox (26.59866pt too wide) in paragraph at lines 1864--1865
+l.1880 
+        [57]
+Overfull \hbox (26.59866pt too wide) in paragraph at lines 1889--1890
 []\OT1/cmr/m/n/14.4 Difference in text wrap-ing be-tween [][]\OT1/cmtt/m/n/14.4
  display: inline-block; []\OT1/cmr/m/n/14.4 and [][]\OT1/cmtt/m/n/14.4 display:
  inline;
@@ -1851,34 +1862,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1870 
-        [57]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 193
-6.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 1936.
+l.1961 \end{verbatim}
+                      [58]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 196
+1.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 1961.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 1936.
+(Font)              for symbol `textperiodcentered' on input line 1961.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1936 \end{verbatim}
-                      [58]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1936 \end{verbatim}
+l.1961 \end{verbatim}
                       [59]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1969 \end{verbatim}
-                      [60]
-Overfull \hbox (6.20552pt too wide) in paragraph at lines 1974--1976
+l.1976 
+        [60]
+Overfull \hbox (6.20552pt too wide) in paragraph at lines 1999--2001
 []\OT1/cmr/m/n/14.4 Percentages are of-ten used to size box-model val-ues, like
  width and height, padding,
  []
@@ -1887,32 +1893,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1989 \end{enumerate}
-                       [61]pdfTeX warning (ext4): destination with the same ide
-ntifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2021 \item T
-              he property \verb|grid-template| can replace the previous two ...
-[62]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2049 
-        [63]pdfTeX warning (ext4): destination with the same identifier (name{p
+l.2003 
+        [61]pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2076 \end{verbatim}
-                      [64]
-Overfull \hbox (40.86153pt too wide) in paragraph at lines 2083--2084
+l.2041 \end{verbatim}
+                      [62]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 F
+        inally, the second parameter of repeat() can have multiple values.\\
+[63]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2091 
+        [64]
+Overfull \hbox (40.86153pt too wide) in paragraph at lines 2108--2109
 []\OT1/cmr/m/n/14.4 We can use the prop-erty [][]\OT1/cmtt/m/n/14.4 grid-row []
 \OT1/cmr/m/n/14.4 as short-hand for [][]\OT1/cmtt/m/n/14.4 grid-row-start []\OT
 1/cmr/m/n/14.4 and [][]\OT1/cmtt/m/n/14.4 grid-row-end[]\OT1/cmr/m/n/14.4 .
  []
 
-
-Overfull \hbox (49.13412pt too wide) in paragraph at lines 2096--2097
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2114 \end{verbatim}
+                      [65]
+Overfull \hbox (49.13412pt too wide) in paragraph at lines 2121--2122
 \OT1/cmr/m/n/14.4 This code should look sim-i-lar to the way [][]\OT1/cmtt/m/n/
 14.4 grid-template []\OT1/cmr/m/n/14.4 is short-hand for [][]\OT1/cmtt/m/n/14.4
  grid-template-rows
@@ -1922,22 +1933,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2101 \begin{verbatim}
-                        [65]
-Overfull \hbox (18.31291pt too wide) in paragraph at lines 2144--2145
+l.2154 \begin{verbatim}
+                        [66]
+Overfull \hbox (18.31291pt too wide) in paragraph at lines 2169--2170
 \OT1/cmr/m/n/14.4 to use as val-ues in the [][]\OT1/cmtt/m/n/14.4 grid-row-star
 t[]\OT1/cmr/m/n/14.4 , [][]\OT1/cmtt/m/n/14.4 grid-row-end[]\OT1/cmr/m/n/14.4 ,
  [][]\OT1/cmtt/m/n/14.4 grid-col-start[]\OT1/cmr/m/n/14.4 , [][]\OT1/cmtt/m/n/1
 4.4 grid-col-end[]\OT1/cmr/m/n/14.4 ,
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2145 
-        [66]
-Overfull \hbox (54.90674pt too wide) in paragraph at lines 2148--2149
+
+Overfull \hbox (54.90674pt too wide) in paragraph at lines 2173--2174
 [][][]\OT1/cmtt/m/n/14.4 align-items[]\C70/rm/m/n/14.4/4e : À H ^^M \C70/rm/m/n
 /14.4/57 (\OT1/cmr/m/n/14.4 item\C70/rm/m/n/14.4/91 Ì \C70/rm/m/n/14.4/97 b \C7
 0/rm/m/n/14.4/58 ð \C70/rm/m/n/14.4/66 ^^N|\C70/rm/m/n/14.4/ff ^^L| \C70/rm/m/n
@@ -1948,13 +1954,18 @@ ntent
  []
 
 
-Overfull \hbox (8.01602pt too wide) in paragraph at lines 2155--2156
+Overfull \hbox (8.01602pt too wide) in paragraph at lines 2180--2181
 [][][]\OT1/cmtt/m/n/14.4 <figcaption><p>The <em>Cosmos</em> is all there is!</p
 ></figcaption>
  []
 
-
-Overfull \hbox (171.03577pt too wide) in paragraph at lines 2162--2164
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2181 \end{enumerate}
+                       [67]
+Overfull \hbox (171.03577pt too wide) in paragraph at lines 2187--2189
 [][]\OT1/cmtt/m/n/14.4 "start-production": "SET NODE_ENV=production&&webpack-de
 v-server --mode production --open" 
  []
@@ -1963,16 +1974,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2179 \item n
-              vm: node version manager, to manage multiple node versions on ...
-[67]
-Overfull \hbox (0.60603pt too wide) in paragraph at lines 2218--2218
+l.2243 \end{verbatim}
+                      [68]
+Overfull \hbox (0.60603pt too wide) in paragraph at lines 2243--2243
  []  \OT1/cmtt/m/n/14.4 <div id="div1">The text above has been created dynamica
 lly.</div>[] 
  []
 
 
-Overfull \hbox (22.836pt too wide) in paragraph at lines 2218--2218
+Overfull \hbox (22.836pt too wide) in paragraph at lines 2243--2243
  []  \OT1/cmtt/m/n/14.4 var newContent = document.createTextNode("Hi there and 
 greetings!");[] 
  []
@@ -1981,41 +1991,41 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2218 \end{verbatim}
-                      [68]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2259 \end{itemize}
-                     [69]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2281.
+l.2248 \end{enumerate}
+                       [69]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2306.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2281 \end{document}
-                      [70]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2281.
+l.2306 \end{document}
+                      [70]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2306 \end{document}
+                      [71]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2306.
  (./jsnote.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2281.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2306.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2306.
 
 Package rerunfilecheck Info: File `jsnote.out' has not changed.
-(rerunfilecheck)             Checksum: E9AEBD23BB2892299E90CB98A865BD84;18811.
+(rerunfilecheck)             Checksum: 136071195E8BAD48A697C763EE1B4F65;19009.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2281.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2306.
  ) 
 Here is how much of TeX's memory you used:
- 22040 strings out of 492995
- 370135 string characters out of 6136403
+ 22109 strings out of 492995
+ 371029 string characters out of 6136403
  486043 words of memory out of 5000000
- 24761 multiletter control sequences out of 15000+600000
- 45602 words of font info for 169 fonts, out of 8000000 for 9000
+ 24811 multiletter control sequences out of 15000+600000
+ 50200 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,53p,10435b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,53p,10435b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts
 /simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WI
 NDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang.ttf><c:/WINDOWS/fonts/simfang
@@ -2072,10 +2082,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt12.pfb>
-Output written on jsnote.pdf (70 pages, 787559 bytes).
+Output written on jsnote.pdf (71 pages, 791702 bytes).
 PDF statistics:
- 1774 PDF objects out of 2073 (max. 8388607)
- 1471 compressed objects within 15 object streams
- 313 named destinations out of 1000 (max. 500000)
- 1295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1786 PDF objects out of 2073 (max. 8388607)
+ 1482 compressed objects within 15 object streams
+ 318 named destinations out of 1000 (max. 500000)
+ 1303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
