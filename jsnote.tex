@@ -1452,6 +1452,20 @@ You \textbf{shouldn't} put a semicolon after a closing curly bracket \verb|}|. T
 \subsection{\href{https://www.cnblogs.com/wangyunhui/p/7511615.html}{js扩展运算符(spread)是三个点(...)}}
 作用：将一个数组转为用逗号分隔的参数序列
 
+\subsection{array}
+\subsubsection{Array-Like Objects}
+Some objects in JavaScript look like an array, but they aren't one. That usually means that they have indexed access and a length property, but none of the array methods. Examples include the special variable arguments, DOM node lists, and strings.
+
+The (special variable) \verb|arguments| inside a function is an example of an `array-like object'
+\begin{verbatim}
+function list() {
+  return Array.prototype.slice.call(arguments);
+}
+
+var list1 = list(1, 2, 3); // [1, 2, 3]
+\end{verbatim}
+
+
 \subsection{object}
 \begin{enumerate}
 \item There are only seven fundamental data types in JavaScript, and six of those are the primitive data types: \verb|string, number, boolean, null, undefined|, and \verb|symbol|. With the seventh type, \verb|objects|, we open our code to more complex possibilities
