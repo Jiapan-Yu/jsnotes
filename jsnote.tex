@@ -1138,6 +1138,15 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \end{enumerate}
 
+\subsection{JSX Spread Attributes}
+The specification order is important. Later attributes override previous ones.
+\begin{verbatim}
+var props = { foo: 'default' };
+var component = <Component {...props} foo={'override'} />;
+console.log(component.props.foo); // 'override'
+\end{verbatim}
+
+
 \subsection{this.setState}
 \href{https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-access-state-in-setstate.md}{Prevent using this.state within a this.setState (react/no-access-state-in-setstate)}
 
