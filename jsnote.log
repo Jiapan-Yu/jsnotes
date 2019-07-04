@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.4.9)  28 JUN 2019 09:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.4.9)  3 JUL 2019 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2016,9 +2016,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 2329.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2329.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2329.
 
-Package rerunfilecheck Info: File `jsnote.out' has not changed.
-(rerunfilecheck)             Checksum: FBB94521D7BB23CC2F32CB3184D44063;19434.
 
+
+Package rerunfilecheck Warning: File `jsnote.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `jsnote.out':
+(rerunfilecheck)             Before: FBB94521D7BB23CC2F32CB3184D44063;19434
+(rerunfilecheck)             After:  B7CA1302FA9F96602EA6F58E3C08A866;19627.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2088,10 +2094,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt12.pfb>
-Output written on jsnote.pdf (71 pages, 793338 bytes).
+Output written on jsnote.pdf (71 pages, 793468 bytes).
 PDF statistics:
- 1802 PDF objects out of 2073 (max. 8388607)
- 1498 compressed objects within 15 object streams
+ 1803 PDF objects out of 2073 (max. 8388607)
+ 1499 compressed objects within 15 object streams
  321 named destinations out of 1000 (max. 500000)
  1327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

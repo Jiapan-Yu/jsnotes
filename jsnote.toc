@@ -85,7 +85,7 @@
 \contentsline {subsection}{\numberline {10.2}Differences between expressions, declarations and statements}{}{subsection.10.2}
 \contentsline {subsection}{\numberline {10.3}\href {https://www.cnblogs.com/wangyunhui/p/7511615.html}{js扩展运算符(spread)是三个点(...)}}{}{subsection.10.3}
 \contentsline {subsection}{\numberline {10.4}array}{}{subsection.10.4}
-\contentsline {subsubsection}{\numberline {10.4.1}Array-Like Objects}{}{subsubsection.10.4.1}
+\contentsline {subsubsection}{\numberline {10.4.1}Array-Like Objects \href {https://dzone.com/articles/js-array-from-an-array-like-object}{JS Array From an Array-Like Object}}{}{subsubsection.10.4.1}
 \contentsline {subsection}{\numberline {10.5}object}{}{subsection.10.5}
 \contentsline {subsubsection}{\numberline {10.5.1}Looping Through Objects}{}{subsubsection.10.5.1}
 \contentsline {subsection}{\numberline {10.6}class}{}{subsection.10.6}
