@@ -318,6 +318,12 @@ You can review the differences with a: \verb|git log HEAD..origin/master| before
 \item How can I see which git branches are tracking which remote / upstream branch?\\
 \verb|git branch -vv   # doubly verbose!|
 
+\item \href{https://stackoverflow.com/questions/89332/how-to-recover-a-dropped-stash-in-git}{How to recover a dropped stash in Git?} (in git bash)
+\begin{verbatim}
+gitk --all $( git fsck --no-reflog | awk '/dangling commit/ {print $3}' )
+\end{verbatim}
+
+
 \end{enumerate}
 
 \subsection{git rebase}
@@ -1559,6 +1565,12 @@ Object class methods such as \verb|Object.assign()|, \verb|Object.entries()|, an
 \subsubsection{Looping Through Objects}
 JavaScript has given us alternative solution for iterating through objects with the \verb|for...in| syntax
 
+If \verb|tickets| is an \textit{empty} object, there will be no console log
+\begin{verbatim}
+for (let key in tickets) {
+  console.log('123');
+}
+\end{verbatim}
 
 
 
