@@ -97,6 +97,7 @@
 \contentsline {subsubsection}{\numberline {10.10.2}The await Operator}{}{subsubsection.10.10.2}
 \contentsline {subsection}{\numberline {10.11}axios - npm}{}{subsection.10.11}
 \contentsline {subsection}{\numberline {10.12}beforeunload, unload, load}{}{subsection.10.12}
+\contentsline {subsection}{\numberline {10.13}CORS}{}{subsection.10.13}
 \contentsline {section}{\numberline {11}CSS}{}{section.11}
 \contentsline {subsection}{\numberline {11.1}Caveats}{}{subsection.11.1}
 \contentsline {subsection}{\numberline {11.2}CSS Typography}{}{subsection.11.2}

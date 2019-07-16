@@ -1426,6 +1426,8 @@ We learned how to dynamically add inline styles using \verb|v-bind:style| with a
 
 \subsection{Notes}
 \begin{enumerate}
+\item the error stops execution in a program
+
 \item session survives over page reloads and restores
 
 \item 当后台服务重启后，可在请求统一响应拦截的地方根据TypeError来跳到登录页
@@ -1830,6 +1832,10 @@ fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
 \item 不管开多少个浏览器，只要有一个账号登录则其他浏览器提示不能登录或者前一个登录无效 (同一电脑上面的不同浏览器或者不同电脑上面的浏览器)
 \end{enumerate}
 
+\subsection{CORS}
+OPTIONS is an HTTP/1.1 method that is used to determine further information from servers, and is a safe method, meaning that it can't be used to change the resource.
+
+Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the invocation with Cookies, namely the withCredentials boolean value.
 
 
 \section{CSS}
@@ -1930,70 +1936,7 @@ Difference in text wraping between \verb|display: inline-block;| and \verb|displ
 
 \item The overflow property is set on a parent element to instruct a web browser how to render child elements. For example, if a div's overflow property is set to \verb|scroll|, all children of this div will display overflowing content with a scroll bar.
 
-\item Margin collapse: Unlike horizontal margins, vertical margins do not add. Instead, the larger of the two vertical margins sets the distance between adjacent elements (apply to nested elements as well, maybe there's no nested elements at all {\color{red} I think there is})
-
-ylx-wx-beta
-\begin{verbatim}
-index.js
-
-import React from 'react'
-import './index.less'
-import SearchHeader from '../../../components/SearchHeader'
-
-export default class TicketSearch extends React.Component {
-
-	search = (e) => {
-		console.log(e.target)
-	}
-	render() {
-		return (
-			<div className="hot-search-wrap">
-				<SearchHeader showCity={false} onChange={this.search} />
-				<div className="content-wrap">
-					<div className="head">热门搜索</div>
-					<div className="locations">
-						<button type="button">武汉花世界·花呆萌乐园</button>
-						<button type="button">东湖游船</button>
-						<button type="button">光谷步行街</button>
-						<button type="button">户部巷</button>
-						<button type="button">武汉胜天生态农庄</button>
-						<button type="button">姚家山风景区</button>
-						<button type="button">武汉东湖风景区</button>
-						<button type="button">武汉东湖磨山景区</button>
-					</div>
-
-					<div className="history">
-						<div className="head">历史搜索</div>
-					</div>
-				</div>
-			</div>
-		)
-	}
-}
-
-
-index.less
-
-@import '../../../utils/color.less';
-
-.hot-search-wrap {
-  .content-wrap {
-    margin-top: 70px;
-    padding: 0 15px;
-    .head {
-      margin: 15px 0;
-    }
-    button {
-      display: inline-block;
-      padding: 6px;
-      border-radius: 5px;
-      margin-right: 10px;
-      margin-bottom: 6px;
-      border: 1px solid blue;
-    }
-  }
-}
-\end{verbatim}
+\item Margin collapse: Unlike horizontal margins, vertical margins do not add. Instead, the larger of the two vertical margins sets the distance between adjacent elements (see CSS Mastery, 3rd Edition, Chapter 3, margin collapsing subsection)
 
 \item The \verb|padding| property is often used to expand the background color and make content look less cramped
 
