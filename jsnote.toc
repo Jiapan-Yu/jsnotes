@@ -106,21 +106,22 @@
 \contentsline {subsection}{\numberline {11.3}Media Queries}{}{subsection.11.3}
 \contentsline {subsection}{\numberline {11.4}CSS Display and Positioning}{}{subsection.11.4}
 \contentsline {subsection}{\numberline {11.5}The box model}{}{subsection.11.5}
-\contentsline {subsection}{\numberline {11.6}Non-Inherited properties}{}{subsection.11.6}
-\contentsline {subsection}{\numberline {11.7}Learn Responsive Design}{}{subsection.11.7}
-\contentsline {subsubsection}{\numberline {11.7.1}Percentages: Padding \& Margin}{}{subsubsection.11.7.1}
-\contentsline {subsection}{\numberline {11.8}display property}{}{subsection.11.8}
-\contentsline {subsection}{\numberline {11.9}Grid layout}{}{subsection.11.9}
-\contentsline {subsubsection}{\numberline {11.9.1}Fraction}{}{subsubsection.11.9.1}
-\contentsline {subsubsection}{\numberline {11.9.2}Repeat}{}{subsubsection.11.9.2}
-\contentsline {subsubsection}{\numberline {11.9.3}minmax}{}{subsubsection.11.9.3}
-\contentsline {subsubsection}{\numberline {11.9.4}Grid gap}{}{subsubsection.11.9.4}
-\contentsline {subsubsection}{\numberline {11.9.5}Multiple Row and Column Items}{}{subsubsection.11.9.5}
-\contentsline {subsubsection}{\numberline {11.9.6}Grid Area}{}{subsubsection.11.9.6}
-\contentsline {subsection}{\numberline {11.10}Advanced CSS Grid}{}{subsection.11.10}
-\contentsline {subsubsection}{\numberline {11.10.1}Grid Template Areas}{}{subsubsection.11.10.1}
-\contentsline {subsubsection}{\numberline {11.10.2}Overlapping Elements}{}{subsubsection.11.10.2}
-\contentsline {subsection}{\numberline {11.11}p tag}{}{subsection.11.11}
+\contentsline {subsection}{\numberline {11.6}containing blocks}{}{subsection.11.6}
+\contentsline {subsection}{\numberline {11.7}Non-Inherited properties}{}{subsection.11.7}
+\contentsline {subsection}{\numberline {11.8}Learn Responsive Design}{}{subsection.11.8}
+\contentsline {subsubsection}{\numberline {11.8.1}Percentages: Padding \& Margin}{}{subsubsection.11.8.1}
+\contentsline {subsection}{\numberline {11.9}display property}{}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.10}Grid layout}{}{subsection.11.10}
+\contentsline {subsubsection}{\numberline {11.10.1}Fraction}{}{subsubsection.11.10.1}
+\contentsline {subsubsection}{\numberline {11.10.2}Repeat}{}{subsubsection.11.10.2}
+\contentsline {subsubsection}{\numberline {11.10.3}minmax}{}{subsubsection.11.10.3}
+\contentsline {subsubsection}{\numberline {11.10.4}Grid gap}{}{subsubsection.11.10.4}
+\contentsline {subsubsection}{\numberline {11.10.5}Multiple Row and Column Items}{}{subsubsection.11.10.5}
+\contentsline {subsubsection}{\numberline {11.10.6}Grid Area}{}{subsubsection.11.10.6}
+\contentsline {subsection}{\numberline {11.11}Advanced CSS Grid}{}{subsection.11.11}
+\contentsline {subsubsection}{\numberline {11.11.1}Grid Template Areas}{}{subsubsection.11.11.1}
+\contentsline {subsubsection}{\numberline {11.11.2}Overlapping Elements}{}{subsubsection.11.11.2}
+\contentsline {subsection}{\numberline {11.12}p tag}{}{subsection.11.12}
 \contentsline {section}{\numberline {12}Node}{}{section.12}
 \contentsline {section}{\numberline {13}npm (or yarn add)}{}{section.13}
 \contentsline {section}{\numberline {14}DOM}{}{section.14}

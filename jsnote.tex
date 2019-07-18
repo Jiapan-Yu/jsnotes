@@ -1506,6 +1506,8 @@ delete spaceship['Fuel Type'];
 
 \item \verb|typeof()|: in JavaScript, the data type of null is an object. The return value of \verb|typeof()| can be "string" "number" "boolean" "undefined" "object" "function"
 
+\verb|typeof [1, 2, 4]| is 'object'; in chrome, the \_\_proto\_\_ of an array is an array rather than an object
+
 \item JavaScript Types are Dynamic:
 \begin{verbatim}
 var x;           // Now x is undefined
@@ -1944,6 +1946,12 @@ Difference in text wraping between \verb|display: inline-block;| and \verb|displ
 
 \end{itemize}
 
+\subsection{containing blocks}
+The process for identifying the containing block depends entirely on the value of the element's \verb|position| property, see \href{https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block#Identifying_the_containing_block}{Identifying the containing block}, also see \href{https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements}{Block-level elements}
+
+A block container could be block, inline-block or list-item element, the containing block could be a block container or which establishes a formatting context
+
+block container, block-level elements, inline elements, containing block, formatting context, viewport
 
 \subsection{Non-Inherited properties}
 To name but a few, non-inherited properties are:\\ \verb|width, height, padding, border, margin, position, background|, etc.
