@@ -86,7 +86,8 @@
 \contentsline {subsection}{\numberline {11.2}Differences between expressions, declarations and statements}{}{subsection.11.2}
 \contentsline {subsection}{\numberline {11.3}\href {https://www.cnblogs.com/wangyunhui/p/7511615.html}{js扩展运算符(spread)是三个点(...)}}{}{subsection.11.3}
 \contentsline {subsection}{\numberline {11.4}array}{}{subsection.11.4}
-\contentsline {subsubsection}{\numberline {11.4.1}Array-Like Objects \href {https://dzone.com/articles/js-array-from-an-array-like-object}{JS Array From an Array-Like Object}}{}{subsubsection.11.4.1}
+\contentsline {subsubsection}{\numberline {11.4.1}Arrays with let and const (from codecademy)}{}{subsubsection.11.4.1}
+\contentsline {subsubsection}{\numberline {11.4.2}Array-Like Objects \href {https://dzone.com/articles/js-array-from-an-array-like-object}{JS Array From an Array-Like Object}}{}{subsubsection.11.4.2}
 \contentsline {subsection}{\numberline {11.5}object}{}{subsection.11.5}
 \contentsline {subsubsection}{\numberline {11.5.1}Looping Through Objects}{}{subsubsection.11.5.1}
 \contentsline {subsection}{\numberline {11.6}class}{}{subsection.11.6}

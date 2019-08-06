@@ -62,6 +62,8 @@ __proto__: Array(0) [, …]
 \section{Caveats}
 \begin{enumerate}
 
+\item 当在手机微信端访问项目时，如果打不开页面可以试着关闭电脑防火墙试一下
+
 \item 前端form里面的数据类型为字符串，但是后台spring会自动进行对应类型的转换
 
 \item 改完数据库后，重新启动后台或者前台登出登录一下
@@ -1474,6 +1476,10 @@ You \textbf{shouldn't} put a semicolon after a closing curly bracket \verb|}|. T
 作用：将一个数组转为用逗号分隔的参数序列
 
 \subsection{array}
+
+\subsubsection{Arrays with let and const (from codecademy)}
+Variables declared with the \verb|const| keyword cannot be reassigned. However, elements in an array declared with \verb|const| remain mutable. Meaning that we can change the contents of a \verb|const| array, but cannot reassign a new array or a different value.
+
 \subsubsection{Array-Like Objects \href{https://dzone.com/articles/js-array-from-an-array-like-object}{JS Array From an Array-Like Object}}
 Some objects in JavaScript look like an array, but they aren't one. That usually means that they have indexed access and a length property, but none of the array methods. Examples include the special variable arguments, DOM node lists, and strings.
 
@@ -1491,7 +1497,7 @@ var list1 = list(1, 2, 3); // [1, 2, 3]
 \begin{enumerate}
 \item There are only seven fundamental data types in JavaScript, and six of those are the primitive data types: \verb|string, number, boolean, null, undefined|, and \verb|symbol|. With the seventh type, \verb|objects|, we open our code to more complex possibilities
 
-\item Objects are \textit{mutable} meaning we can update them after we create them!
+\item Objects are \textit{mutable} meaning we can update them after we create them! We can change their properties even when they're declared with const
 
 \item You can delete a property from an object with the \verb|delete| operator
 \begin{verbatim}
