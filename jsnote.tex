@@ -1414,20 +1414,6 @@ The object at the beginning of the array will still conditionally add the \verb|
 We learned how to dynamically add inline styles using \verb|v-bind:style| with a style object or an array of style objects. We then learned how to dynamically add classes using \verb|v-bind:class| with a class object or an array of class objects and class name strings.
 
 
-
-\section{wechat mini program}
-\subsection{框架}
-\begin{enumerate}
-
-\item 开发者需要做的只是将页面的数据、方法、生命周期函数注册到 框架 中
-
-\item 框架的核心是一个响应的数据绑定系统
-\item 整个小程序框架系统分为两部分：视图层（View）和逻辑层（App Service）
-\end{enumerate}
-
-\vspace{2in}
-小程序~服务号~订阅号~企业号
-
 \section{JavaScript}
 
 \subsection{Notes}
@@ -2175,6 +2161,36 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 \begin{enumerate}
 \item \verb|<figcaption><p>The <em>Cosmos</em> is all there is!</p></figcaption>| if you don't add \verb|p| tag then there will be no space before or after \verb|Cosmos|
 \end{enumerate}
+
+
+\section{wechat mini program}
+\subsection{框架}
+\begin{enumerate}
+
+\item 开发者需要做的只是将页面的数据、方法、生命周期函数注册到 框架 中
+
+\item 框架的核心是一个响应的数据绑定系统
+\item 整个小程序框架系统分为两部分：视图层（View）和逻辑层（App Service）
+\end{enumerate}
+
+\vspace{2in}
+小程序~服务号~订阅号~企业号
+
+
+\section{React Native}
+\begin{itemize}
+\item react-devtools 用npm和yarn都安装失败了
+
+\item View标签 (container)，不能直接容纳文本，以下会app crash
+
+\verb|<View>票速选择</View>|
+
+React Native styles all views as if box-sizing: \verb|border-box| is set
+
+\item View默认\verb|display: flex;|，Text： everything inside is no longer using the flexbox layout but using text layout.
+
+\item 
+\end{itemize}
 
 
 \section{Node}

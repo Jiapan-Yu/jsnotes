@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  2 AUG 2019 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  7 AUG 2019 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1272,13 +1272,13 @@ stination with the same identifier (name{page.}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.85 ...numberline {11.1}Notes}{}{subsection.11.1}
+l.86 ...numberline {10.4}array}{}{subsection.10.4}
                                                    [3]pdfTeX warning (ext4): de
 stination with the same identifier (name{page.}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.117 ...2.10.1}Fraction}{}{subsubsection.12.10.1}
+l.118 ...1.10.4}Grid gap}{}{subsubsection.11.10.4}
                                                    [4])
 \tf@toc=\write4
 \openout4 = `jsnote.toc'.
@@ -1323,8 +1323,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \item �
-            ��create-react-app里面安装antd后，引入使用antd会报�...
+l.71 \item \verb
+                |<link href="main.css" type="text/css" rel="stylesheet" />|\\
 [6]
 Overfull \hbox (33.2744pt too wide) in paragraph at lines 74--75
 []\C70/rm/m/n/14.4/57 (\OT1/cmr/m/n/14.4 create-react-app\C70/rm/m/n/14.4/91 � 
@@ -1716,7 +1716,7 @@ Overfull \hbox (15.42601pt too wide) in paragraph at lines 1254--1254
 e}></select>[] 
  []
 
-<./childUpdateParentsState.png, id=1081, 665.48625pt x 391.4625pt>
+<./childUpdateParentsState.png, id=1086, 665.48625pt x 391.4625pt>
 File: ./childUpdateParentsState.png Graphic file (type png)
 
 <use ./childUpdateParentsState.png>
@@ -1729,7 +1729,7 @@ een already used, duplicate ignored
                    \relax 
 l.1260 
         [40 <./childUpdateParentsState.png>]
-<./pics/styleOnComponent.png, id=1099, 536.60475pt x 122.859pt>
+<./pics/styleOnComponent.png, id=1104, 536.60475pt x 122.859pt>
 File: ./pics/styleOnComponent.png Graphic file (type png)
 
 <use ./pics/styleOnComponent.png>
@@ -1771,45 +1771,42 @@ l.1410 \end{verbatim}
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1424 \item �
-              ��架的核心是一个响应的数据绑定系统 [45]pdfTeX war
-ning (ext4): destination with the same identifier (name{page.}) has been alread
-y used, duplicate ignored
+l.1423 \item s
+              ession survives over page reloads and restores [45]pdfTeX warning
+ (ext4): destination with the same identifier (name{page.}) has been already us
+ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.1456 \begin{verbatim}
-                        [46]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1485 
-        [47]pdfTeX warning (ext4): destination with the same identifier (name{p
+l.1459 
+        [46]pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1520 
-        [48]pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1564 \end{verbatim}
-                      [49]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1597 \begin{verbatim}
-                        [50]pdfTeX warning (ext4): destination with the same id
+l.1489 \begin{verbatim}
+                        [47]pdfTeX warning (ext4): destination with the same id
 entifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1624 \end{enumerate}
-                       [51]pdfTeX warning (ext4): destination with the same ide
-ntifier (name{page.}) has been already used, duplicate ignored
+l.1528 \begin{verbatim}
+                        [48]pdfTeX warning (ext4): destination with the same id
+entifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1664 \end{verbatim}
-                      [52]
-Overfull \hbox (5.02504pt too wide) in paragraph at lines 1676--1677
+l.1568 I
+        f \verb|tickets| is an \textit{empty} object, there will be no conso...
+[49]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1603 \item P
+              romises are a new type of JavaScript object that represent dat...
+[50]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1639 \end{verbatim}
+                      [51]
+Overfull \hbox (5.02504pt too wide) in paragraph at lines 1662--1663
 []\OT1/cmr/m/n/14.4 Correct! [][]\OT1/cmtt/m/n/14.4 .catch(onReject) []\OT1/cmr
 /m/n/14.4 is syn-tac-tic sugar for [][]\OT1/cmtt/m/n/14.4 .then(undefined, onRe
 ject)[]\OT1/cmr/m/n/14.4 . 
@@ -1819,49 +1816,47 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1697 \begin{verbatim}
-                        [53]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.}) has been already used, duplicate ignored
+l.1675 
+        [52]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1733 T
-        he \verb|await| keyword can only be used inside an \verb|async| func...
-[54]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1766 \end{verbatim}
-                      [55]pdfTeX warning (ext4): destination with the same iden
+l.1711 \end{verbatim}
+                      [53]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1806 \begin{verbatim}
-                        [56]
+l.1752 \end{verbatim}
+                      [54]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1780 \end{verbatim}
+                      [55]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1824.
+(Font)              <12> on input line 1810.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1824.
+(Font)              <8> on input line 1810.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1824.
+(Font)              <6> on input line 1810.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1858 \item {\color{red}\verb
-                              |box-sizing: border-box;|} 则width=border wid...
-[57]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
+l.1835 
+        [56]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1898 \begin{verbatim}
-                        [58]
-Overfull \hbox (371.10545pt too wide) in paragraph at lines 1902--1902
+l.1870 \end{verbatim}
+                      [57]
+Overfull \hbox (371.10545pt too wide) in paragraph at lines 1888--1888
  []  \OT1/cmtt/m/n/14.4 <link href="https://fonts.googleapis.com/css?family=Dro
 id+Serif|Playfair+Display" type="text/css" rel="stylesheet">[] 
  []
 
 
-Overfull \hbox (15.42601pt too wide) in paragraph at lines 1925--1925
+Overfull \hbox (15.42601pt too wide) in paragraph at lines 1911--1911
  []\OT1/cmtt/m/n/14.4 @media only screen and (min-width: 768px) and (max-width:
  1024px) and[] 
  []
@@ -1870,9 +1865,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1933 
-        [59]
-Overfull \hbox (26.59866pt too wide) in paragraph at lines 1942--1943
+l.1911 \end{verbatim}
+                      [58]
+Overfull \hbox (26.59866pt too wide) in paragraph at lines 1928--1929
 []\OT1/cmr/m/n/14.4 Difference in text wrap-ing be-tween [][]\OT1/cmtt/m/n/14.4
  display: inline-block; []\OT1/cmr/m/n/14.4 and [][]\OT1/cmtt/m/n/14.4 display:
  inline;
@@ -1882,15 +1877,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1964 b
-        lock container, block-level elements, inline elements, containing bl...
-[60]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
+l.1939 \item T
+              he \verb|padding| property is often used to expand the backgro...
+[59]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1992 
-        [61]
-Overfull \hbox (6.20552pt too wide) in paragraph at lines 1995--1997
+l.1964 \begin{verbatim}
+                        [60]
+Overfull \hbox (6.20552pt too wide) in paragraph at lines 1981--1983
 []\OT1/cmr/m/n/14.4 Percentages are of-ten used to size box-model val-ues, like
  width and height, padding,
  []
@@ -1899,32 +1894,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2017 
+l.1994 \end{verbatim}
+                      [61]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2025 
         [62]pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2052 
-        [63]pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2080 \end{verbatim}
-                      [64]pdfTeX warning (ext4): destination with the same iden
+l.2053 \end{verbatim}
+                      [63]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2100 R
-        ow grid lines and column grid lines start at 1 and end at a value th...
-[65]
-Overfull \hbox (40.86153pt too wide) in paragraph at lines 2104--2105
+l.2075 
+        [64]
+Overfull \hbox (40.86153pt too wide) in paragraph at lines 2090--2091
 []\OT1/cmr/m/n/14.4 We can use the prop-erty [][]\OT1/cmtt/m/n/14.4 grid-row []
 \OT1/cmr/m/n/14.4 as short-hand for [][]\OT1/cmtt/m/n/14.4 grid-row-start []\OT
 1/cmr/m/n/14.4 and [][]\OT1/cmtt/m/n/14.4 grid-row-end[]\OT1/cmr/m/n/14.4 .
  []
 
 
-Overfull \hbox (49.13412pt too wide) in paragraph at lines 2117--2118
+Overfull \hbox (49.13412pt too wide) in paragraph at lines 2103--2104
 \OT1/cmr/m/n/14.4 This code should look sim-i-lar to the way [][]\OT1/cmtt/m/n/
 14.4 grid-template []\OT1/cmr/m/n/14.4 is short-hand for [][]\OT1/cmtt/m/n/14.4
  grid-template-rows
@@ -1934,22 +1928,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2132 \end{verbatim}
+l.2104 
+        [65]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2140 \end{verbatim}
                       [66]
-Overfull \hbox (18.31291pt too wide) in paragraph at lines 2165--2166
+Overfull \hbox (18.31291pt too wide) in paragraph at lines 2151--2152
 \OT1/cmr/m/n/14.4 to use as val-ues in the [][]\OT1/cmtt/m/n/14.4 grid-row-star
 t[]\OT1/cmr/m/n/14.4 , [][]\OT1/cmtt/m/n/14.4 grid-row-end[]\OT1/cmr/m/n/14.4 ,
  [][]\OT1/cmtt/m/n/14.4 grid-col-start[]\OT1/cmr/m/n/14.4 , [][]\OT1/cmtt/m/n/1
 4.4 grid-col-end[]\OT1/cmr/m/n/14.4 ,
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2167 \subsubsection
-                     {Overlapping Elements} [67]
-Overfull \hbox (54.90674pt too wide) in paragraph at lines 2169--2170
+
+Overfull \hbox (54.90674pt too wide) in paragraph at lines 2155--2156
 [][][]\OT1/cmtt/m/n/14.4 align-items[]\C70/rm/m/n/14.4/4e : � H ^^M \C70/rm/m/n
 /14.4/57 (\OT1/cmr/m/n/14.4 item\C70/rm/m/n/14.4/91 � \C70/rm/m/n/14.4/97 b \C7
 0/rm/m/n/14.4/58 � \C70/rm/m/n/14.4/66 ^^N|\C70/rm/m/n/14.4/ff ^^L| \C70/rm/m/n
@@ -1960,13 +1954,27 @@ ntent
  []
 
 
-Overfull \hbox (8.01602pt too wide) in paragraph at lines 2176--2177
+Overfull \hbox (8.01602pt too wide) in paragraph at lines 2162--2163
 [][][]\OT1/cmtt/m/n/14.4 <figcaption><p>The <em>Cosmos</em> is all there is!</p
 ></figcaption>
  []
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2173 \item �
+              ��个小程序框架系统分为两部分：视图层（View�...
+[67]
+Overfull \hbox (4.35555pt too wide) in paragraph at lines 2190--2191
+[]\OT1/cmr/m/n/14.4 View\C70/rm/m/n/14.4/9e � \C70/rm/m/n/14.4/8b �[][]\OT1/cmt
+t/m/n/14.4 display: flex;|[]\C70/rm/m/n/14.4/ff ^^L| \OT1/cmr/m/n/14.4 Text|\C7
+0/rm/m/n/14.4/ff ^^Z|  \OT1/cmr/m/n/14.4 ev-ery-thing in-side is no longer us-i
+ng the flexbox
+ []
 
-Overfull \hbox (171.03577pt too wide) in paragraph at lines 2183--2185
+
+Overfull \hbox (171.03577pt too wide) in paragraph at lines 2199--2201
 [][]\OT1/cmtt/m/n/14.4 "start-production": "SET NODE_ENV=production&&webpack-de
 v-server --mode production --open" 
  []
@@ -1975,16 +1983,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2200 \item n
-              vm: node version manager, to manage multiple node versions on ...
-[68]
-Overfull \hbox (0.60603pt too wide) in paragraph at lines 2239--2239
+l.2212 \item U
+              seful command \verb|npm show create-react-app version|\\ [68]
+Overfull \hbox (0.60603pt too wide) in paragraph at lines 2255--2255
  []  \OT1/cmtt/m/n/14.4 <div id="div1">The text above has been created dynamica
 lly.</div>[] 
  []
 
 
-Overfull \hbox (22.836pt too wide) in paragraph at lines 2239--2239
+Overfull \hbox (22.836pt too wide) in paragraph at lines 2255--2255
  []  \OT1/cmtt/m/n/14.4 var newContent = document.createTextNode("Hi there and 
 greetings!");[] 
  []
@@ -1993,90 +2000,90 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2239 \end{verbatim}
+l.2255 \end{verbatim}
                       [69]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2280 \end{itemize}
-                     [70]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2302.
+l.2293 
+        [70]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2318.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2302 \end{document}
+l.2318 \end{document}
                       [71]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2318.
  (./jsnote.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2302.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2318.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2318.
 
 Package rerunfilecheck Info: File `jsnote.out' has not changed.
-(rerunfilecheck)             Checksum: F97CC22B439A3A6C66068D1981CBE576;20249.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2302.
+(rerunfilecheck)             Checksum: 4D86D65001767979A15297E5D71BB55E;20358.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2318.
  ) 
 Here is how much of TeX's memory you used:
- 22008 strings out of 492995
- 369571 string characters out of 6136403
+ 22022 strings out of 492995
+ 369762 string characters out of 6136403
  486046 words of memory out of 5000000
- 24740 multiletter control sequences out of 15000+600000
- 45070 words of font info for 166 fonts, out of 8000000 for 9000
+ 24751 multiletter control sequences out of 15000+600000
+ 45340 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,53p,10435b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/s
-imhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows
-/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:
-/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simfan
-g.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/f
+<c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/
+simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Window
+s/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c
+:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhe
+i.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/f
 onts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c
 :/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/sim
 fang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Window
 s/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf
-><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/s
-imhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows
-/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:
-/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun
-.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/font
-s/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wind
-ows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc>
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sim
-sun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/f
-onts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/W
-indows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.t
-tc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/
-simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Window
-s/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c
-:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsu
-n.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fon
-ts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Win
+><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/
+simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Window
+s/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c
+:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsu
+n.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fon
+ts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Win
 dows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc
 ><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/si
 msun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/
-fonts/simsun.ttc><c:/Windows/fonts/simfang.ttf><c:/Windows/fonts/simsun.ttc><c:
-/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun
-.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/font
-s/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Wind
-ows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc>
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sim
-sun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/f
-onts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/W
-indows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.t
-tc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/
-simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Window
-s/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c
+fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
+Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
+ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
+/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windo
+ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><
+c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sims
+un.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fo
+nts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wi
+ndows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.tt
+c><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
+imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows
+/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simfang.ttf><c
 :/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsu
-n.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><d:/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2017/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-t12.pfb>
-Output written on jsnote.pdf (71 pages, 748589 bytes).
+n.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fon
+ts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Win
+dows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf
+><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/si
+msun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/
+fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
+Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
+ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
+/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windo
+ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><
+c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sims
+un.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fo
+nts/simhei.ttf><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on jsnote.pdf (71 pages, 752682 bytes).
 PDF statistics:
- 1757 PDF objects out of 2073 (max. 8388607)
- 1472 compressed objects within 15 object streams
- 328 named destinations out of 1000 (max. 500000)
- 1359 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1766 PDF objects out of 2073 (max. 8388607)
+ 1480 compressed objects within 15 object streams
+ 329 named destinations out of 1000 (max. 500000)
+ 1367 words of extra memory for PDF output out of 10000 (max. 10000000)
 
