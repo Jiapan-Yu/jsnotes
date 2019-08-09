@@ -125,6 +125,8 @@
 \contentsline {section}{\numberline {12}wechat mini program}{}{section.12}
 \contentsline {subsection}{\numberline {12.1}框架}{}{subsection.12.1}
 \contentsline {section}{\numberline {13}React Native}{}{section.13}
+\contentsline {subsection}{\numberline {13.1}Style}{}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Height and Width}{}{subsection.13.2}
 \contentsline {section}{\numberline {14}Node}{}{section.14}
 \contentsline {section}{\numberline {15}npm (or yarn add)}{}{section.15}
 \contentsline {section}{\numberline {16}DOM}{}{section.16}

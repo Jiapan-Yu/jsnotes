@@ -2189,8 +2189,14 @@ React Native styles all views as if box-sizing: \verb|border-box| is set
 
 \item View默认\verb|display: flex;|，Text： everything inside is no longer using the flexbox layout but using text layout.
 
-\item 
+\item 查找文档的时候，注意版本号是否对应
 \end{itemize}
+
+\subsection{Style}
+The \verb|style| prop can be a plain old JavaScript object. That's the simplest and what we usually use for example code. You can also pass an array of styles - the last style in the array has precedence, so you can use this to inherit styles
+
+\subsection{Height and Width}
+All dimensions in React Native are unitless, and represent density-independent pixels
 
 
 \section{Node}
