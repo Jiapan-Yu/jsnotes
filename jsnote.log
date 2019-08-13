@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  9 AUG 2019 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2019.1.6)  13 AUG 2019 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1266,19 +1266,19 @@ nd DVIPDFMx (CTEX)
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 ...anced React Techniques}{}{subsection.6.11}
+l.55 ...lled component example}{}{subsection.6.10}
                                                    [2]pdfTeX warning (ext4): de
 stination with the same identifier (name{page.}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.86 ...numberline {10.4}array}{}{subsection.10.4}
+l.86 ...ead)是三个点(...)}}{}{subsection.10.3}
                                                    [3]pdfTeX warning (ext4): de
 stination with the same identifier (name{page.}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.118 ...1.10.4}Grid gap}{}{subsubsection.11.10.4}
+l.118 ...{11.10.3}minmax}{}{subsubsection.11.10.3}
                                                    [4])
 \tf@toc=\write4
 \openout4 = `jsnote.toc'.
@@ -1438,20 +1438,21 @@ ng (ext4): destination with the same identifier (name{page.}) has been already
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.388 \end{verbatim}
+l.393 \end{verbatim}
                      [15]
-Overfull \hbox (8.28128pt too wide) in paragraph at lines 388--388
-[]  \OT1/cmtt/m/n/14.4 "terminal.integrated.shell.windows": "C:\\Windows\\Syste
-m32\\cmd.exe",[] 
+Overfull \hbox (37.65598pt too wide) in paragraph at lines 393--393
+ []  \OT1/cmtt/m/n/14.4 "terminal.integrated.shell.windows": "C:\\Windows\\Syst
+em32\\cmd.exe",[] 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.414 \end{verbatim}
-                     [16]
-Overfull \hbox (35.49016pt too wide) in paragraph at lines 416--417
+l.405 \item W
+             hen you're ready to deploy to production, running \verb|npm run...
+[16]
+Overfull \hbox (35.49016pt too wide) in paragraph at lines 422--423
 []\C70/rm/m/n/14.4/9e � \C70/rm/m/n/14.4/8b � \C70/rm/m/n/14.4/62 @ \C70/rm/m/n
 /14.4/67 	 \C70/rm/m/n/14.4/91 M \C70/rm/m/n/14.4/7f n \C70/rm/m/n/14.4/66 / \C
 70/rm/m/n/14.4/96 � \C70/rm/m/n/14.4/85 � \C70/rm/m/n/14.4/8d w \C70/rm/m/n/14.
@@ -1468,16 +1469,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.452 \begin{verbatim}
-                       [17]
-Overfull \hbox (19.69518pt too wide) in paragraph at lines 455--456
+l.445 \end{verbatim}
+                     [17]
+Overfull \hbox (19.69518pt too wide) in paragraph at lines 461--462
 \OT1/cmr/m/n/14.4 An event lis-tener at-tribute's name should be some-thing lik
 e [][]\OT1/cmtt/m/n/14.4 onClick []\OT1/cmr/m/n/14.4 or [][]\OT1/cmtt/m/n/14.4 
 onMouseOver[]\OT1/cmr/m/n/14.4 :
  []
 
-
-Overfull \hbox (22.836pt too wide) in paragraph at lines 486--486
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.486 \end{verbatim}
+                     [18]
+Overfull \hbox (22.836pt too wide) in paragraph at lines 492--492
  []\OT1/cmtt/m/n/14.4 ReactDOM.render(<h1>Hello world</h1>, document.getElement
 ById('app'));[] 
  []
@@ -1486,25 +1492,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.490 \item I
-             f a JSX expression takes up more than one line, then you must w...
-[18]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
+l.523 T
+       his code will break: [19]pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.528 \end{verbatim}
-                     [19]pdfTeX warning (ext4): destination with the same ident
-ifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.572 \end{verbatim}
+l.567 \end{verbatim}
                      [20]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.602 \end{verbatim}
+l.608 \end{verbatim}
                      [21]
-Overfull \hbox (17.1709pt too wide) in paragraph at lines 604--605
+Overfull \hbox (17.1709pt too wide) in paragraph at lines 610--611
 []\OT1/cmr/m/n/14.4 For now, just know that you get the Re-act li-brary via [][
 ]\OT1/cmtt/m/n/14.4 import React from 'react'; 
  []
@@ -1513,46 +1513,46 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.642 \end{verbatim}
+l.635 \end{verbatim}
                      [22]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.669 \end{verbatim}
+l.675 \end{verbatim}
                      [23]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.706 \begin{verbatim}
-                       [24]pdfTeX warning (ext4): destination with the same ide
-ntifier (name{page.}) has been already used, duplicate ignored
+l.703 \end{verbatim}
+                     [24]pdfTeX warning (ext4): destination with the same ident
+ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.740 \end{verbatim}
+l.746 \end{verbatim}
                      [25]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.782 \end{verbatim}
+l.788 \end{verbatim}
                      [26]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.824 \end{verbatim}
+l.804 \end{verbatim}
                      [27]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.856 \end{verbatim}
+l.862 \end{verbatim}
                      [28]
-Overfull \hbox (10.76933pt too wide) in paragraph at lines 860--861
+Overfull \hbox (10.76933pt too wide) in paragraph at lines 866--867
 []\OT1/cmr/m/n/14.4 In Ex-am-ple 2, [][]\OT1/cmtt/m/n/14.4 <BigButton>[]\OT1/cm
 r/m/n/14.4 's [][]\OT1/cmtt/m/n/14.4 this.props.children []\OT1/cmr/m/n/14.4 wo
 uld equal a [][]\OT1/cmtt/m/n/14.4 <LilButton />
  []
 
 
-Overfull \hbox (45.75208pt too wide) in paragraph at lines 864--865
+Overfull \hbox (45.75208pt too wide) in paragraph at lines 870--871
 []\OT1/cmr/m/n/14.4 If a com-po-nent has more than one child be-tween its JSX t
 ags, then [][]\OT1/cmtt/m/n/14.4 this.props.children
  []
@@ -1561,27 +1561,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.885 \end{verbatim}
+l.891 \end{verbatim}
                      [29]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.910 
-       [30]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
+l.911 \end{verbatim}
+                     [30]pdfTeX warning (ext4): destination with the same ident
+ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.941 T
-       hink of \verb|this.setState()| as actually being two things: \verb|th...
-[31]
-Overfull \hbox (3.11282pt too wide) in paragraph at lines 943--944
+l.942 \end{verbatim}
+                     [31]
+Overfull \hbox (3.11282pt too wide) in paragraph at lines 949--950
 []\OT1/cmr/m/n/14.4 That is why you can't call [][]\OT1/cmtt/m/n/14.4 this.setS
 tate() []\OT1/cmr/m/n/14.4 from in-side of the [][]\OT1/cmtt/m/n/14.4 .render()
  []\OT1/cmr/m/n/14.4 method!
  []
 
 
-Overfull \hbox (8.98048pt too wide) in paragraph at lines 943--944
+Overfull \hbox (8.98048pt too wide) in paragraph at lines 949--950
 [][]\OT1/cmtt/m/n/14.4 this.setState() []\OT1/cmr/m/it/14.4 au-to-mat-i-cally \
 OT1/cmr/m/n/14.4 calls [][]\OT1/cmtt/m/n/14.4 .render()[]\OT1/cmr/m/n/14.4 . If
  [][]\OT1/cmtt/m/n/14.4 .render() []\OT1/cmr/m/n/14.4 calls [][]\OT1/cmtt/m/n/1
@@ -1592,9 +1591,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.989 \end{verbatim}
+l.995 \end{verbatim}
                      [32]
-Overfull \hbox (104.61113pt too wide) in paragraph at lines 989--989
+Overfull \hbox (104.61113pt too wide) in paragraph at lines 995--995
 []          \OT1/cmtt/m/n/14.4 <input type="text" value={this.state.value} onCh
 ange={this.handleChange} />[] 
  []
@@ -1603,9 +1602,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1013 
-        [33]
-Overfull \hbox (16.73895pt too wide) in paragraph at lines 1014--1015
+l.1007 \end{verbatim}
+                      [33]
+Overfull \hbox (16.73895pt too wide) in paragraph at lines 1020--1021
 []\OT1/cmr/m/n/14.4 If you want to use units other than "px," you can use a str
 ing: [][]\OT1/cmtt/m/n/14.4 { fontSize: "2em" } 
  []
@@ -1614,14 +1613,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1055 \end{verbatim}
-                      [34]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
+l.1045 
+        [34]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1087 \end{verbatim}
+l.1093 \end{verbatim}
                       [35]
-Overfull \hbox (38.34882pt too wide) in paragraph at lines 1102--1103
+Overfull \hbox (38.34882pt too wide) in paragraph at lines 1108--1109
 []\OT1/cmr/m/n/14.4 If your Re-act app uses AJAX to fetch ini-tial data from an
  API, then [][]\OT1/cmtt/m/n/14.4 componentDidMount
  []
@@ -1630,15 +1629,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1113 \end{itemize}
-                     [36]
-Overfull \hbox (50.13493pt too wide) in paragraph at lines 1118--1119
+l.1114 \item \verb
+                  |componentWillReceiveProps| [36]
+Overfull \hbox (50.13493pt too wide) in paragraph at lines 1124--1125
 \OT1/cmr/m/n/14.4 DOM. If a com-po-nent ini-ti-ates any meth-ods that re-quire 
 cleanup, then [][]\OT1/cmtt/m/n/14.4 componentWillUnmount
  []
 
 
-Overfull \hbox (3.53491pt too wide) in paragraph at lines 1137--1138
+Overfull \hbox (3.53491pt too wide) in paragraph at lines 1143--1144
 \C70/rm/m/n/14.4/6c B \C70/rm/m/n/14.4/90 � \C70/rm/m/n/14.4/4f ^^Z \C70/rm/m/n
 /14.4/8d p \C70/rm/m/n/14.4/76 � \C70/rm/m/n/14.4/7e � \C70/rm/m/n/14.4/4e �\OT
 1/cmr/m/n/14.4 )|\C70/rm/m/n/14.4/ff ^^L| \C70/rm/m/n/14.4/59 � \C70/rm/m/n/14.
@@ -1652,37 +1651,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1155 \end{verbatim}
-                      [37]
+l.1151 \item t
+              reeSelect属性数据对应的时候，一些需要注意的�...
+[37]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1177.
+(hyperref)                removing `\@ifnextchar' on input line 1183.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1192 \end{verbatim}
-                      [38]
-Overfull \hbox (37.65598pt too wide) in paragraph at lines 1192--1192
+l.1186 在
+          React里面，传参要看传的只是event{\color{red}还是含�...
+[38]
+Overfull \hbox (37.65598pt too wide) in paragraph at lines 1198--1198
  []\OT1/cmtt/m/n/14.4 <div className="history" onClick={() => this.handleOnClic
 k(item)}></div>[] 
  []
 
 
-Overfull \hbox (74.70592pt too wide) in paragraph at lines 1202--1202
+Overfull \hbox (74.70592pt too wide) in paragraph at lines 1208--1208
  []\OT1/cmtt/m/n/14.4 <div className="history" onClick={this.handleOnClick.bind
 (this, item)}></div>[] 
  []
 
 
-Overfull \hbox (74.70592pt too wide) in paragraph at lines 1210--1210
+Overfull \hbox (74.70592pt too wide) in paragraph at lines 1216--1216
  []\OT1/cmtt/m/n/14.4 <div className="history" onClick={this.handleOnClick.bind
 (this, item)}></div>[] 
  []
 
 
-Overfull \hbox (74.70592pt too wide) in paragraph at lines 1220--1220
+Overfull \hbox (74.70592pt too wide) in paragraph at lines 1226--1226
  []\OT1/cmtt/m/n/14.4 <div className="history" onClick={this.handleOnClick.bind
 (this, item)}></div>[] 
  []
@@ -1691,52 +1692,51 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1232 \end{verbatim}
+l.1226 \end{verbatim}
                       [39]
-Overfull \hbox (52.47595pt too wide) in paragraph at lines 1243--1243
+Overfull \hbox (52.47595pt too wide) in paragraph at lines 1249--1249
  []\OT1/cmtt/m/n/14.4 <select id="great-names" onChange={this.handleChange.bind
 (this)}></select>[] 
  []
 
 
-Overfull \hbox (15.42601pt too wide) in paragraph at lines 1243--1243
+Overfull \hbox (15.42601pt too wide) in paragraph at lines 1249--1249
  []\OT1/cmtt/m/n/14.4 <select id="great-names" onChange={() => this.handleChang
 e}></select>[] 
  []
 
 
-Overfull \hbox (52.47595pt too wide) in paragraph at lines 1254--1254
+Overfull \hbox (52.47595pt too wide) in paragraph at lines 1260--1260
  []\OT1/cmtt/m/n/14.4 <select id="great-names" onChange={this.handleChange.bind
 (this)}></select>[] 
  []
 
 
-Overfull \hbox (15.42601pt too wide) in paragraph at lines 1254--1254
+Overfull \hbox (15.42601pt too wide) in paragraph at lines 1260--1260
  []\OT1/cmtt/m/n/14.4 <select id="great-names" onChange={() => this.handleChang
 e}></select>[] 
  []
 
-<./childUpdateParentsState.png, id=1096, 665.48625pt x 391.4625pt>
+<./childUpdateParentsState.png, id=1100, 665.48625pt x 391.4625pt>
 File: ./childUpdateParentsState.png Graphic file (type png)
 
 <use ./childUpdateParentsState.png>
-Package pdftex.def Info: ./childUpdateParentsState.png used on input line 1258.
+Package pdftex.def Info: ./childUpdateParentsState.png used on input line 1264.
 
 (pdftex.def)             Requested size: 469.75499pt x 276.32753pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1260 
-        [40 <./childUpdateParentsState.png>]
-<./pics/styleOnComponent.png, id=1114, 536.60475pt x 122.859pt>
+l.1266 
+        [40] <./pics/styleOnComponent.png, id=1118, 536.60475pt x 122.859pt>
 File: ./pics/styleOnComponent.png Graphic file (type png)
 
 <use ./pics/styleOnComponent.png>
-Package pdftex.def Info: ./pics/styleOnComponent.png used on input line 1264.
+Package pdftex.def Info: ./pics/styleOnComponent.png used on input line 1270.
 (pdftex.def)             Requested size: 536.60342pt x 122.85867pt.
 
-Overfull \hbox (11.36554pt too wide) in paragraph at lines 1263--1265
+Overfull \hbox (11.36554pt too wide) in paragraph at lines 1269--1271
 [] 
  []
 
@@ -1744,20 +1744,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1300 \item V
-              ue allows us to store data that can be calculated using values...
-[41 <./pics/styleOnComponent.png>]pdfTeX warning (ext4): destination with the s
-ame identifier (name{page.}) has been already used, duplicate ignored
+l.1283 \end{enumerate}
+                       [41 <./childUpdateParentsState.png> <./pics/styleOnCompo
+nent.png>]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1340 \end{verbatim}
-                      [42]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
+l.1327 
+        [42]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1362 
-        [43]
-Overfull \hbox (119.4311pt too wide) in paragraph at lines 1410--1410
+l.1358 
+        [43]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1388 \end{verbatim}
+                      [44]
+Overfull \hbox (119.4311pt too wide) in paragraph at lines 1416--1416
 []\OT1/cmtt/m/n/14.4 <span v-bind:class="[{ unread: hasNotifications }, menuIte
 mClass]">Notifications</span>[] 
  []
@@ -1766,47 +1771,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1410 \end{verbatim}
-                      [44]pdfTeX warning (ext4): destination with the same iden
+l.1418 
+        [45]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1456 \end{verbatim}
+                      [46]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1423 \item s
-              ession survives over page reloads and restores [45]pdfTeX warning
+l.1485 \end{verbatim}
+                      [47]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1518 \end{verbatim}
+                      [48]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1556 \end{verbatim}
+                      [49]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1598 
+        [50]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1626 \item A
+               Promise object can be in one of three states: [51]pdfTeX warning
  (ext4): destination with the same identifier (name{page.}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.1459 
-        [46]pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1489 \begin{verbatim}
-                        [47]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1528 \begin{verbatim}
-                        [48]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1568 I
-        f \verb|tickets| is an \textit{empty} object, there will be no conso...
-[49]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1603 \item P
-              romises are a new type of JavaScript object that represent dat...
-[50]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1639 \end{verbatim}
-                      [51]
-Overfull \hbox (5.02504pt too wide) in paragraph at lines 1662--1663
+l.1666 \end{verbatim}
+                      [52]
+Overfull \hbox (5.02504pt too wide) in paragraph at lines 1668--1669
 []\OT1/cmr/m/n/14.4 Correct! [][]\OT1/cmtt/m/n/14.4 .catch(onReject) []\OT1/cmr
 /m/n/14.4 is syn-tac-tic sugar for [][]\OT1/cmtt/m/n/14.4 .then(undefined, onRe
 ject)[]\OT1/cmr/m/n/14.4 . 
@@ -1816,47 +1819,48 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1675 
-        [52]pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1711 \end{verbatim}
+l.1703 \end{verbatim}
                       [53]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1752 \end{verbatim}
+l.1734 \end{verbatim}
                       [54]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1780 \end{verbatim}
-                      [55]
+l.1774 \end{verbatim}
+                      [55]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1809 \end{verbatim}
+                      [56]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1810.
+(Font)              <12> on input line 1816.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1810.
+(Font)              <8> on input line 1816.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1810.
+(Font)              <6> on input line 1816.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1835 
-        [56]pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1870 \end{verbatim}
-                      [57]
-Overfull \hbox (371.10545pt too wide) in paragraph at lines 1888--1888
+l.1862 \item Y
+              ou can look up the font you are using to see which \verb|font-...
+[57]
+Overfull \hbox (371.10545pt too wide) in paragraph at lines 1894--1894
  []  \OT1/cmtt/m/n/14.4 <link href="https://fonts.googleapis.com/css?family=Dro
 id+Serif|Playfair+Display" type="text/css" rel="stylesheet">[] 
  []
 
-
-Overfull \hbox (15.42601pt too wide) in paragraph at lines 1911--1911
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1899 
+        [58]
+Overfull \hbox (15.42601pt too wide) in paragraph at lines 1917--1917
  []\OT1/cmtt/m/n/14.4 @media only screen and (min-width: 768px) and (max-width:
  1024px) and[] 
  []
@@ -1865,9 +1869,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1911 \end{verbatim}
-                      [58]
-Overfull \hbox (26.59866pt too wide) in paragraph at lines 1928--1929
+l.1931 
+        [59]
+Overfull \hbox (26.59866pt too wide) in paragraph at lines 1934--1935
 []\OT1/cmr/m/n/14.4 Difference in text wrap-ing be-tween [][]\OT1/cmtt/m/n/14.4
  display: inline-block; []\OT1/cmr/m/n/14.4 and [][]\OT1/cmtt/m/n/14.4 display:
  inline;
@@ -1877,15 +1881,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1939 \item T
-              he \verb|padding| property is often used to expand the backgro...
-[59]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1964 \begin{verbatim}
-                        [60]
-Overfull \hbox (6.20552pt too wide) in paragraph at lines 1981--1983
+l.1961 \subsection
+                  {Learn Responsive Design} [60]
+Overfull \hbox (6.20552pt too wide) in paragraph at lines 1987--1989
 []\OT1/cmr/m/n/14.4 Percentages are of-ten used to size box-model val-ues, like
  width and height, padding,
  []
@@ -1894,31 +1892,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1994 \end{verbatim}
-                      [61]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
+l.1989 
+        [61]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2025 
+l.2016 
         [62]pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2053 \end{verbatim}
-                      [63]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
+l.2044 
+        [63]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2075 
-        [64]
-Overfull \hbox (40.86153pt too wide) in paragraph at lines 2090--2091
+        [64]pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2095 
+        [65]
+Overfull \hbox (40.86153pt too wide) in paragraph at lines 2096--2097
 []\OT1/cmr/m/n/14.4 We can use the prop-erty [][]\OT1/cmtt/m/n/14.4 grid-row []
 \OT1/cmr/m/n/14.4 as short-hand for [][]\OT1/cmtt/m/n/14.4 grid-row-start []\OT
 1/cmr/m/n/14.4 and [][]\OT1/cmtt/m/n/14.4 grid-row-end[]\OT1/cmr/m/n/14.4 .
  []
 
 
-Overfull \hbox (49.13412pt too wide) in paragraph at lines 2103--2104
+Overfull \hbox (49.13412pt too wide) in paragraph at lines 2109--2110
 \OT1/cmr/m/n/14.4 This code should look sim-i-lar to the way [][]\OT1/cmtt/m/n/
 14.4 grid-template []\OT1/cmr/m/n/14.4 is short-hand for [][]\OT1/cmtt/m/n/14.4
  grid-template-rows
@@ -1928,14 +1931,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2104 
-        [65]pdfTeX warning (ext4): destination with the same identifier (name{p
-age.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2140 \end{verbatim}
+l.2131 \end{verbatim}
                       [66]
-Overfull \hbox (18.31291pt too wide) in paragraph at lines 2151--2152
+Overfull \hbox (18.31291pt too wide) in paragraph at lines 2157--2158
 \OT1/cmr/m/n/14.4 to use as val-ues in the [][]\OT1/cmtt/m/n/14.4 grid-row-star
 t[]\OT1/cmr/m/n/14.4 , [][]\OT1/cmtt/m/n/14.4 grid-row-end[]\OT1/cmr/m/n/14.4 ,
  [][]\OT1/cmtt/m/n/14.4 grid-col-start[]\OT1/cmr/m/n/14.4 , [][]\OT1/cmtt/m/n/1
@@ -1943,7 +1941,7 @@ t[]\OT1/cmr/m/n/14.4 , [][]\OT1/cmtt/m/n/14.4 grid-row-end[]\OT1/cmr/m/n/14.4 ,
  []
 
 
-Overfull \hbox (54.90674pt too wide) in paragraph at lines 2155--2156
+Overfull \hbox (54.90674pt too wide) in paragraph at lines 2161--2162
 [][][]\OT1/cmtt/m/n/14.4 align-items[]\C70/rm/m/n/14.4/4e : � H ^^M \C70/rm/m/n
 /14.4/57 (\OT1/cmr/m/n/14.4 item\C70/rm/m/n/14.4/91 � \C70/rm/m/n/14.4/97 b \C7
 0/rm/m/n/14.4/58 � \C70/rm/m/n/14.4/66 ^^N|\C70/rm/m/n/14.4/ff ^^L| \C70/rm/m/n
@@ -1953,8 +1951,13 @@ C70/rm/m/n/14.4/66 ^^N|\C70/rm/m/n/14.4/30 ^^B| [][]\OT1/cmtt/m/n/14.4 align-co
 ntent
  []
 
-
-Overfull \hbox (8.01602pt too wide) in paragraph at lines 2162--2163
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2162 
+        [67]
+Overfull \hbox (8.01602pt too wide) in paragraph at lines 2168--2169
 [][][]\OT1/cmtt/m/n/14.4 <figcaption><p>The <em>Cosmos</em> is all there is!</p
 ></figcaption>
  []
@@ -1963,41 +1966,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2173 \item �
-              ��个小程序框架系统分为两部分：视图层（View�...
-[67]
-Overfull \hbox (4.35555pt too wide) in paragraph at lines 2190--2191
+l.2196 R
+        eact Native styles all views as if box-sizing: \verb|border-box| is set
+[68]
+Overfull \hbox (4.35555pt too wide) in paragraph at lines 2198--2199
 []\OT1/cmr/m/n/14.4 View\C70/rm/m/n/14.4/9e � \C70/rm/m/n/14.4/8b �[][]\OT1/cmt
 t/m/n/14.4 display: flex;|[]\C70/rm/m/n/14.4/ff ^^L| \OT1/cmr/m/n/14.4 Text|\C7
 0/rm/m/n/14.4/ff ^^Z|  \OT1/cmr/m/n/14.4 ev-ery-thing in-side is no longer us-i
 ng the flexbox
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2205 \item \textbf
-                    {How to set Environment variables from within package.js...
-[68]
-Overfull \hbox (171.03577pt too wide) in paragraph at lines 2205--2207
+
+Overfull \hbox (171.03577pt too wide) in paragraph at lines 2213--2215
 [][]\OT1/cmtt/m/n/14.4 "start-production": "SET NODE_ENV=production&&webpack-de
 v-server --mode production --open" 
  []
 
-
-Overfull \hbox (0.60603pt too wide) in paragraph at lines 2261--2261
- []  \OT1/cmtt/m/n/14.4 <div id="div1">The text above has been created dynamica
-lly.</div>[] 
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2261 \end{verbatim}
-                      [69]
-Overfull \hbox (22.836pt too wide) in paragraph at lines 2261--2261
+l.2230 \item n
+              vm: node version manager, to manage multiple node versions on ...
+[69]
+Overfull \hbox (0.60603pt too wide) in paragraph at lines 2269--2269
+ []  \OT1/cmtt/m/n/14.4 <div id="div1">The text above has been created dynamica
+lly.</div>[] 
+ []
+
+
+Overfull \hbox (22.836pt too wide) in paragraph at lines 2269--2269
  []  \OT1/cmtt/m/n/14.4 var newContent = document.createTextNode("Hi there and 
 greetings!");[] 
  []
@@ -2006,29 +2004,34 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2276 \item W
-              indows clear screen commands: [70]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2324.
+l.2269 \end{verbatim}
+                      [70]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2310 \end{itemize}
+                     [71]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2332.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2324 \end{document}
-                      [71]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2324.
+l.2332 \end{document}
+                      [72]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2332.
  (./jsnote.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2324.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2324.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2332.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2332.
 
 Package rerunfilecheck Info: File `jsnote.out' has not changed.
-(rerunfilecheck)             Checksum: 5BD5C4E4672ED84B01AFF7503604C2E3;20591.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2324.
+(rerunfilecheck)             Checksum: F549D3B51A2D916A6B4B5E9FC09DCC99;20748.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2332.
  ) 
 Here is how much of TeX's memory you used:
- 22030 strings out of 492995
- 369874 string characters out of 6136403
+ 22045 strings out of 492995
+ 370089 string characters out of 6136403
  486049 words of memory out of 5000000
- 24757 multiletter control sequences out of 15000+600000
+ 24768 multiletter control sequences out of 15000+600000
  45340 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,53p,10435b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2081,10 +2084,10 @@ texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2017/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on jsnote.pdf (71 pages, 753540 bytes).
+Output written on jsnote.pdf (72 pages, 755712 bytes).
 PDF statistics:
- 1777 PDF objects out of 2073 (max. 8388607)
- 1491 compressed objects within 15 object streams
- 331 named destinations out of 1000 (max. 500000)
- 1383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1785 PDF objects out of 2073 (max. 8388607)
+ 1498 compressed objects within 15 object streams
+ 332 named destinations out of 1000 (max. 500000)
+ 1391 words of extra memory for PDF output out of 10000 (max. 10000000)
 

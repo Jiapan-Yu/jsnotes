@@ -22,6 +22,7 @@
 \contentsline {subsection}{\numberline {4.6}create-react-app and git}{}{subsection.4.6}
 \contentsline {subsection}{\numberline {4.7}FAQ}{}{subsection.4.7}
 \contentsline {subsection}{\numberline {4.8}git rebase}{}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}semantic versioning}{}{subsection.4.9}
 \contentsline {section}{\numberline {5}VSCode}{}{section.5}
 \contentsline {section}{\numberline {6}React}{}{section.6}
 \contentsline {subsection}{\numberline {6.1}创建React项目 \href {https://react.docschina.org/docs/add-react-to-a-new-app.html}{Add React to a New Application}}{}{subsection.6.1}

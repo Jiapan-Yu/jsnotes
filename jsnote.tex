@@ -342,6 +342,8 @@ exit vim with \verb|:wq| or quit vim without saving \verb|:cq|
 
 {\color{red}保留一份完整的 commit sha (git log)} 先在 local reset 然后 checkout，then \verb|push --force| 让 remote 恢复到想要的状态。接着 local reset 到最新然后添加新文件(改动)，接着使用 \verb|git rebase -i| 调到想要的位置后 push 那一个 commit 到 remote 用 \verb|git push <remotename> <commit SHA>:<remotebranchname>|
 
+\subsection{semantic versioning}
+向下兼容就是向新的版本兼容，向上就是向老的版本。minor release向下兼容但不向上兼容
 
 
 \section{VSCode}
@@ -354,9 +356,8 @@ exit vim with \verb|:wq| or quit vim without saving \verb|:cq|
 \item 搜索只能搜内容，无法搜索哪个文件夹
 
 \item type \verb|tab| key twice to autocomplete
-\end{itemize}
 
-VSCode 1.27.2 user settings
+\item VSCode 1.27.2 user settings
 \begin{verbatim}
 {
   "editor.minimap.enabled": true,
@@ -383,9 +384,14 @@ VSCode 1.27.2 user settings
   "editor.tabCompletion": "on",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "latex-workshop.view.pdf.viewer": "external"
+  "latex-workshop.view.pdf.viewer": "external",
+  "editor.parameterHints.enabled": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "html.suggest.html5": false,
+  "editor.snippetSuggestions": "none",
 }
 \end{verbatim}
+\end{itemize}
 
 
 \section{React}
@@ -2179,6 +2185,8 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 
 \section{React Native}
 \begin{itemize}
+\item RN API 的 props 没有 boxSizing 这一属性，用模拟器 Inspect 的时候，padding 和 content合并在一起了
+
 \item react-devtools 用npm和yarn都安装失败了
 
 \item View标签 (container)，不能直接容纳文本，以下会app crash
