@@ -44,6 +44,9 @@ __proto__: Array(0) [, …]
 \item 使用localStorage的时候，打开一个标签然后另外再打开一个标签，则第一个标签里面的内容会变成第二个标签的内容
 
 \item 微信门票列表搜索框，当需要对历史搜索里面的数据进行修改时，点击输入框后文字消失
+
+\item 虽然前端的密码输入为不可见，但是网络请求登录的接口里面可以看到密码
+
 \end{enumerate}
 
 \section{Things to be done before commit}
@@ -1484,6 +1487,8 @@ function list() {
 var list1 = list(1, 2, 3); // [1, 2, 3]
 \end{verbatim}
 
+\subsection{build-in iterable objects}
+\href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Built-in_iterables}{Built-in\_iterables}
 
 \subsection{object}
 \begin{enumerate}
@@ -2185,7 +2190,7 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 
 \section{React Native}
 \begin{itemize}
-\item RN API 的 props 没有 boxSizing 这一属性，用模拟器 Inspect 的时候，padding 和 content合并在一起了
+\item RN API 的 props 没有 boxSizing 这一属性。用模拟器 Inspect 的时候，padding 和 content合并在一起了，没有合并在一起，可以查看Pic RNSimulatorInspect.png
 
 \item react-devtools 用npm和yarn都安装失败了
 
