@@ -1487,6 +1487,27 @@ function list() {
 var list1 = list(1, 2, 3); // [1, 2, 3]
 \end{verbatim}
 
+\subsubsection{Array methods}
+Array has ``mutator methods", ``accessor methods" and ``iteration methods".
+
+\begin{itemize}
+\item whether modify the original array (eg. push())
+
+\item whether return (eg. forEach() doesn't return)
+
+\item return value
+\begin{enumerate}
+\item whether return an array (eg. reduce() can return any type of your choice)
+
+\item the returned array whether has the original array's size
+
+\item returned array whether retain the element or the return value (filter() retain the element, not the return value)
+
+\item returned array whether has the same value as the original array
+\end{enumerate}
+
+\end{itemize}
+
 \subsection{build-in iterable objects}
 \href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Built-in_iterables}{Built-in\_iterables}
 
@@ -1684,7 +1705,7 @@ Correct! \verb|.catch(onReject)| is syntactic sugar for \verb|.then(undefined, o
 
 To maximize efficiency we should use concurrency, multiple asynchronous operations happening together. With promises, we can do this with the function \verb|Promise.all()|
 
-\item A Promise's constructor has a single parameter, called the "executor function". The executor function has two parameters -- resolve and reject.
+\item A Promise's constructor has a single parameter, called the "executor function". The executor function has two parameters -- resolve and reject (array method 'reduce' has a reducer function \url{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce}).
 
 \end{enumerate}
 
