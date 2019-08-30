@@ -345,6 +345,13 @@ exit vim with \verb|:wq| or quit vim without saving \verb|:cq|
 
 {\color{red}保留一份完整的 commit sha (git log)} 先在 local reset 然后 checkout，then \verb|push --force| 让 remote 恢复到想要的状态。接着 local reset 到最新然后添加新文件(改动)，接着使用 \verb|git rebase -i| 调到想要的位置后 push 那一个 commit 到 remote 用 \verb|git push <remotename> <commit SHA>:<remotebranchname>|
 
+\subsection{Modify previous commit messages}
+See section ``Amending the message of older or multiple commit messages" of \url{https://help.github.com/en/articles/changing-a-commit-message}
+
+\subsection{vim shortcuts}
+\noindent\verb|i| enter insert mode\\
+\verb|esc| exit insert mode
+
 \subsection{semantic versioning}
 向下兼容就是向新的版本兼容，向上就是向老的版本。minor release向下兼容但不向上兼容
 
@@ -2249,6 +2256,8 @@ React Native styles all views as if box-sizing: \verb|border-box| is set
 \item View默认\verb|display: flex;|，Text： everything inside is no longer using the flexbox layout but using text layout.
 
 \item 查找文档的时候，注意版本号是否对应
+
+\item RN的TouchableOpacity没有列出style属性但是例子里面添加了
 \end{itemize}
 
 \subsection{Style}
