@@ -1494,6 +1494,16 @@ function list() {
 var list1 = list(1, 2, 3); // [1, 2, 3]
 \end{verbatim}
 
+Following method is better for converting variable arguments to an array
+\begin{verbatim}
+function list(...args) {
+  return args
+}
+
+let list1 = list(1, 2, 3); // [1, 2, 3]
+console.log(list1);
+\end{verbatim}
+
 \subsubsection{Array methods}
 Array has ``mutator methods", ``accessor methods" and ``iteration methods".
 
