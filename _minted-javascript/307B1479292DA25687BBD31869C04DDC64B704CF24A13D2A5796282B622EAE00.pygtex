@@ -1,9 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}container\PYGZdq{}}\PYG{p}{\PYGZgt{}}
-  \PYG{p}{\PYGZlt{}}\PYG{n+nt}{header}\PYG{p}{\PYGZgt{}}Welcome!\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{header}\PYG{p}{\PYGZgt{}}
-  \PYG{p}{\PYGZlt{}}\PYG{n+nt}{nav}\PYG{p}{\PYGZgt{}}Links!\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{nav}\PYG{p}{\PYGZgt{}}
-  \PYG{p}{\PYGZlt{}}\PYG{n+nt}{section} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}info\PYGZdq{}}\PYG{p}{\PYGZgt{}}Info!\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{section}\PYG{p}{\PYGZgt{}}
-  \PYG{p}{\PYGZlt{}}\PYG{n+nt}{section} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}services\PYGZdq{}}\PYG{p}{\PYGZgt{}}Services!\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{section}\PYG{p}{\PYGZgt{}}
-  \PYG{p}{\PYGZlt{}}\PYG{n+nt}{footer}\PYG{p}{\PYGZgt{}}Contact us!\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{footer}\PYG{p}{\PYGZgt{}}
-\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
-\end{Verbatim}
