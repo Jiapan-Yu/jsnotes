@@ -22,7 +22,9 @@
 \contentsline {subsection}{\numberline {4.6}create-react-app and git}{}{subsection.4.6}
 \contentsline {subsection}{\numberline {4.7}FAQ}{}{subsection.4.7}
 \contentsline {subsection}{\numberline {4.8}git rebase}{}{subsection.4.8}
-\contentsline {subsection}{\numberline {4.9}semantic versioning}{}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.9}Modify previous commit messages}{}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}vim shortcuts}{}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}semantic versioning}{}{subsection.4.11}
 \contentsline {section}{\numberline {5}VSCode}{}{section.5}
 \contentsline {section}{\numberline {6}React}{}{section.6}
 \contentsline {subsection}{\numberline {6.1}创建React项目 \href {https://react.docschina.org/docs/add-react-to-a-new-app.html}{Add React to a New Application}}{}{subsection.6.1}
@@ -87,19 +89,22 @@
 \contentsline {subsection}{\numberline {10.4}array}{}{subsection.10.4}
 \contentsline {subsubsection}{\numberline {10.4.1}Arrays with let and const (from codecademy)}{}{subsubsection.10.4.1}
 \contentsline {subsubsection}{\numberline {10.4.2}Array-Like Objects \href {https://dzone.com/articles/js-array-from-an-array-like-object}{JS Array From an Array-Like Object}}{}{subsubsection.10.4.2}
+\contentsline {subsubsection}{\numberline {10.4.3}Array methods}{}{subsubsection.10.4.3}
 \contentsline {subsection}{\numberline {10.5}build-in iterable objects}{}{subsection.10.5}
 \contentsline {subsection}{\numberline {10.6}object}{}{subsection.10.6}
 \contentsline {subsubsection}{\numberline {10.6.1}Looping Through Objects}{}{subsubsection.10.6.1}
-\contentsline {subsection}{\numberline {10.7}class}{}{subsection.10.7}
-\contentsline {subsection}{\numberline {10.8}Request}{}{subsection.10.8}
-\contentsline {subsection}{\numberline {10.9}Errors}{}{subsection.10.9}
-\contentsline {subsection}{\numberline {10.10}Promise}{}{subsection.10.10}
-\contentsline {subsection}{\numberline {10.11}Async await}{}{subsection.10.11}
-\contentsline {subsubsection}{\numberline {10.11.1}The async Keyword}{}{subsubsection.10.11.1}
-\contentsline {subsubsection}{\numberline {10.11.2}The await Operator}{}{subsubsection.10.11.2}
-\contentsline {subsection}{\numberline {10.12}axios - npm}{}{subsection.10.12}
-\contentsline {subsection}{\numberline {10.13}beforeunload, unload, load}{}{subsection.10.13}
-\contentsline {subsection}{\numberline {10.14}CORS}{}{subsection.10.14}
+\contentsline {subsection}{\numberline {10.7}Difference between for...of and for...in}{}{subsection.10.7}
+\contentsline {subsection}{\numberline {10.8}function}{}{subsection.10.8}
+\contentsline {subsection}{\numberline {10.9}class}{}{subsection.10.9}
+\contentsline {subsection}{\numberline {10.10}Request}{}{subsection.10.10}
+\contentsline {subsection}{\numberline {10.11}Errors}{}{subsection.10.11}
+\contentsline {subsection}{\numberline {10.12}Promise}{}{subsection.10.12}
+\contentsline {subsection}{\numberline {10.13}Async await}{}{subsection.10.13}
+\contentsline {subsubsection}{\numberline {10.13.1}The async Keyword}{}{subsubsection.10.13.1}
+\contentsline {subsubsection}{\numberline {10.13.2}The await Operator}{}{subsubsection.10.13.2}
+\contentsline {subsection}{\numberline {10.14}axios - npm}{}{subsection.10.14}
+\contentsline {subsection}{\numberline {10.15}beforeunload, unload, load}{}{subsection.10.15}
+\contentsline {subsection}{\numberline {10.16}CORS}{}{subsection.10.16}
 \contentsline {section}{\numberline {11}CSS}{}{section.11}
 \contentsline {subsection}{\numberline {11.1}Caveats}{}{subsection.11.1}
 \contentsline {subsection}{\numberline {11.2}CSS Typography}{}{subsection.11.2}
