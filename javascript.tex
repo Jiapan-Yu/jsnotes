@@ -20,7 +20,7 @@
 \hypersetup{colorlinks=true,urlcolor=myblue,}
 
 \newminted{js}{gobble=0,linenos=false,frame=single,breaklines=true,obeytabs=true,tabsize=2,escapeinside=\#\#}
-\newminted{html}{gobble=0,linenos=false,frame=single,breaklines=true}
+\newminted{html}{gobble=0,linenos=false,frame=single,breaklines=true,escapeinside=@@}
 
 \begin{document}
 %\begin{CJK}{UTF8}{gbsn}
@@ -36,6 +36,38 @@
 \begin{itemize}
   \item First,
 \end{itemize}
+
+\item \verb|setTimeout()| method
+\begin{htmlcode}
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to wait 3 seconds, then alert "Hello".</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+var myVar;
+
+function myFunction() {
+  // alertFunc() won't work properly. In jQuery the second option is mandatory, like
+  // setTimeout('$("#uploadStatusBar").hide();',1000);
+  myVar = setTimeout(alertFunc, 3000);
+}
+// Or,
+function myFunction() {
+  myVar = setTimeout("alertFunc();", 3000); // semicolon can be omitted, but double quotes can not, see the comments of the first option
+}
+
+function alertFunc() {
+  alert("Hello!");
+}
+</script>
+
+</body>
+</html>
+\end{htmlcode}
 
 \item Advanced CSS Grid
 \begin{htmlcode}
