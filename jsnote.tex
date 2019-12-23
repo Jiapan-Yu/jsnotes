@@ -354,6 +354,20 @@ See section ``Amending the message of older or multiple commit messages" of \url
 
 \href{https://gist.github.com/awidegreen/3854277}{vim\_cheatsheet}
 
+\subsection{gitignore file}
+
+.gitignore file
+\begin{verbatim}
+# / is mandatory
+/*
+!.gitignore
+# however !pics/* won't work as expected
+# seems like negative exclusion exclamation mark shouldn't combine asterisk
+!pics/
+!java.tex
+!javanote.tex
+\end{verbatim}
+
 \subsection{semantic versioning}
 向下兼容就是向新的版本兼容，向上就是向老的版本。minor release向下兼容但不向上兼容
 
