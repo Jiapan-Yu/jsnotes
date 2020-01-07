@@ -1154,6 +1154,15 @@ Whenever a component instance updates, it automatically calls all five of these 
 \begin{enumerate}
 \item ES6 React 组件引用本地图片问题: require里只能写字符串，不能写变量
 
+\verb|document.getElementById('progress-col').firstElementChild|\newline
+\verb|.setAttribute("style", `background-image:|\newline
+\verb| url(${require("../../static/img/rectBgHighlighted.svg")});`);|
+
+或者
+
+\verb|document.getElementById('progress-col').firstElementChild.style|\newline
+\verb|.backgroundImage = `url(${require("../../static/img/rectBgHighlighted.svg")})`;|
+
 \item 
 
 \end{enumerate}
