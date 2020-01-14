@@ -47,6 +47,8 @@ __proto__: Array(0) [, …]
 
 \item 虽然前端的密码输入为不可见，但是网络请求登录的接口里面可以看到密码
 
+\item \href{https://ant.design/components/select-cn/}{Select选择器}里面的 onChange 和 onSelect 方法是一样的吗？
+
 \end{enumerate}
 
 \section{Things to be done before commit}
@@ -2266,6 +2268,10 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 \begin{enumerate}
 \item \verb|<figcaption><p>The <em>Cosmos</em> is all there is!</p></figcaption>| if you don't add \verb|p| tag then there will be no space before or after \verb|Cosmos|
 \end{enumerate}
+
+
+\section{jQuery}
+jQuery can equally interpret the CSS and DOM formatting of multiple-word properties. For example, jQuery understands and returns the correct value for both \verb|.css( "background-color" )| and \verb|.css( "backgroundColor" )|. This means mixed case has a special meaning, \verb|.css( "WiDtH" )| won't do the same as \verb|.css( "width" )|, for example.
 
 
 \section{wechat mini program}
