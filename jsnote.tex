@@ -1154,7 +1154,7 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \section{react}
 \begin{enumerate}
-\item ES6 React 组件引用本地图片问题: require里只能写字符串，不能写变量
+\item ES6 React 组件引用本地图片问题: require里只能写字符串，不能写变量，可以 \verb|require(`${imgSrc}`)|, see \href{https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react}{How do I reference a local image in React?}
 
 \verb|document.getElementById('progress-col').firstElementChild|\newline
 \verb|.setAttribute("style", `background-image:|\newline
@@ -1164,6 +1164,45 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \verb|document.getElementById('progress-col').firstElementChild.style|\newline
 \verb|.backgroundImage = `url(${require("../../static/img/rectBgHighlighted.svg")})`;|
+
+当引用视频文件时
+\begin{verbatim}
+import covervid from './movie.mp4';
+<video controls style={{ width: "71rem", height: "37rem", }}>
+  <source src={covervid} type="video/mp4" />
+</video>
+\end{verbatim}
+或者
+\begin{verbatim}
+<video controls style={{ width: "71rem", height: "37rem", }}>
+  <source src={require("./movie.mp4")} type="video/mp4" />
+</video>
+\end{verbatim}
+
+\vspace{1in}
+\begin{verbatim}
+// videoSrc = http://127.0.0.1:8081/data/limeng/Test/002/Raw/FE/
+// ColorImg/test.mp4
+const { videoSrc } = this.state;
+
+<video controls style={{ width: "71rem", height: "37rem", }}>
+  {
+    // <source src={videoSrc} type="video/mp4" /> // 为什么不行？
+    videoSrc && <source src={videoSrc} type="video/mp4" />
+  }
+</video>
+\end{verbatim}
+这样写也有问题，当 \verb|videoSrc| 为空字符串时，可能由于视频缓存问题视频仍然会展示并且可以播放。更准确的写法应该是
+\begin{verbatim}
+<div>
+  {
+    videoSrc &&
+    <video controls style={{ width: "71rem", height: "37rem", }}>
+      <source src={videoSrc} type="video/mp4" />
+    </video>
+  }
+</div>
+\end{verbatim}
 
 \item 
 
