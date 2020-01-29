@@ -157,6 +157,9 @@ body, body *{
 
 \subsection{Caveats}
 \begin{itemize}
+
+\item cmd, github desktop and gitee 的 commit 或者 stash 看的效果应该是一样的
+
 \item \verb|warning: LF will be replaced by CRLF in| windows中的换行符为 CRLF， 而在linux下的换行符为LF，所以在执行add . 时出现提示，解决办法 (不在当前git目录执行)：\\
 \verb|git config --global core.autocrlf false|
 \end{itemize}
@@ -310,6 +313,9 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 
 \subsection{FAQ}
 \begin{enumerate}
+\item 什么时候需要建立 remote repo？\\
+当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码
+
 \item Your branch and 'origin/master' have diverged, how to undiverge branches?\\
 You can review the differences with a: \verb|git log HEAD..origin/master| before pulling it (fetch + merge), see \href{https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches}{merge or rebase}
 
@@ -329,7 +335,6 @@ You can review the differences with a: \verb|git log HEAD..origin/master| before
 \begin{verbatim}
 gitk --all $( git fsck --no-reflog | awk '/dangling commit/ {print $3}' )
 \end{verbatim}
-
 
 \end{enumerate}
 
@@ -1987,6 +1992,9 @@ Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the 
 
 
 \section{CSS}
+
+\subsection{Questions}
+当用浏览器检查页面元素时，可以看到 background 图片的路径与代码里面写的不一样，多了图片名和图片格式之间的字母，为什么？（可以参考 CSSbackgroundImgPathInBrowsers.png）
 
 \subsection{Caveats}
 \begin{enumerate}
