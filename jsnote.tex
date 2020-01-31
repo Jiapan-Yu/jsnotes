@@ -76,7 +76,7 @@ __proto__: Array(0) [, …]
 \item \verb|<link href="main.css" type="text/css" rel="stylesheet" />|\\
 \verb|<meta charset="UTF-8">|
 
-\item 在create-react-app里面安装antd后，引入使用antd会报错，需要删除\verb|node_modules|文件夹，然后重新\verb|yarn or npm i|
+\item 在create-react-app里面安装antd后，引入使用antd会报错，需要删除\\ \verb|node_modules| 文件夹，然后重新\verb|yarn or npm i|
 
 \item \verb|ctrl+shift+delete| 清chrome缓存
 
@@ -1989,6 +1989,25 @@ Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the 
 
 \section{Web API}
 \verb|document.getElementById()| returns an HTMLElement Object which inherits from Element object.
+
+
+\section{DOM}
+首先找到 nodeType，比如a标签的nodeType为1(ELEMENT\_NODE)，是 HTMLAnchorElement 元素（怎么直接获取 return HTMLAnchorElement?），继承 HTMLElement \textgreater\ Element \textgreater\ Node \textgreater\ Object (\textgreater\ indicates ``inherited from").\\ see \href{https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType}{Node.nodeType}
+
+{\color{red}\verb|document.querySelector('a').nodeName| (or \verb|tagName|)} will return 'A', which means HTMLAnchorElement. see \href{https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName}{Node.nodeName}
+
+\verb|document.querySelector('a').nodeValue| will return \verb|null|, because \verb|nodeValue| of \verb|Element| is \verb|null|. see \href{https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue}{Node.nodeValue}
+
+Answer following questions (what will be the result?)
+\begin{verbatim}
+<a href="#">Hi</a>
+
+<script>
+  console.log(document.querySelector('a').firstElementChild.nodeValue);
+</script>
+\end{verbatim}
+
+it will throw an exception, because there's no \verb|ELEMENT_NODE| nodeType child for the anchor element (obtained through \verb|document.querySelector('a')|), it only has one \verb|TEXT_NODE| nodeType child. So, \verb|document.querySelector('a').firstElementChild| will return \verb|null|. \verb|document.querySelector('a').firstChild| will return a \verb|TEXT_NODE| nodeType child, because the text 'Hi' is enclosed in a \verb|TEXT_NODE| which is enclosed in a \verb|ELEMENT_NODE|.
 
 
 \section{CSS}
