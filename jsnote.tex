@@ -158,7 +158,7 @@ body, body *{
 \subsection{Caveats}
 \begin{itemize}
 
-\item cmd, github desktop and gitee 的 commit 或者 stash 看的效果应该是一样的
+\item cmd, github desktop and gitee 的 commit 看的效果是一样的；cmd 的 stash 和 github desktop and gitee 的 commit 看的效果是一样的；cmd 和 github desktop 的 changes 看的效果是一样的，VSCode 看的 changes 更明白，会显示一行里面哪个部分不一样
 
 \item \verb|warning: LF will be replaced by CRLF in| windows中的换行符为 CRLF， 而在linux下的换行符为LF，所以在执行add . 时出现提示，解决办法 (不在当前git目录执行)：\\
 \verb|git config --global core.autocrlf false|
@@ -2007,7 +2007,14 @@ Answer following questions (what will be the result?)
 </script>
 \end{verbatim}
 
-it will throw an exception, because there's no \verb|ELEMENT_NODE| nodeType child for the anchor element (obtained through \verb|document.querySelector('a')|), it only has one \verb|TEXT_NODE| nodeType child. So, \verb|document.querySelector('a').firstElementChild| will return \verb|null|. \verb|document.querySelector('a').firstChild| will return a \verb|TEXT_NODE| nodeType child, because the text 'Hi' is enclosed in a \verb|TEXT_NODE| which is enclosed in a \verb|ELEMENT_NODE|.
+it will throw an exception, because there's no \verb|ELEMENT_NODE| nodeType child for the anchor element (obtained through \verb|document.querySelector('a')|), it only has one \verb|TEXT_NODE| nodeType child. So, \verb|document.querySelector('a').firstElementChild| will return \verb|null|. \verb|document.querySelector('a').firstChild| will return a \verb|TEXT_NODE| nodeType child, because the text 'Hi' is enclosed in a \verb|TEXT_NODE| which is then enclosed in \verb|HTMLAnchorElement|. see \href{https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild}{Node.firstChild}
+
+\begin{enumerate}
+\item \verb|document.body| returns body element (a nodeType of \verb|ELEMENT_NODE|)
+
+\item 
+
+\end{enumerate}
 
 
 \section{CSS}
