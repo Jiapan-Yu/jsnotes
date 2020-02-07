@@ -314,7 +314,9 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 \subsection{FAQ}
 \begin{enumerate}
 \item 什么时候需要建立 remote repo？\\
-当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码
+当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码 （比如limeng改动了我的代码，我想自己重新写一遍同时对比limeng写的）。
+
+如果项目其他成员是用的svn，当某个成员改动了我的代码后，我想 ``hard reset" 后重新写，commit了多次；由于那个成员已经上传到了svn，所以上传svn的时候我需要首先更新本地代码，我得回到原来的状态更新，那么我会失去之前 ``hard reset" 后的 commits。如果有 remote repo，我可以上传 commits，然后退回用 svn 更新本地代码后，复制 remote repo 上面的 commits 文件，对应的写 log （这里面有个问题，就是 remote repo 上面的第一个 commit 由于是基于新的 svn 上面的代码，所以看到的 changes 是有点不同的，但是后面的 commits 没有影响）
 
 \item Your branch and 'origin/master' have diverged, how to undiverge branches?\\
 You can review the differences with a: \verb|git log HEAD..origin/master| before pulling it (fetch + merge), see \href{https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches}{merge or rebase}
