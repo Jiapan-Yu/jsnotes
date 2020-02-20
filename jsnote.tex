@@ -416,7 +416,7 @@ See section ``Amending the message of older or multiple commit messages" of \url
   "window.titleBarStyle": "custom",
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.tabCompletion": "on",
+  "editor.tabCompletion": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "latex-workshop.view.pdf.viewer": "external",
@@ -2014,7 +2014,7 @@ it will throw an exception, because there's no \verb|ELEMENT_NODE| nodeType chil
 \begin{enumerate}
 \item \verb|document.body| returns body element (a nodeType of \verb|ELEMENT_NODE|)
 
-\item 
+\item 在查阅MDN上的文档时，比如 \verb|HTMLTextAreaElement|，左侧显示 Properties 只有一个，是显示不完整，正文当中是显示完整的
 
 \end{enumerate}
 
@@ -2077,7 +2077,7 @@ The CSS rule above says:
 
 \item It is important to stress the need to copy the \verb|@font-face| rules to the top of the stylesheet for the font to load correctly in the project
 
-\item Using \verb|@font-face| rule to use local font files. See pic \verb|@font-face| for examples of both local files and directly putting linked fonts into css files
+\item Using \verb|@font-face| rule to use local font files. See pic \verb|@font-face| for examples of both local files and directly putting linked fonts into css files, see \href{https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face}{@font-face} for format types inside the \verb|format()| function (\textbf{Note:} you can omit the \verb|format()| part, but if you provide one it must be the correct corresponding type)
 \end{itemize}
 
 
@@ -2351,6 +2351,10 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 
 \section{jQuery}
 jQuery can equally interpret the CSS and DOM formatting of multiple-word properties. For example, jQuery understands and returns the correct value for both \verb|.css( "background-color" )| and \verb|.css( "backgroundColor" )|. This means mixed case has a special meaning, \verb|.css( "WiDtH" )| won't do the same as \verb|.css( "width" )|, for example.
+
+
+\section{设计图}
+xiong设计的图里面 opacity 值应由 \verb|rgba()| 的a来代替，可用于 \verb|background-image| 的 \verb|linear-gradient| 方法中，也可用于 \verb|background-color| 中
 
 
 \section{wechat mini program}
