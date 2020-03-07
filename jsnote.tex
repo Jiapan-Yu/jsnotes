@@ -106,7 +106,7 @@ will return an array containing two objects
 
 \item chrome和firefox浏览器之间可能有兼容性问题，比如用css属性设置文字超过四行用省略号
 
-\item When debugging in VSCode, if you want a variable live updating then add it to \verb|watch|, there's no live updating in the \verb|debug console|
+\item When debugging in VSCode, if you want a variable live updating then add it to \verb|watch|, there's also live updating in the \verb|debug console| (the `create live expression')
 
 \item 数据在loading完成之前是undefined，所以不能对其进行诸如\\ \verb|address.constructor === Object|的操作 (不能读取其constructor property)
 
@@ -1685,6 +1685,18 @@ object instance methods like: \verb|.hasOwnProperty()|, \verb|.valueOf()|
 Object class methods such as \verb|Object.assign()|, \verb|Object.entries()|, and\\ \verb|Object.keys()|
 
 \end{enumerate}
+
+\subsubsection{caveats}
+\begin{itemize}
+\item 取对象值的时候方括号里2和'2'是一样的：
+\begin{verbatim}
+const obj = {1: "体姿体态", 2: "主要关节活动度", 3: "运动模式", 4: "临床骨科检查", 5: "自定义模式"};
+obj[2] === obj['2'] 为 true
+\end{verbatim}
+
+\item 
+
+\end{itemize}
 
 \subsubsection{Looping Through Objects}
 JavaScript has given us alternative solution for iterating through objects with the \verb|for...in| syntax
