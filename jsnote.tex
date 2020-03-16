@@ -316,7 +316,7 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 \item 什么时候需要建立 remote repo？\\
 当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码 （比如limeng改动了我的代码，我想自己重新写一遍同时对比limeng写的）。
 
-如果项目其他成员是用的svn，当某个成员改动了我的代码后，我想 ``hard reset" 后重新写，commit了多次；由于那个成员已经上传到了svn，所以上传svn的时候我需要首先更新本地代码，我得回到原来的状态更新，那么我会失去之前 ``hard reset" 后的 commits。如果有 remote repo，我可以上传 commits，然后退回用 svn 更新本地代码后，复制 remote repo 上面的 commits 文件，对应的写 log （这里面有个问题，就是 remote repo 上面的第一个 commit 由于是基于新的 svn 上面的代码，所以看到的 changes 是有点不同的，但是后面的 commits 没有影响）
+如果项目其他成员是用的svn，当某个成员改动了我的代码后，我想 ``hard reset" 后重新写，commit了多次；由于那个成员已经上传到了svn，所以上传svn的时候我需要首先更新本地代码，我得回到原来的状态更新，那么我会失去之前 ``hard reset" 后的 commits。如果有 remote repo，我可以上传 commits，然后退回用 svn 更新本地代码后，复制 remote repo 上面的 commits 文件，对应的写 log （这里面有个问题，就是 remote repo 上面的第一个 commit 由于是基于旧的 svn 上面的代码，所以看到的 changes 是有点不同的，但是后面的 commits 没有影响）
 
 \item Your branch and 'origin/master' have diverged, how to undiverge branches?\\
 You can review the differences with a: \verb|git log HEAD..origin/master| before pulling it (fetch + merge), see \href{https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches}{merge or rebase}
@@ -1715,14 +1715,14 @@ See \url{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/State
 
 \subsection{function}
 \begin{itemize}
-\item Anonymous function expression
+\item Anonymous function expression (including \verb|var decl., assignmt|)
 \begin{verbatim}
 var anonymous = function () {
   console.log('anonymous function expression');
 };
 \end{verbatim}
 
-\item Named function expression
+\item Named function expression (including \verb|var decl., assignmt|)
 \begin{verbatim}
 var named = function superPower() {
   console.log('Flying');
@@ -1737,6 +1737,7 @@ function superPower() {
 \end{verbatim}
 
 \end{itemize}
+Because function declaration and function expressions look identical
 
 
 \subsection{class}
@@ -1999,6 +2000,18 @@ fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
 OPTIONS is an HTTP/1.1 method that is used to determine further information from servers, and is a safe method, meaning that it can't be used to change the resource.
 
 Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the invocation with Cookies, namely the withCredentials boolean value.
+
+
+\section{\href{https://javascript.info/}{javascript.info}}
+\subsection{Browser default actions}
+\textbf{Returning false from a handler is an exception}
+
+The value returned by an event handler is usually ignored.
+
+The only exception is \verb|return false| from a handler assigned using \verb|on<event>|.
+
+In all other cases, \verb|return| value is ignored. In particular, there's no sense in returning \verb|true|.
+
 
 
 \section{Web API}
