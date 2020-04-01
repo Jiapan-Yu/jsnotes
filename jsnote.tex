@@ -1378,6 +1378,20 @@ The body of handleChange won't be executed, don't know why. 当传的是其它�
 \end{itemize}
 
 
+\section{react-redux}
+react-redux使用方法:
+\begin{enumerate}
+\item 提交 dispatch 触发 actions
+
+\item 应该是有一个 store 目录
+
+\item 在需要使用 store 中数据的组件中，引入 react-redux 提供的 connect 方法\\ \verb|import { connect } from 'react-redux'|，接着，在抛出的时候调用 connect 方法改造当前组件 \verb|export default connect(state => state)(SelectItem)|
+
+\item 然后，我们在被改造的组件内就可以通过this.props.属性名获取store中的数据了，我在 'combineReducers' 中传的是一个以 data 为键的对象，所以我在当前组件中使用 this.props.data
+
+\end{enumerate}
+
+
 \section{MobX}
 store在刷新后数据会被清掉，页面跳转数据会保留
 
@@ -1721,6 +1735,7 @@ var anonymous = function () {
   console.log('anonymous function expression');
 };
 \end{verbatim}
+function expressions that are assigned to variables are not hoisted
 
 \item Named function expression (including \verb|var decl., assignmt|)
 \begin{verbatim}
@@ -1728,6 +1743,7 @@ var named = function superPower() {
   console.log('Flying');
 };
 \end{verbatim}
+function expressions that are assigned to variables are not hoisted
 
 \item Function declaration
 \begin{verbatim}
@@ -1737,7 +1753,7 @@ function superPower() {
 \end{verbatim}
 
 \end{itemize}
-Because function declaration and function expressions look identical
+Because function declaration and function expressions look identical. Anonymous function (declaration or expression) can be passed anywhere that accepts function, but it can't exist on its own
 
 
 \subsection{class}
