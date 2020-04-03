@@ -311,6 +311,16 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 
 \end{enumerate}
 
+\subsection{SVN}
+\begin{itemize}
+\item 项目文件删除了后，如果先update则会恢复删除的文件；如果是文件改动了，如果先update则不会有任何影响。
+
+\item 如果使用 git 来同时管控使用了 svn 的项目，则当 svn 出现 conflicts 的时候，首先用 svn 来解决 conflicts，再 git commit。如果用 vscode 解决了 conflicts，svn 是不认同的，那么我需要再次用 svn 来解决 conflicts 然后再次 git commit。
+
+\end{itemize}
+
+当使用 git 来同时管控使用了 svn 的项目，我是首先 git commit $\Rightarrow$ svn update $\Rightarrow$ svn commit 写上 git commit 的最新 log $\Rightarrow$ git commit 写上 others' changes 的 log，{\color{red}同时}我需要考虑以上两种情况
+
 \subsection{FAQ}
 \begin{enumerate}
 \item 什么时候需要建立 remote repo？\\
@@ -1529,7 +1539,7 @@ We learned how to dynamically add inline styles using \verb|v-bind:style| with a
 
 \item 当后台服务重启后，可在请求统一响应拦截的地方根据TypeError来跳到登录页
 
-\item 注意观察chrome console里面有没有报错
+\item 报错了主要看 chrome console 里面
 
 \end{enumerate}
 
