@@ -67,6 +67,8 @@ __proto__: Array(0) [, …]
 \section{Caveats}
 \begin{enumerate}
 
+\item 当需要对表格里的时间进行搜索的时候（比如“检测时间（开始--结束）”），只需要添加一个时间控件(RangePicker)里面写上“开始”和“结束” placeholder 即可（因为“检测时间”那一列是在 table 里的）
+
 \item 当在手机微信端访问项目时，如果打不开页面可以试着关闭电脑防火墙试一下
 
 \item 前端form里面的数据类型为字符串，但是后台spring会自动进行对应类型的转换
@@ -324,9 +326,11 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 \subsection{FAQ}
 \begin{enumerate}
 \item 什么时候需要建立 remote repo？\\
-当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码 （比如limeng改动了我的代码，我想自己重新写一遍同时对比limeng写的）。
+当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码 （比如limeng改动了我的代码放在了 ephemeral 分支，我想自己重新在 master 分支上面写一遍同时对比limeng写的）。
 
-如果项目其他成员是用的svn，当某个成员改动了我的代码后，我想 ``hard reset" 后重新写，commit了多次；由于那个成员已经上传到了svn，所以上传svn的时候我需要首先更新本地代码，我得回到原来的状态更新，那么我会失去之前 ``hard reset" 后的 commits。如果有 remote repo，我可以上传 commits，然后退回用 svn 更新本地代码后，复制 remote repo 上面的 commits 文件，对应的写 log （这里面有个问题，就是 remote repo 上面的第一个 commit 由于是基于旧的 svn 上面的代码，所以看到的 changes 是有点不同的，但是后面的 commits 没有影响）
+如果项目其他成员是用的svn，当某个成员改动了我的代码后，我想 ``hard reset" 后重新写，commit了多次；由于那个成员已经上传到了svn，所以上传svn的时候我需要首先更新本地代码，我得回到原来的状态更新，那么我会失去之前 ``hard reset" 后的 commits。如果有 remote repo，我可以上传 commits，然后退回用 svn 更新本地代码后，复制 remote repo 上面的 commits 文件，对应的写 log （这里面有个问题，就是 remote repo 上面的第一个 commit 由于是基于旧的 svn 上面的代码，所以看到的 changes 是有点不同的，但是后面的 commits 没有影响）（{\color{red}commit 指 git commit }）
+
+需要 copy 之前写的某个 commit 的一个文件时（包括那个 commit 之前写的内容），github desktop 会有 \verb|@@ -10,7 +11,11 @@| 之类的符号，但是 remote repo 可以没有
 
 \item Your branch and 'origin/master' have diverged, how to undiverge branches?\\
 You can review the differences with a: \verb|git log HEAD..origin/master| before pulling it (fetch + merge), see \href{https://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches}{merge or rebase}
@@ -1386,6 +1390,9 @@ The body of handleChange won't be executed, don't know why. 当传的是其它�
 \item 
 
 \end{itemize}
+
+\subsection{react项目js文件import的顺序}
+首先 import 与 react 相关的库比如 \verb|react|、\verb|react-dom| 等，再 import 本地文件和组件，接下来 import 其它库比如 \verb|moment|、\verb|antd| 等，接下来 import 接口，最后 import 样式文件。
 
 
 \section{react-redux}
