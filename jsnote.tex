@@ -132,7 +132,7 @@ will return an array containing two objects
 
 \item After configured webpack.config.js file, you may need to recompile to make it work
 
-\item Chrome developer tools: open the \verb|Elements| tab to inspect the compiled html
+\item Chrome developer tools: open the \verb|Elements| tab to inspect the compiled html, 当判断某个元素 \verb|:hover| 时，如果当前元素搜索不到 hover 则可能在当前元素的子元素里
 
 \item \verb|import| vs \verb|require|: import can bring in only the desired function
 \begin{verbatim}
@@ -1175,6 +1175,8 @@ Whenever a component instance updates, it automatically calls all five of these 
 
 \section{react}
 \begin{enumerate}
+\item 
+\begin{itemize}
 \item ES6 React 组件引用本地图片问题: require里只能写字符串，不能写变量，可以 \verb|require(`${imgSrc}`)|, see \href{https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react}{How do I reference a local image in React?}
 
 \verb|document.getElementById('progress-col').firstElementChild|\newline
@@ -1186,7 +1188,8 @@ Whenever a component instance updates, it automatically calls all five of these 
 \verb|document.getElementById('progress-col').firstElementChild.style|\newline
 \verb|.backgroundImage = `url(${require("../../static/img/rectBgHighlighted.svg")})`;|
 
-当引用视频文件时
+
+\item 当引用视频文件时
 \begin{verbatim}
 import covervid from './movie.mp4';
 <video controls style={{ width: "71rem", height: "37rem", }}>
@@ -1224,6 +1227,18 @@ const { videoSrc } = this.state;
   }
 </div>
 \end{verbatim}
+或者
+\begin{verbatim}
+<div>
+  {
+    videoSrc &&
+    <video controls src={videoSrc} style={{ width: "71rem", height: "37rem", }}>
+    </video>
+  }
+</div>
+\end{verbatim}
+
+\end{itemize}
 
 \item 
 
