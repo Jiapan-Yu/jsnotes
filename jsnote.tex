@@ -67,6 +67,8 @@ __proto__: Array(0) [, …]
 \section{Caveats}
 \begin{enumerate}
 
+\item 了解后台传的数据结构对前端开发应该也有一定的帮助
+
 \item 当需要对表格里的时间进行搜索的时候（比如“检测时间（开始--结束）”），只需要添加一个时间控件(RangePicker)里面写上“开始”和“结束” placeholder 即可（因为“检测时间”那一列是在 table 里的）
 
 \item 当在手机微信端访问项目时，如果打不开页面可以试着关闭电脑防火墙试一下
@@ -2060,6 +2062,19 @@ The only exception is \verb|return false| from a handler assigned using \verb|on
 
 In all other cases, \verb|return| value is ignored. In particular, there's no sense in returning \verb|true|.
 
+\subsection{Event delegation}
+
+\subsection{Variable scope}
+Task \href{https://javascript.info/closure#filter-through-function}{Filter through function} may be useful to make note here
+
+\noindent Often used glossaries:
+\begin{verbatim}
+global scope, block scope, function scope
+
+creation place, invocation place, lexical environment
+outer variable, inner variable, enclosing lexical context
+\end{verbatim}
+
 
 
 \section{Web API}
@@ -2206,7 +2221,7 @@ The process for identifying the containing block depends entirely on the value o
 
 A block container could be block, inline-block or list-item element, the containing block could be a block container or which establishes a formatting context
 
-block container, block-level elements, inline elements, containing block, formatting context, viewport
+block container, block-level elements, inline elements, containing block, \href{https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context}{(block) formatting context}, viewport
 
 \subsection{Non-Inherited properties}
 To name but a few, non-inherited properties are:\\ \verb|width, height, padding, border, margin, position, background|, etc.
