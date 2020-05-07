@@ -2,6 +2,7 @@
 
 \usepackage[UTF8]{ctex}
 \usepackage{graphicx}
+\usepackage{comment}
 \usepackage{lipsum}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[margin=.5in]{geometry}
@@ -1683,7 +1684,18 @@ x = 5;           // Now x is a Number
 x = "John";      // Now x is a String
 \end{verbatim}
 
-\item \textit{avoid} using arrow functions when using \verb|this| in a method
+\item \textit{avoid} using arrow functions when using \verb|this| in a method, eg.
+\begin{verbatim}
+let obj = {
+  name: 'john',
+  sex: 'male',
+  speak: () => {
+    alert(this.name)
+  },
+}
+obj.speak()
+\end{verbatim}
+won't alert 'john'
 
 \item Property Value Shorthand:\\
 factory function:
@@ -2053,18 +2065,7 @@ Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the 
 
 
 \section{\href{https://javascript.info/}{javascript.info}}
-\subsection{Browser default actions}
-\textbf{Returning false from a handler is an exception}
-
-The value returned by an event handler is usually ignored.
-
-The only exception is \verb|return false| from a handler assigned using \verb|on<event>|.
-
-In all other cases, \verb|return| value is ignored. In particular, there's no sense in returning \verb|true|.
-
-\subsection{Event delegation}
-
-\subsection{Variable scope}
+\subsection{Variable scope (finished including tasks)}
 Task \href{https://javascript.info/closure#filter-through-function}{Filter through function} may be useful to make note here
 
 \noindent Often used glossaries:
@@ -2074,6 +2075,79 @@ global scope, block scope, function scope
 creation place, invocation place, lexical environment
 outer variable, inner variable, enclosing lexical context
 \end{verbatim}
+
+\subsection{Introduction to Events}
+\subsubsection{Introduction to browser events}
+unfinished tasks:
+
+\href{https://javascript.info/introduction-browser-events#move-the-ball-across-the-field}{Move the ball across the field}
+\begin{comment}
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    #field {
+      width: 200px;
+      height: 150px;
+      border: 10px solid black;
+      background-color: #00FF00;
+      overflow: hidden;
+    }
+    #field:hover {
+      cursor: pointer;
+    }
+    #ball {
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body style="height:2000px">
+
+  Click on a field to move the ball there.
+  <br> The ball should never leave the field.
+
+
+  <div id="field">
+    <img src="https://en.js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  </div>
+
+<script>
+  field.onclick = function (event) {
+    console.log(event.clientX)
+    console.log(event.clientY)
+    ball.style.top = `${event.clientY - 10}px`;
+    ball.style.left = `${event.clientX - 10}px`;
+  }
+</script>
+
+</body>
+</html>
+\end{comment}
+
+\href{https://javascript.info/introduction-browser-events#carousel}{Carousel}
+
+\subsubsection{Bubbling and capturing (finished)}
+The most deeply nested element that caused the event is called a target element, accessible as \verb|event.target|
+
+\subsubsection{Event delegation}
+unfinished tasks:
+
+\href{https://javascript.info/event-delegation#sortable-table}{Sortable table}
+
+\href{https://javascript.info/event-delegation#tooltip-behavior}{Tooltip behavior}
+
+\subsubsection{Browser default actions}
+\textbf{Returning false from a handler is an exception}
+
+The value returned by an event handler is usually ignored.
+
+The only exception is \verb|return false| from a handler assigned using \verb|on<event>|.
+
+In all other cases, \verb|return| value is ignored. In particular, there's no sense in returning \verb|true|.
 
 
 
