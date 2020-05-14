@@ -401,6 +401,8 @@ See section ``Amending the message of older or multiple commit messages" of \url
 \section{VSCode}
 \begin{itemize}
 
+\item remove selection next find match: \verb|Cmd+U| to undo the last action
+
 \item debug的时候，开的是一个chrome页面，当需要关闭当前页面重新打开测试的时候该怎么办？
 
 \item source control: modified 为蓝色 \quad added 为暗橙色
@@ -2067,6 +2069,7 @@ Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the 
 \section{\href{https://javascript.info/}{javascript.info}}
 \subsection{JavaScript Fundamentals}
 \subsubsection{Interaction: alert, prompt, confirm (finished including tasks)}
+\subsubsection{JavaScript specials (finished)}
 
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
@@ -2104,6 +2107,7 @@ unfinished tasks:
     }
     #ball {
       position: absolute;
+      /* transition: top 1s ease, left 1s ease; */
     }
   </style>
 </head>
@@ -2120,12 +2124,51 @@ unfinished tasks:
   </div>
 
 <script>
-  field.onclick = function (event) {
-    console.log(event.clientX)
-    console.log(event.clientY)
-    ball.style.top = `${event.clientY - 10}px`;
-    ball.style.left = `${event.clientX - 10}px`;
+  ball.style.transition = "top 1s ease, left 1s ease"
+  field.onclick = function (event) {    
+    console.log('clientX: ', event.clientX)
+    console.log('clientY: ', event.clientY)
+
+    // event.clientX
+    let xMin = field.getBoundingClientRect().left + 10 + ball.width / 2
+    console.log('xMin: ', xMin)
+    let xMax = field.getBoundingClientRect().right - 10 - ball.width / 2
+    console.log('xMax: ', xMax)
+    // event.clientY
+    let yMin = field.getBoundingClientRect().top + 10 + ball.width / 2
+    console.log('yMin: ', yMin)
+    let yMax = field.getBoundingClientRect().bottom - 10 - ball.width / 2
+    console.log('yMax: ', yMax)
+
+    if (event.clientX < xMin) {
+      ball.style.left = xMin
+      ball.style.top = `${event.clientY - ball.width / 2}px`
+      return
+    }
+    if (event.clientX > xMax) {
+      ball.style.left = xMax
+      ball.style.top = `${event.clientY - ball.width / 2}px`
+      return
+    }
+    if (event.clientY < yMin) {
+      ball.style.top = yMin
+      ball.style.left = `${event.clientX - ball.height / 2}px`
+      return
+    }
+    if (event.clientY > yMax) {
+      ball.style.top = yMax
+      ball.style.left = `${event.clientX - ball.height / 2}px`
+      return
+    }
+
+    ball.style.left = `${event.clientX - ball.height / 2}px`;
+    ball.style.top = `${event.clientY - ball.width / 2}px`;
   }
+
+  /* console.log(ball.width)
+  console.log(ball.height)
+  console.log(field.clientWidth)
+  console.log(field.clientHeight) */
 </script>
 
 </body>
@@ -2511,7 +2554,7 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 \verb|align-items|是对所有grid items。而\verb|align-self|是对单个grid item，优先级大于\verb|align-items|
 
 \subsection{CSS animation}
-\url{https://www.youtube.com/watch?v=oYlJR4Le228&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5&index=3}
+\url{https://www.youtube.com/watch?v=PjR97QzOrJM&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5&index=4}
 
 
 \subsection{p tag}
