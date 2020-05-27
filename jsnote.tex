@@ -1801,7 +1801,7 @@ function superPower() {
 \end{verbatim}
 
 \end{itemize}
-Because function declaration and function expressions look identical. Anonymous function (declaration or expression) can be passed anywhere that accepts function, but it can't exist on its own
+Function declaration and function expressions look identical. Anonymous function (declaration or expression) can be passed anywhere that accepts function, but it can't exist on its own
 
 
 \subsection{class}
@@ -2068,6 +2068,14 @@ Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the 
 
 \section{\href{https://javascript.info/}{javascript.info}}
 \subsection{JavaScript Fundamentals}
+\subsubsection{Hello, world! (finished including tasks)}
+\subsubsection{Code structure (finished)}
+\subsubsection{The modern mode, "use strict" (finished)}
+When you use a developer console to run code, please note that it doesn't use strict by default.
+
+\subsubsection{Variables}
+\href{https://javascript.info/variables#variable-naming}{Variable naming}
+
 \subsubsection{Interaction: alert, prompt, confirm (finished including tasks)}
 \subsubsection{JavaScript specials (finished)}
 
@@ -2084,96 +2092,9 @@ outer variable, inner variable, enclosing lexical context
 \end{verbatim}
 
 \subsection{Introduction to Events}
-\subsubsection{Introduction to browser events}
-unfinished tasks:
+\subsubsection{Introduction to browser events (finished including tasks)}
 
 \href{https://javascript.info/introduction-browser-events#move-the-ball-across-the-field}{Move the ball across the field}
-\begin{comment}
-<!DOCTYPE HTML>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <style>
-    #field {
-      width: 200px;
-      height: 150px;
-      border: 10px solid black;
-      background-color: #00FF00;
-      overflow: hidden;
-    }
-    #field:hover {
-      cursor: pointer;
-    }
-    #ball {
-      position: absolute;
-      /* transition: top 1s ease, left 1s ease; */
-    }
-  </style>
-</head>
-
-<body style="height:2000px">
-
-  Click on a field to move the ball there.
-  <br> The ball should never leave the field.
-
-
-  <div id="field">
-    <img src="https://en.js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-  </div>
-
-<script>
-  ball.style.transition = "top 1s ease, left 1s ease"
-  field.onclick = function (event) {    
-    console.log('clientX: ', event.clientX)
-    console.log('clientY: ', event.clientY)
-
-    // event.clientX
-    let xMin = field.getBoundingClientRect().left + 10 + ball.width / 2
-    console.log('xMin: ', xMin)
-    let xMax = field.getBoundingClientRect().right - 10 - ball.width / 2
-    console.log('xMax: ', xMax)
-    // event.clientY
-    let yMin = field.getBoundingClientRect().top + 10 + ball.width / 2
-    console.log('yMin: ', yMin)
-    let yMax = field.getBoundingClientRect().bottom - 10 - ball.width / 2
-    console.log('yMax: ', yMax)
-
-    if (event.clientX < xMin) {
-      ball.style.left = xMin
-      ball.style.top = `${event.clientY - ball.width / 2}px`
-      return
-    }
-    if (event.clientX > xMax) {
-      ball.style.left = xMax
-      ball.style.top = `${event.clientY - ball.width / 2}px`
-      return
-    }
-    if (event.clientY < yMin) {
-      ball.style.top = yMin
-      ball.style.left = `${event.clientX - ball.height / 2}px`
-      return
-    }
-    if (event.clientY > yMax) {
-      ball.style.top = yMax
-      ball.style.left = `${event.clientX - ball.height / 2}px`
-      return
-    }
-
-    ball.style.left = `${event.clientX - ball.height / 2}px`;
-    ball.style.top = `${event.clientY - ball.width / 2}px`;
-  }
-
-  /* console.log(ball.width)
-  console.log(ball.height)
-  console.log(field.clientWidth)
-  console.log(field.clientHeight) */
-</script>
-
-</body>
-</html>
-\end{comment}
 
 \href{https://javascript.info/introduction-browser-events#carousel}{Carousel}
 
@@ -2238,7 +2159,7 @@ it will throw an exception, because there's no \verb|ELEMENT_NODE| nodeType chil
 \subsection{Caveats}
 \begin{enumerate}
 
-\item {\color{red}\verb|box-sizing: border-box;|} 则width=border width + padding width + content width. chrome inspect的width、height总是这些值之和
+\item {\color{red}\verb|box-sizing: border-box;|} 则width=border width + padding width + content (area) width. chrome inspect的width、height总是这些值之和
 
 \item The unit px, if the value is 0 then you can omit the px unit, if it's not 0 then you have to add px
 
