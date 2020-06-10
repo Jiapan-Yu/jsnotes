@@ -2073,10 +2073,22 @@ Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the 
 \subsubsection{The modern mode, "use strict" (finished)}
 When you use a developer console to run code, please note that it doesn't use strict by default.
 
-\subsubsection{Variables}
-\href{https://javascript.info/variables#variable-naming}{Variable naming}
+\subsubsection{Variables (finished including tasks)}
+
+\subsubsection{Data types (finished including tasks)}
 
 \subsubsection{Interaction: alert, prompt, confirm (finished including tasks)}
+\subsubsection{Type Conversions (finished)}
+\subsubsection{Basic operators, maths (finished including tasks)}
+\verb|null + 1 = 1|, \verb|null| becomes \verb|0| after the numeric conversion.
+
+\subsubsection{Comparisons}
+operands of different types are converted to numbers by the equality operator ==.
+
+On the other hand, the equality check \verb|==| for \verb|undefined| and \verb|null| is defined such that, without any conversions, they equal each other and don't equal anything else. That's why (2) \verb|null == 0| is false.
+
+\subsubsection{Conditional operators: if, '?'}
+
 \subsubsection{JavaScript specials (finished)}
 
 \subsection{Advanced working with functions}
@@ -2101,12 +2113,17 @@ outer variable, inner variable, enclosing lexical context
 \subsubsection{Bubbling and capturing (finished)}
 The most deeply nested element that caused the event is called a target element, accessible as \verb|event.target|
 
-\subsubsection{Event delegation}
-unfinished tasks:
+\subsubsection{Event delegation (finished including tasks)}
 
-\href{https://javascript.info/event-delegation#sortable-table}{Sortable table}
+\href{https://javascript.info/event-delegation#sortable-table}{Sortable table} (finished with one question)
 
-\href{https://javascript.info/event-delegation#tooltip-behavior}{Tooltip behavior}
+\verb|let rowsArray = Array.from(tbody.rows)|
+
+will subsequent changes to \verb|rowsArray| object affect \verb|tbody.rows| object? seems like
+
+\href{https://javascript.info/event-delegation#tooltip-behavior}{Tooltip behavior} (finished)
+
+don't create the element and assign it to a variable in global scope, but can declare a variable in the global scope and then create the element in a function scope
 
 \subsubsection{Browser default actions (finished including tasks)}
 \textbf{Returning false from a handler is an exception}
@@ -2475,7 +2492,7 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 \verb|align-items|是对所有grid items。而\verb|align-self|是对单个grid item，优先级大于\verb|align-items|
 
 \subsection{CSS animation}
-\url{https://www.youtube.com/watch?v=PjR97QzOrJM&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5&index=4}
+\url{https://www.youtube.com/watch?v=t2zoXRXpCWs&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5&index=8}
 
 
 \subsection{p tag}
