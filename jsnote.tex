@@ -2088,6 +2088,16 @@ operands of different types are converted to numbers by the equality operator ==
 On the other hand, the equality check \verb|==| for \verb|undefined| and \verb|null| is defined such that, without any conversions, they equal each other and don't equal anything else. That's why (2) \verb|null == 0| is false.
 
 \subsubsection{Conditional operators: if, '?' (finished including tasks)}
+\begin{verbatim}
+let userInput = prompt(`what's the "official" name of JavaScript?`, ``)
+
+if (userInput && userInput.toLowerCase() === 'ecmascript') {
+  alert(`Right`)
+} else {
+  alert(`You don't know? "ECMAScript"!`)
+}
+\end{verbatim}
+当用户不输入任何值的时候，userInput 为 null，照说 '===' 应该先执行报错（优先级更高），但是没有，为什么？see \href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Note_on_Grouping_and_Short-Circuiting}{Note on Grouping and Short-Circuiting}
 
 \subsubsection{Logical operators (finished including tasks)}
 Task: What will the code below output?
@@ -2098,17 +2108,12 @@ The answer: first 1, then 2.
 
 The call to \verb|alert| does not return a value. Or, in other words, it returns \verb|undefined|. see pic null\&undefined.png
 
-\subsubsection{JavaScript specials (finished)}
-\begin{verbatim}
-let userInput = prompt(`what's the "official" name of JavaScript?`, ``)
+\subsubsection{Nullish coalescing operator '??' (finished)}
+Summary section is very good.
 
-if (userInput && userInput.toLowerCase() === 'ecmascript') {
-  alert(`Right`)
-} else {
-  alert(`You don't know? "ECMAScript"!`)
-}
-\end{verbatim}
-当用户不输入任何值的时候，userInput 为 null，照说 '===' 应该先执行报错（优先级更高），但是没有，为什么？
+see pic nullish.png.
+
+\subsubsection{JavaScript specials (finished)}
 
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
