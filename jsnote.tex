@@ -2097,7 +2097,7 @@ if (userInput && userInput.toLowerCase() === 'ecmascript') {
   alert(`You don't know? "ECMAScript"!`)
 }
 \end{verbatim}
-当用户不输入任何值的时候，userInput 为 null，照说 '===' 应该先执行报错（优先级更高），但是没有，为什么？see \href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Note_on_Grouping_and_Short-Circuiting}{Note on Grouping and Short-Circuiting}
+当用户不输入任何值的时候，userInput 为 null，照说 '===' 应该先执行报错（优先级更高），但是没有，为什么？see \href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Note_on_grouping_and_short-circuiting}{Note on Grouping and Short-Circuiting}
 
 \subsubsection{Logical operators (finished including tasks)}
 Task: What will the code below output?
@@ -2112,6 +2112,11 @@ The call to \verb|alert| does not return a value. Or, in other words, it returns
 Summary section is very good.
 
 see pic nullish.png.
+
+\subsubsection{Loops: while and for (finished including tasks)}
+A label is the only way for \verb|break/continue| to escape a nested loop to go to an outer one.
+
+\href{https://javascript.info/while-for#output-prime-numbers}{Output prime numbers}
 
 \subsubsection{JavaScript specials (finished)}
 
