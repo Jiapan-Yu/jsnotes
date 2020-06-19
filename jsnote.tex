@@ -72,7 +72,7 @@ __proto__: Array(0) [, …]
 
 \item 当需要对表格里的时间进行搜索的时候（比如“检测时间（开始--结束）”），只需要添加一个时间控件(RangePicker)里面写上“开始”和“结束” placeholder 即可（因为“检测时间”那一列是在 table 里的）
 
-\item 当在手机微信端访问项目时，如果打不开页面可以试着关闭电脑防火墙试一下
+\item 当在手机微信端访问项目时，如果打不开页面可以试着关闭电脑防火墙试一下，或者wifi忘记重新连一下，然后在“允许其他设备连接”选择是
 
 \item 前端form里面的数据类型为字符串，但是后台spring会自动进行对应类型的转换
 
@@ -2533,6 +2533,40 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 \section{jQuery}
 jQuery can equally interpret the CSS and DOM formatting of multiple-word properties. For example, jQuery understands and returns the correct value for both \verb|.css( "background-color" )| and \verb|.css( "backgroundColor" )|. This means mixed case has a special meaning, \verb|.css( "WiDtH" )| won't do the same as \verb|.css( "width" )|, for example.
 
+
+\section{D3}
+\subsection{Introduction to D3 (data-driven styling)}
+\begin{enumerate}
+\item 
+\begin{verbatim}
+let dataset = [55,34,23,22,59];
+d3.selectAll("p")
+   .data(dataset);
+\end{verbatim}
+Remember that the steps that follow \verb|.data()| method are executed the total number of elements in the dataset.
+
+\item 
+After making a selection, creating a new visualization, whose elements are not already in the DOM, usually follows the .data() .enter() and .append() pattern:
+\begin{verbatim}
+let dataset = [55,34,23,22,59];
+d3.select("body")
+   .selectAll("div")
+   .data(dataset)
+   .enter()
+   .append("div");
+\end{verbatim}
+
+\item You'll see that the d3 community will indent some parts of the chains with four spaces, and other parts of the chain with two. The lines with two spaces indicate that the selection has changed:
+\begin{verbatim}
+var h1 = d3.selectAll("section")
+    .style("background", "steelblue")
+  .append("h1")
+    .text("Hello!");
+\end{verbatim}
+
+\item 
+
+\end{enumerate}
 
 \section{Java}
 Java + input tag (type hidden) 试着写一个demo练手, 可参考 \url{https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden#Examples}
