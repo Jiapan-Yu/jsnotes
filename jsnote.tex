@@ -2530,6 +2530,36 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 \end{enumerate}
 
 
+\section{HTML}
+\subsection{table}
+Note that the table's head still requires a row in order to contain the table headings.
+\begin{verbatim}
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th scope="col">Saturday</th>
+      <th scope="col">Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th scope="row">Afternoon</th>
+    </tr>
+    <tr>
+      <th scope="row">Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
+\end{verbatim}
+
+
 \section{jQuery}
 jQuery can equally interpret the CSS and DOM formatting of multiple-word properties. For example, jQuery understands and returns the correct value for both \verb|.css( "background-color" )| and \verb|.css( "backgroundColor" )|. This means mixed case has a special meaning, \verb|.css( "WiDtH" )| won't do the same as \verb|.css( "width" )|, for example.
 
