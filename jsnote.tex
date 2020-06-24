@@ -2140,6 +2140,27 @@ Naming a function:
 \item checkPermission(..) // checks a permission, returns true/false
 \end{enumerate}
 
+\subsubsection{Function expressions (finished)}
+\begin{itemize}
+\item Function Declarations are processed before the code block is executed. They are visible everywhere in the block.
+
+\item Function Expressions are created when the execution flow reaches them.
+\begin{verbatim}
+let age = prompt("What is your age?", 18);
+
+let welcome = (age < 18) ?
+  function() { alert("Hello!"); } :
+  function() { alert("Greetings!"); };
+
+welcome(); // ok now
+\end{verbatim}
+that's why the above works as expected
+
+\end{itemize}
+
+\subsubsection{Arrow functions, the basics (finished including tasks)}
+
+
 \subsubsection{JavaScript specials (finished)}
 
 \subsection{Advanced working with functions}
@@ -2592,6 +2613,9 @@ Note that the table's head still requires a row in order to contain the table he
 </table>
 \end{verbatim}
 
+\subsection{form}
+without the \verb|name| attribute, information in the \verb|<input>| won't be sent when the \verb|<form>| is submitted.
+
 
 \section{jQuery}
 jQuery can equally interpret the CSS and DOM formatting of multiple-word properties. For example, jQuery understands and returns the correct value for both \verb|.css( "background-color" )| and \verb|.css( "backgroundColor" )|. This means mixed case has a special meaning, \verb|.css( "WiDtH" )| won't do the same as \verb|.css( "width" )|, for example.
@@ -2717,6 +2741,9 @@ Get list of globally installed packages: \verb|npm list -g --depth 0|
 npm install npm@latest -g
 \end{verbatim}
 \end{enumerate}
+
+\subsection{browser-sync}
+\verb|browser-sync start --server -w --startPath="/javascriptInfo.html"|
 
 \section{DOM}
 \begin{enumerate}
