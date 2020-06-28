@@ -2160,8 +2160,30 @@ that's why the above works as expected
 
 \subsubsection{Arrow functions, the basics (finished including tasks)}
 
-
 \subsubsection{JavaScript specials (finished)}
+
+\subsection{Code quality}
+\subsubsection{Debugging in Chrome (finished)}
+
+\subsubsection{Coding Style (finished including task)}
+Indents: Spaces are more common nowadays.
+
+In the example below, the initialization of variables, the main loop and returning the result are split vertically:
+\begin{verbatim}
+function pow(x, n) {
+  let result = 1;
+  //              <--
+  for (let i = 0; i < n; i++) {
+    result *= x;
+  }
+  //              <--
+  return result;
+}
+\end{verbatim}
+
+\href{https://javascript.info/coding-style#automated-linters}{Automated Linters} sheds some info on eslint config
+
+\subsubsection{Comments (finished)}
 
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
@@ -2577,7 +2599,21 @@ The \verb|grid-template-areas| property allows you to name sections of your web 
 \begin{itemize}
 \item CSS Rounded Corners
 
+\item CSS Border Images
+
 \item CSS Gradients
+
+\item CSS Multiple Backgrounds. 
+
+Full Size Background Image:
+\begin{verbatim}
+html {
+  background: url(img_man.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+\end{verbatim}
+
+\item 
 
 \item 
 
