@@ -2185,6 +2185,34 @@ function pow(x, n) {
 
 \subsubsection{Comments (finished)}
 
+\subsubsection{Ninja code (finished)}
+
+\subsubsection{Automated testing with Mocha (skipped)}
+
+\subsubsection{Polyfills (finished)}
+
+\subsection{Objects: the basics}
+\subsubsection{Objects (finished including tasks)}
+\href{https://javascript.info/object#property-names-limitations}{Property names limitations}:
+\begin{itemize}
+\item In short, there are no limitations on property names. They can be any strings or symbols (a special type for identifiers, to be covered later).
+
+\item Other types are automatically converted to strings.
+
+\item Check for emptiness:
+\begin{verbatim}
+function isEmpty(obj) {
+  for (let key in obj) {
+    // if the loop has started, there is a property
+    return false;
+  }
+  return true;
+}
+\end{verbatim}
+
+\end{itemize}
+
+
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
 Task \href{https://javascript.info/closure#filter-through-function}{Filter through function} may be useful to make note here
