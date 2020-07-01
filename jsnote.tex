@@ -2199,7 +2199,9 @@ function pow(x, n) {
 
 \item Other types are automatically converted to strings.
 
-\item Check for emptiness:
+\end{itemize}
+
+Task: Check for emptiness:
 \begin{verbatim}
 function isEmpty(obj) {
   for (let key in obj) {
@@ -2210,7 +2212,13 @@ function isEmpty(obj) {
 }
 \end{verbatim}
 
-\end{itemize}
+\subsubsection{Object copying, references (finished)}
+To make a “real copy” (a clone) we can use \verb|Object.assign| for the so-called “shallow copy” (nested objects are copied by reference) or a “deep cloning” function, such as \verb|_.cloneDeep(obj)|.
+
+\subsubsection{Garbage collection (finished)}
+Outgoing references do not matter. Only incoming ones can make an object reachable.
+
+Being referenced is not the same as being reachable (from a root): a pack of interlinked objects can become unreachable as a whole.
 
 
 \subsection{Advanced working with functions}
