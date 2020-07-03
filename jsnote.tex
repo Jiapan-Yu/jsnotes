@@ -2220,6 +2220,22 @@ Outgoing references do not matter. Only incoming ones can make an object reachab
 
 Being referenced is not the same as being reachable (from a root): a pack of interlinked objects can become unreachable as a whole.
 
+\subsubsection{Object methods, "this" (finished including tasks)}
+\begin{verbatim}
+function sayHi() {
+  alert(this);
+}
+
+sayHi(); // undefined, because it is called as a function, not as a method with “dot” syntax
+\end{verbatim}
+In this case this is undefined in strict mode. If we try to access this.name, there will be an error.
+
+\noindent In non-strict mode the value of \verb|this| in such case will be the global object (\verb|window| in a browser, we’ll get to it later in the chapter Global object). This is a historical behavior that \verb|"use strict"| fixes.
+
+Please note that arrow functions are special: they have no this. When this is accessed inside an arrow function, it is taken from outside.
+
+Task \href{https://javascript.info/object-methods#chaining}{Chaining} contains tests
+
 
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
@@ -2652,6 +2668,10 @@ html {
 \item CSS Gradients
 
 \item CSS Shadows
+
+\item CSS Text Effects
+
+\item CSS Web Fonts
 
 \item 
 
