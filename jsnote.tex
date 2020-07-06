@@ -2073,6 +2073,8 @@ Line 7 shows the flag on XMLHttpRequest that has to be set in order to make the 
 \subsubsection{The modern mode, "use strict" (finished)}
 When you use a developer console to run code, please note that it doesn't use strict by default.
 
+Modern JavaScript supports “classes” and “modules” \textemdash\ advanced language structures (we'll surely get to them), that enable \verb|use strict| automatically. So we don't need to add the \verb|"use strict"| directive, if we use them.
+
 \subsubsection{Variables (finished including tasks)}
 
 \subsubsection{Data types (finished including tasks)}
@@ -2230,12 +2232,14 @@ sayHi(); // undefined, because it is called as a function, not as a method with 
 \end{verbatim}
 In this case this is undefined in strict mode. If we try to access this.name, there will be an error.
 
-\noindent In non-strict mode the value of \verb|this| in such case will be the global object (\verb|window| in a browser, we’ll get to it later in the chapter Global object). This is a historical behavior that \verb|"use strict"| fixes.
+\noindent In non-strict mode the value of \verb|this| in such case will be the global object (\verb|window| in a browser, we'll get to it later in the chapter Global object). This is a historical behavior that \verb|"use strict"| fixes.
 
 Please note that arrow functions are special: they have no this. When this is accessed inside an arrow function, it is taken from outside.
 
 Task \href{https://javascript.info/object-methods#chaining}{Chaining} contains tests
 
+\subsubsection{Constructor, operator "new" (finished including tasks)}
+part \href{https://javascript.info/constructor-new#constructor-mode-test-new-target}{Constructor mode test: new.target} skipped intentionally
 
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
@@ -2248,6 +2252,12 @@ global scope, block scope, function scope
 creation place, invocation place, lexical environment
 outer variable, inner variable, enclosing lexical context
 \end{verbatim}
+
+\subsection{Modules}
+\subsubsection{Modules, introduction (finished)}
+Modules work only via HTTP(s), not in local files
+
+\href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules}{JavaScript modules}: You can only use import and export statements inside modules, not regular scripts.
 
 \subsection{Introduction to Events}
 \subsubsection{Introduction to browser events (finished including tasks)}
