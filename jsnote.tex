@@ -2251,6 +2251,22 @@ part \href{https://javascript.info/constructor-new#constructor-mode-test-new-tar
 \subsubsection{Optional chaining '?.' (finished)}
 Further in this article, for brevity, we'll be saying that something “exists” if it's not \verb|null| and not \verb|undefined|.
 
+\subsubsection{Symbol type (finished)}
+\begin{itemize}
+\item 
+A normal symbol
+\begin{verbatim}
+// id is a new symbol
+let id = Symbol();
+\end{verbatim}
+
+\item 
+Global symbols: \verb|Symbol.for(key)| read (create if absent) a symbol from the registry
+
+\verb|Symbol.keyFor(sym)| returns a name by a global symbol and doesn't work for non-global symbols. If the symbol is not global, it won't be able to find it and returns \verb|undefined|.
+
+\end{itemize}
+
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
 Task \href{https://javascript.info/closure#filter-through-function}{Filter through function} may be useful to make note here
