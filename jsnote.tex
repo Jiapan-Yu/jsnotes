@@ -1747,6 +1747,10 @@ object instance methods like: \verb|.hasOwnProperty()|, \verb|.valueOf()|
 
 Object class methods such as \verb|Object.assign()|, \verb|Object.entries()|, and\\ \verb|Object.keys()|
 
+\item \href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#Description}{Description}: Because \verb|round()| is a static method of \verb|Math|, you always use it as \verb|Math.round()|, rather than as a method of a \verb|Math| object you created (\verb|Math| has no constructor).
+
+\verb|Math| object has no constructor, so there's no instance method (method that starts with \verb|Math.prototype.|). On the other hand, \verb|Number| object has a constructor, it has both instance methods and static methods
+
 \end{enumerate}
 
 \subsubsection{caveats}
