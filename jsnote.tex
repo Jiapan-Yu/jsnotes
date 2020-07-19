@@ -2271,6 +2271,50 @@ Global symbols: \verb|Symbol.for(key)| read (create if absent) a symbol from the
 
 \end{itemize}
 
+\subsubsection{Object to primitive conversion (finished)}
+\begin{quotation}
+In practice though, we don't need to remember these peculiar details, because all built-in objects except for one case (\verb|Date| object, we'll learn it later) implement \verb|"default"| conversion the same way as \verb|"number"|. And we can do the same.
+\end{quotation}
+this paragraph means that \verb|Date| object do the \verb|"default"| conversion but the same way as do the \verb|"number"| conversion, "hint" is default
+
+In the absence of \verb|Symbol.toPrimitive| and \verb|valueOf|, \verb|toString| will handle all primitive conversions:
+\begin{verbatim}
+let user = {
+  name: "John",
+
+  toString() {
+    return this.name;
+  }
+};
+
+alert(user); // toString -> John
+alert(user + 500); // toString -> John500
+\end{verbatim}
+
+\subsection{Data types}
+\subsubsection{Methods of primitives (finished including task)}
+Task \href{https://javascript.info/primitives-methods#can-i-add-a-string-property}{Can I add a string property?} is worth noting.
+
+\subsubsection{Numbers (finished including tasks)}
+\verb|numObj.toFixed([digits])|, \verb|digits| is the number of digits to appear after the decimal point, the return value is a string representing the given number using fixed-point notation
+
+\href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN#The_necessity_of_an_isNaN_function}{The necessity of an isNaN function}
+
+\href{https://javascript.info/number#parseint-and-parsefloat}{parseInt and parseFloat} is short and clear
+
+Task \href{https://javascript.info/number#an-occasional-infinite-loop}{An occasional infinite loop}: This loop is infinite. It never ends. Why?
+\begin{verbatim}
+let i = 0;
+while (i != 10) {
+  i += 0.2;
+}
+\end{verbatim}
+
+Such things happen because of the precision losses when adding fractions like 0.2.
+
+Conclusion: evade equality checks when working with decimal fractions.
+
+
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
 Task \href{https://javascript.info/closure#filter-through-function}{Filter through function} may be useful to make note here
@@ -2918,7 +2962,7 @@ npm install npm@latest -g
 \end{enumerate}
 
 \subsection{browser-sync}
-\verb|browser-sync start --server -w --startPath="/javascriptInfo.html"|
+\verb|browser-sync start --server -w --startPath="/javascriptInfo.html" --no-notify|
 
 \section{DOM}
 \begin{enumerate}
