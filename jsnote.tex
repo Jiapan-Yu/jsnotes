@@ -163,6 +163,8 @@ body, body *{
 \subsection{Caveats}
 \begin{itemize}
 
+\item 从 gitee 上面拉下来的项目，在本地可以改根目录的文件名仍可 push 到对应的 repo
+
 \item cmd, github desktop and gitee 的 commit 看的效果是一样的；cmd 的 stash 和 github desktop and gitee 的 commit 看的效果是一样的；cmd 和 github desktop 的 changes 看的效果是一样的，VSCode 看的 changes 更明白，会显示一行里面哪个部分不一样
 
 \item \verb|warning: LF will be replaced by CRLF in| windows中的换行符为 CRLF， 而在linux下的换行符为LF，所以在执行add . 时出现提示，解决办法 (不在当前git目录执行)：\\
@@ -331,7 +333,7 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 \item 什么时候需要建立 remote repo？\\
 当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码 （比如limeng改动了我的代码放在了 ephemeral 分支，我想自己重新在 master 分支上面写一遍同时对比limeng写的）。
 
-如果项目其他成员是用的svn，当某个成员改动了我的代码后，我想 ``hard reset" 后重新写，commit了多次；由于那个成员已经上传到了svn，所以上传svn的时候我需要首先更新本地代码，我得回到原来的状态更新，那么我会失去之前 ``hard reset" 后的 commits。如果有 remote repo，我可以上传 commits，然后退回用 svn 更新本地代码后，复制 remote repo 上面的 commits 文件，对应的写 log （这里面有个问题，就是 remote repo 上面的第一个 commit 由于是基于旧的 svn 上面的代码，所以看到的 changes 是有点不同的，但是后面的 commits 没有影响）（{\color{red}commit 指 git commit }）
+如果项目其他成员是用的svn，当某个成员改动了我的代码后，我想 ``hard reset" 后重新写，commit了多次；由于那个成员已经上传到了svn，所以上传svn的时候我需要首先更新本地代码，我得回到原来的状态更新，那么我会失去之前 ``hard reset" 后的 commits。如果有 remote repo，我可以上传 commits，然后退回用 svn 更新本地代码后，复制 remote repo 上面的 commits 文件，对应的写 log （这里面有个问题，就是 svn remote repo 上面的第一个 commit 由于是基于那个成员在 svn 上面的代码，所以看到的 changes 是有点不同的，但是后面的 commits 没有影响）（{\color{red}commit 指 git commit}）
 
 需要 copy 之前写的某个 commit 的一个文件时（包括那个 commit 之前写的内容），github desktop 会有 \verb|@@ -10,7 +11,11 @@| 之类的符号，但是 remote repo 可以没有
 
@@ -2765,6 +2767,9 @@ To create a transition effect, you must specify two things:
 
 \end{enumerate}
 
+\item 
+
+\item CSS Tooltips
 
 \end{itemize}
 
@@ -2943,8 +2948,15 @@ All dimensions in React Native are unitless, and represent density-independent p
 
 
 \section{webpack}
+有时设置不生效可以重启一下项目
+
+当需要发布的时候 \verb|npm run build|
+
 \subsection{\href{https://webpack.js.org/guides/getting-started/}{Getting Started}}
 webpack is used to compile JavaScript modules.
+
+\subsection{\href{https://www.youtube.com/watch?v=MpGLUVbqoYQ}{Learn Webpack - Full Tutorial for Beginners}}
+为什么在 production 的模式下 filename 添加 contentHash?
 
 
 \section{Node}
@@ -2959,7 +2971,7 @@ webpack is used to compile JavaScript modules.
 \section{npm (or yarn add)}
 \begin{enumerate}
 
-\item 
+\item 查看帮助文档：\verb|npm help install|
 
 \item If you're using npm 5, you'll probably also see a package-lock.json file in your directory
 
@@ -2976,7 +2988,7 @@ npm install npm@latest -g
 \end{enumerate}
 
 \subsection{browser-sync}
-\verb|browser-sync start --server -w --startPath="/javascriptInfo.html" --no-notify|
+\verb|browser-sync start --server -w --startPath="./javascriptInfo.html" --no-notify|
 
 \section{DOM}
 \begin{enumerate}
@@ -3067,7 +3079,8 @@ callback & 回调 & revert & 回滚 & collapse & 折叠 \\
 \multicolumn{3}{l}{logical operands: true false}  & \multicolumn{3}{l}{SoC: Separation of Concerns} \\\multicolumn{6}{l}{POSIX: portable operating system interface for unix } \\
 \multicolumn{4}{l}{umd: universal module definition} \\
 \multicolumn{4}{l}{XSS attack: cross-site scripting attack} & literal & 字面量 \\
- &  &  &  &  & \\
+normal flow & 普通流 &  &  &  & \\
+% &  &  &  &  & \\
 \end{tabular}
 
 
