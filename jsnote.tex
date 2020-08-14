@@ -158,6 +158,49 @@ body, body *{
 \end{enumerate}
 
 
+\section{Cracking the Coding Interview}
+\subsection{Big O}
+
+
+\section{面试题}
+随机生成20个1-1000的整数放入数组，并进行冒泡排序
+\begin{comment}
+// 面试题
+let arr = []
+
+for (let i = 0; i < 20; i++) {
+    arr.push(Math.ceil(Math.random() * 1000))
+}
+
+console.log(arr)
+
+// 冒泡排序
+for (let i = 0; i < arr.length - 1; i++) {
+    for (let j = 0; j < arr.length - 1 - i; j++) {
+        if (arr[j] > arr[j + 1]) {
+            let tmp = arr[j]
+            arr[j] = arr[j + 1]
+            arr[j + 1] = tmp
+        }
+    }
+}
+
+console.log(arr)
+\end{comment}
+
+借用上面的\verb|arr|,将一维数组改成二维数组，相连的元素组合成一个子数组
+\begin{comment}
+let dividedArr = []
+for (let i = 0; i < arr.length - 1;) {
+    let j = i + 1
+    dividedArr.push([arr[i], arr[j]])
+    i = j + 1
+}
+
+console.log(dividedArr)
+\end{comment}
+
+
 \section{Git}
 
 \subsection{Caveats}
