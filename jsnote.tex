@@ -1491,6 +1491,31 @@ store在刷新后数据会被清掉，页面跳转数据会保留
 
 \end{enumerate}
 
+\subsection{errors}
+\begin{enumerate}
+\item 
+\verb|Module parse failed: Unexpected character '#'|. 
+
+style tag inside \verb|.vue| file not working with stylus preprocessor, Solution: \url{https://www.imooc.com/qadetail/265381?t=430785}
+
+\item \verb|Error: Cannot find module 'babel-preset-env'|. 
+
+inside \verb|.babelrc| file, 
+\begin{verbatim}
+"presets": [
+    "env"
+ ],
+\end{verbatim}
+
+应该改成
+\begin{verbatim}
+"presets": [
+    "@babel/preset-env"
+ ],
+\end{verbatim}
+
+\end{enumerate}
+
 \subsection{Templates}
 \begin{enumerate}
 \item A place to store the data we will be displaying
