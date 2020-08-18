@@ -2370,11 +2370,13 @@ alert(user + 500); // toString -> John500
 Task \href{https://javascript.info/primitives-methods#can-i-add-a-string-property}{Can I add a string property?} is worth noting.
 
 \subsubsection{Numbers (finished including tasks)}
-\verb|numObj.toFixed([digits])|, \verb|digits| is the number of digits to appear after the decimal point, the return value is a string representing the given number using fixed-point notation
+\verb|numObj.toFixed([digits])|, \verb|digits| is the number of digits to appear after the decimal point, the return value is a string representing the given number using fixed-point notation.
+
+Sometimes \verb|isFinite| is used to validate whether a string value is a regular number
 
 \href{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN#The_necessity_of_an_isNaN_function}{The necessity of an isNaN function}
 
-\href{https://javascript.info/number#parseint-and-parsefloat}{parseInt and parseFloat} is short and clear
+\href{https://javascript.info/number#parseint-and-parsefloat}{parseInt and parseFloat} part is short and clear
 
 Task \href{https://javascript.info/number#an-occasional-infinite-loop}{An occasional infinite loop}: This loop is infinite. It never ends. Why?
 \begin{verbatim}
@@ -2388,6 +2390,32 @@ Such things happen because of the precision losses when adding fractions like 0.
 
 Conclusion: evade equality checks when working with decimal fractions.
 
+\subsubsection{Strings (finished including tasks)}
+The internal format for strings is always UTF-16, it is not tied to the page encoding.
+
+\subsubsection{Arrays}
+\textbf{A word about “length”: }the simplest way to clear the array is: \verb|arr.length = 0;|
+
+\href{https://javascript.info/array#calling-in-an-array-context}{Calling in an array context} solution explanation is good
+
+\href{https://javascript.info/array#sum-input-numbers}{Sum input numbers}
+\begin{itemize}
+\item Asks the user for values using \verb|prompt| and stores the values in the array
+\item Finishes asking when the user enters a non-numeric value, an empty string, or presses “Cancel”
+\end{itemize}
+
+Unfinished task:
+
+\href{https://javascript.info/array#a-maximal-subarray}{A maximal subarray}
+
+\subsubsection{Array methods}
+\textbf{slice}: We can also call it without arguments: \verb|arr.slice()| creates a copy of \verb|arr|. That's often used to obtain a copy for further transformations that should not affect the original array.
+
+\textbf{find and findIndex.} In real life arrays of objects is a common thing, so the \verb|find| method is very useful.
+
+\textbf{sort(fn)}: The items are sorted as strings by default.
+
+\textbf{reduce/reduceRight}: If the array is empty, then \verb|reduce| call without initial value gives an error. So it's advised to always specify the initial value.
 
 \subsection{Advanced working with functions}
 \subsubsection{Variable scope (finished including tasks)}
