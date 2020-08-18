@@ -1629,6 +1629,7 @@ We learned how to dynamically add inline styles using \verb|v-bind:style| with a
 
 
 \section{JavaScript}
+JavaScript is a single-threaded non-blocking asynchronous concurrent language
 
 \subsection{Notes}
 \begin{enumerate}
@@ -1720,7 +1721,7 @@ Array has ``mutator methods", ``accessor methods" and ``iteration methods".
 
 \item returned array whether retain the element or the return value (eg. filter() retain the element, not the return value)
 
-\item returned array whether has the same value as the original array
+\item if returned array retain the element (based on the return value), then whether it is the same as the original array or a modified version of the original array (sort() returns the modified version of the original array, which means two things, it returns an array and it also modify the original array)
 \end{enumerate}
 
 \end{itemize}
