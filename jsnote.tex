@@ -3224,6 +3224,75 @@ webpack is used to compile JavaScript modules.
 
 这个如果上线了（网站放在了服务器上），如果做了更改重新上传，因为名字不加 contentHash 就一直是 main.js，那么用户的浏览器可能认为已经 cache 了相同名字的文件则刷新的时候可能就不是最新的了（可以做一个上线的项目实战一下）
 
+\section{\href{https://survivejs.com/webpack/}{SURVIVEJS — WEBPACK}}
+
+\subsection{\href{https://survivejs.com/webpack/what-is-webpack/}{What is Webpack}}
+\begin{itemize}
+\item\textbf{Evaluation Process}
+
+Assuming all loaders were found, webpack evaluates the matched loaders from bottom to top and right to left.
+
+webpack treats all code as JavaScript by default
+\end{itemize}
+
+\subsection{\href{https://survivejs.com/webpack/developing/}{Developing}}
+\subsubsection{Getting Started}
+\begin{itemize}
+\item\textbf{Executing Webpack}
+
+试了一下 bottom part, not working，我在 package.json 文件里 "scripts" 对象里声明　\verb|"start": "webpack --mode development"| 基本上可以重现这节的内容
+
+\item \textbf{Adding a Build Shortcut}
+
+\textbf{Note:} There are shortcuts like npm start and npm test. You can run these directly without npm run although that works too. For those in a hurry, you can use npm t to run your tests.
+
+\end{itemize}
+
+\subsubsection{webpack-dev-server}
+\begin{itemize}
+
+\item \textbf{Webpack watch Mode and webpack-dev-server}
+
+WDS is a development server running \textbf{in-memory}, meaning the bundle contents aren't written out to files but stored in memory.
+
+\item \textbf{Enabling Error Overlay}
+
+试了一下，not working. 因为 WDS overlay does not capture runtime errors of the application. 如果加一个 compile time error 比如 \verb|console.log("foo)|，那么就有了。
+
+\end{itemize}
+
+\subsection{\href{https://survivejs.com/webpack/styling/}{Styling}}
+\subsubsection{Loading Styles}
+\begin{itemize}
+\item To use source maps, you have to enable \verb|sourceMap| for each style loader you are using except for \textbf{style-loader} and you should set \verb|output.publicPath| to an absolute url that points to your development server. 这句话里 and 后面说的没有实践
+
+%\item 
+
+\end{itemize}
+
+\subsubsection{Separating CSS}
+到 \textbf{Connecting with configuration} 实践的时候报错了\\ \verb|Error: No loader specified|
+
+安装了 less-loader 作为参数传到 \verb|parts.extractCSS()| 将 \verb|test: /\.css$/| 改为 \verb|test: /\.less$/|，修改 main.css 为 main.less 和 index.js 的引入路径后文件测试成功。
+
+\textbf{Question:} how to debug webpack.config.js?
+
+\subsection{\href{https://survivejs.com/webpack/loading/}{Loading Assets}}
+\subsubsection{Loading Images} \href{https://survivejs.com/webpack/loading/images/#loading-svgs}{Loading SVGs},
+我想 devServer.writeToDisk 看效果，但是没成功
+
+\subsubsection{Loading JavaScript}
+Presets are collections of plugins, and you can define your own as well.
+
+babel-loader takes the code and turns it into a format older browsers can understand.
+
+\verb|@babel/preset-env| is valuable as it can choose which features to compile and which polyfills to enable based on your browser definition.
+
+Webpack 5 includes TypeScript support out of the box
+
+\subsection{\href{https://survivejs.com/webpack/building/}{Building}}
+In addition to source compiling to JavaScript, this works for styling as well.
+
 
 
 \section{Node}
