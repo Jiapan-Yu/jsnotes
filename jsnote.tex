@@ -3220,7 +3220,10 @@ All dimensions in React Native are unitless, and represent density-independent p
 webpack is used to compile JavaScript modules.
 
 \subsection{\href{https://www.youtube.com/watch?v=MpGLUVbqoYQ}{Learn Webpack - Full Tutorial for Beginners}}
-为什么在 production 的模式下 filename 添加 contentHash?
+为什么在 production 的模式下 filename 添加 contentHash? (55:40)
+
+这个如果上线了（网站放在了服务器上），如果做了更改重新上传，因为名字不加 contentHash 就一直是 main.js，那么用户的浏览器可能认为已经 cache 了相同名字的文件则刷新的时候可能就不是最新的了（可以做一个上线的项目实战一下）
+
 
 
 \section{Node}
