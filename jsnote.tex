@@ -1665,6 +1665,71 @@ Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数�
 
 \end{itemize}
 
+\subsection{计算属性和侦听器 (computed 和 watch)}
+对于任何复杂逻辑，你都应当使用计算属性。即 api 里 选项 / 数据 的 \verb|computed|
+
+\subsubsection{侦听器}
+当需要在数据变化时执行异步或开销较大的操作时，这个方式是最有用的。
+
+\subsection{Class 与 Style 绑定}
+
+\subsection{列表渲染}
+\subsubsection{在 v-for 里使用对象}
+你也可以提供第二个的参数为 property 名称 (也就是键名)：
+\begin{verbatim}
+<div v-for="(value, name) in object">
+  {{ name }}: {{ value }}
+</div>
+\end{verbatim}
+
+\subsection{表单输入绑定}
+你可以用 v-model 指令在表单 \verb|<input>|、\verb|<textarea>| 及 \verb|<select>| 元素上创建双向数据绑定。
+
+
+\subsection{组件基础}
+% 怎么样有 \verb|| 的快捷键
+因为组件是可复用的 Vue 实例，所以它们与 new Vue 接收相同的选项，例如 data、computed、watch、methods 以及生命周期钩子等。仅有的例外是像 el 这样根实例特有的选项。
+
+一个组件的 data 选项必须是一个函数，因此每个实例可以维护一份被返回对象的独立的拷贝
+
+\textbf{在组件上使用 v-model} part seems important，可以参考 \href{https://cn.vuejs.org/v2/guide/components-custom-events.html}{自定义组件的 v-model}
+
+
+\subsection{深入了解组件}
+
+\subsubsection{组件注册}
+当直接在 DOM 中使用一个组件 (而不是在字符串模板或单文件组件) 的时候，我们强烈推荐遵循 W3C 规范中的自定义组件名 (字母全小写且必须包含一个连字符)，可以参考\href{https://cn.vuejs.org/v2/style-guide}{基础组件名}的“详解”的“这样做的几个好处”部分
+
+\subsubsection{Prop}
+\begin{itemize}
+\item \textbf{Prop 的大小写 (camelCase vs kebab-case)}
+
+使用 DOM 中的模板时，camelCase (驼峰命名法) 的 prop 名需要使用其等价的 kebab-case (短横线分隔命名) 命名
+
+\item \textbf{传递静态或动态 Prop}
+
+像这样给 prop 传入一个静态的值：\\
+\verb|<blog-post title="My journey with Vue"></blog-post>|\\
+
+传入一个数组：
+\begin{verbatim}
+<!-- 即便数组是静态的，我们仍然需要 `v-bind` 来告诉 Vue -->
+<!-- 这是一个 JavaScript 表达式而不是一个字符串。-->
+<blog-post v-bind:comment-ids="[234, 266, 273]"></blog-post>
+
+<!-- 用一个变量进行动态赋值。-->
+<blog-post v-bind:comment-ids="post.commentIds"></blog-post>
+\end{verbatim}
+
+\item \textbf{非 Prop 的 Attribute} 里的"禁用 Attribute 继承"部分不理解
+
+\end{itemize}
+
+\subsubsection{自定义事件}
+\textbf{将原生事件绑定到组件} 没有完全搞透
+
+\textbf{.sync 修饰符} 没有完全搞透
+
 
 \section{JavaScript}
 JavaScript is a single-threaded non-blocking asynchronous concurrent language
