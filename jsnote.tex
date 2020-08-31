@@ -1642,8 +1642,34 @@ The object at the beginning of the array will still conditionally add the \verb|
 \subsection{Review}
 We learned how to dynamically add inline styles using \verb|v-bind:style| with a style object or an array of style objects. We then learned how to dynamically add classes using \verb|v-bind:class| with a class object or an array of class objects and class name strings.
 
+\subsection{\href{https://juejin.im/post/6844904178901319687}{vue插槽slot}}
+
 
 \section{\href{https://cn.vuejs.org/v2/guide/}{vuejs 官方教程}}
+
+\subsection{\href{https://cn.vuejs.org/v2/api/index.html}{API}}
+\verb|全局配置|\\
+
+\verb|全局 API|\\
+
+\verb|选项 / 数据|\\ 
+\indent\verb|选项 / DOM|\\ 
+\indent\verb|选项 / 生命周期钩子|\\ 
+\indent\verb|选项 / 资源|\\ 
+\indent\verb|选项 / 组合|\\ 
+\indent\verb|选项 / 其它|\\ 
+
+\indent\verb|实例 property|\\
+\indent\verb|实例方法 / 数据|\\ 
+\indent\verb|实例方法 / 事件|\\ 
+\indent\verb|实例方法 / 生命周期|\\
+
+\verb|指令|\\
+
+\verb|特殊 attribute|\\
+
+\verb|内置的组件|
+
 \subsection{介绍}
 Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数据渲染进 DOM 的系统
 
@@ -1698,7 +1724,7 @@ Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数�
 \subsection{深入了解组件}
 
 \subsubsection{组件注册}
-当直接在 DOM 中使用一个组件 (而不是在字符串模板或单文件组件) 的时候，我们强烈推荐遵循 W3C 规范中的自定义组件名 (字母全小写且必须包含一个连字符)，可以参考\href{https://cn.vuejs.org/v2/style-guide}{基础组件名}的“详解”的“这样做的几个好处”部分
+当直接在 DOM 中使用一个组件 (而不是在字符串模板 template 或单文件组件) 的时候，我们强烈推荐遵循 W3C 规范中的自定义组件名 (字母全小写且必须包含一个连字符)，可以参考\href{https://cn.vuejs.org/v2/style-guide}{基础组件名}的“详解”的“这样做的几个好处”部分
 
 \subsubsection{Prop}
 \begin{itemize}
@@ -1728,7 +1754,9 @@ Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数�
 \subsubsection{自定义事件}
 \textbf{将原生事件绑定到组件} 没有完全搞透
 
-\textbf{.sync 修饰符} 没有完全搞透
+\textbf{.sync 修饰符} 没有完全搞透：
+
+注意里的，\verb|v-model| 不能和表达式一起使用吗？
 
 
 \section{JavaScript}
