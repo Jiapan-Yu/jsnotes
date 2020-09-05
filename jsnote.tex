@@ -1671,7 +1671,8 @@ We learned how to dynamically add inline styles using \verb|v-bind:style| with a
 \indent\verb|实例方法 / 事件|\\ 
 \indent\verb|实例方法 / 生命周期|\\
 
-\verb|指令|\\
+\verb|指令| 指令的参数就是冒号后面的那个单词\\
+
 
 \verb|特殊 attribute|\\
 
@@ -1679,6 +1680,9 @@ We learned how to dynamically add inline styles using \verb|v-bind:style| with a
 
 \subsection{介绍}
 Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数据渲染进 DOM 的系统
+
+\subsection{questions}
+在\ 选项/DOM 中使用\ 选项/数据\ 的时候不用加 this，但是\ 选项/数据\ 里的互相调用时需要加 this？
 
 \subsection{Vue 实例}
 当一个 Vue 实例被创建时，它将 \verb|data| 对象中的所有的 property 加入到 Vue 的\textbf{响应式系统}中。
@@ -1731,7 +1735,7 @@ Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数�
 \subsection{深入了解组件}
 
 \subsubsection{组件注册}
-当直接在 DOM 中使用一个组件 (而不是在字符串模板 template 或单文件组件) 的时候，我们强烈推荐遵循 W3C 规范中的自定义组件名 (字母全小写且必须包含一个连字符)，可以参考\href{https://cn.vuejs.org/v2/style-guide}{基础组件名}的“详解”的“这样做的几个好处”部分
+当直接在 DOM 中（的模板）使用一个组件 (而不是在字符串模板 template 或单文件组件) 的时候，我们强烈推荐遵循 W3C 规范中的自定义组件名 (字母全小写且必须包含一个连字符)，可以参考\href{https://cn.vuejs.org/v2/style-guide}{基础组件名}的“详解”的“这样做的几个好处”部分
 
 \subsubsection{Prop}
 \begin{itemize}
@@ -1764,6 +1768,9 @@ Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数�
 \textbf{.sync 修饰符} 没有完全搞透：
 
 注意里的，\verb|v-model| 不能和表达式一起使用吗？
+
+\subsubsection{插槽}
+\textbf{独占默认插槽的缩写语法}: 当被提供的内容只有默认插槽时，组件的标签可以被当作插槽的模板来使用
 
 
 \section{JavaScript}
