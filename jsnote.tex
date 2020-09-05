@@ -381,6 +381,13 @@ will push your branch up to the remote, \verb|origin|. From there, Sally can rev
 
 \subsection{FAQ}
 \begin{enumerate}
+
+\item How to view a file at a specific commit in git?\\
+\verb|git show REVISION:/path/to/file|
+
+You can also save a copy by\\
+\verb|git show REVISION:/path/to/file >file.copy|
+
 \item 什么时候需要建立 remote repo？\\
 当本地有 master 和 ephemeral 两个分支的时候，我在 master 上面已经改了部分代码，当需要看 ephemeral 分支上面代码作对比的时候，I can't switch branch without stashing current changes on Github Desktop；如果 remote repo 上面有这两个分支，那么可以直接看 ephemeral 分支上面代码 （比如limeng改动了我的代码放在了 ephemeral 分支，我想自己重新在 master 分支上面写一遍同时对比limeng写的）。
 
